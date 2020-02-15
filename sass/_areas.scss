@@ -1,0 +1,32 @@
+@import "variables";
+
+.areas__header {
+  text-align: center;
+  margin-left: 40px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.areas__body {
+  display: flex;
+  justify-content: center;
+}
+
+.areaUno,
+.areaDos,
+.areaTres {
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.areas_fin {
+  text-align: center;
+  a {
+    color: $colorNegro;
+    text-decoration: none;
+  }
+  a:hover {
+    color: $colorRojo;
+    transition: all 0.5s;
+  }
+}

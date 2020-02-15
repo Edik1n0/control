@@ -1,0 +1,45 @@
+@import "variables";
+
+.claims__header {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.claims__body {
+  ul {
+    margin-top: 60px;
+    list-style: none;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+  }
+
+  .claim-a,
+  .claim-b,
+  .claim-c {
+    width: 30%;
+    text-align: center;
+    p {
+      background: $colorRojo;
+      height: 36px;
+      width: 200px;
+      border-radius: 10px;
+      transition: all 0.5s;
+      color: white;
+      padding-top: 6px;
+      margin-top: -40px;
+    }
+  }
+
+  img {
+    z-index: 0;
+    width: 140px;
+    margin-top: 20px;
+  }
+
+  img:hover {
+    opacity: 70%;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,17 @@
+@import "variables";
+
+.banner__img {
+    img {
+      width: 100%;
+      margin-top: -74px;
+    }
+  }
+  
+  .banner__line {
+    z-index: 1;
+    position: absolute;
+    margin-top: -74px;
+    img {
+      width: 100%;
+    }
+  }
