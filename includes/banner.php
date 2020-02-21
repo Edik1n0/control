@@ -6,6 +6,6 @@
         <img src="img/ajm-background-c.jpg" alt="">
     </div>
     <div class="banner__slogan">
-        <p>Abogados en Medellín</p>
+        <p>Abogados profesionales en Medellín</p>
     </div>
 </div>

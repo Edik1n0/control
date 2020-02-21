@@ -1,12 +1,13 @@
 @import "variables";
 
-.banner__img {
+.banner {
+  .banner__img {
     img {
       width: 100%;
       margin-top: -74px;
     }
   }
-  
+
   .banner__line {
     z-index: 1;
     position: absolute;
@@ -15,3 +16,20 @@
       width: 100%;
     }
   }
+
+  .banner__slogan {
+    display: flex;
+    justify-content: center;
+    background: $Gris;
+    height: 50px;
+    position: relative;
+    bottom: 6px;
+
+    p {
+      display: flex;
+      align-items: center;
+      color: $Blanco;
+      font-size: 20px;
+    }
+  }
+}

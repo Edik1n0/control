@@ -16,9 +16,18 @@
 .ih-item a:hover {
   text-decoration: none;
 }
-.ih-item img {
-  width: 100%;
-  height: 100%;
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {
+  .ih-item img {
+    width: 240px;
+  }
+}
+
+@media screen and (max-width: 1680px) and (min-width: 1280px) {
+  .ih-item img {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 .ih-item.circle {
@@ -62,9 +71,6 @@
 
 .ih-item.square {
   position: relative;
-  width: 316px;
-  height: 216px;
-  border: 8px solid #fff;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 }
 .ih-item.square .info {
@@ -102,7 +108,7 @@
   display: none;
 }
 .ih-item.circle.effect1.colored .info {
-  background: #1a4a72;
+  background: #181C1F;
   background: rgba(26, 74, 114, 0.6);
 }
 .ih-item.circle.effect1 .info {
@@ -159,7 +165,7 @@
   transition: all 0.35s ease-in-out;
 }
 .ih-item.circle.effect2.colored .info {
-  background: #1a4a72;
+  background: #181C1F;
   background: rgba(26, 74, 114, 0.6);
 }
 .ih-item.circle.effect2 .info {
@@ -290,7 +296,7 @@
   transition: all 0.35s ease-in-out;
 }
 .ih-item.circle.effect3.colored .info {
-  background: #1a4a72;
+  background: #181C1F;
 }
 .ih-item.circle.effect3 .info {
   background: #333333;
@@ -447,7 +453,7 @@
   transition: all 0.4s ease-in-out;
 }
 .ih-item.circle.effect4.colored .info {
-  background: #1a4a72;
+  background: #181C1F;
 }
 .ih-item.circle.effect4 .info {
   background: #333333;
@@ -611,7 +617,7 @@
   perspective: 900px;
 }
 .ih-item.circle.effect5.colored .info .info-back {
-  background: #1a4a72;
+  background: #181C1F;
   background: rgba(26, 74, 114, 0.6);
 }
 .ih-item.circle.effect5 .info {
@@ -681,7 +687,7 @@
   transition: all 0.35s ease-in-out;
 }
 .ih-item.circle.effect6.colored .info {
-  background: #1a4a72;
+  background: #181C1F;
 }
 .ih-item.circle.effect6 .info {
   background: #333333;
@@ -797,7 +803,7 @@
   transition: all 0.35s ease-out;
 }
 .ih-item.circle.effect7.colored .info {
-  background: #1a4a72;
+  background: #181C1F;
 }
 .ih-item.circle.effect7 .info {
   background: #333333;
@@ -901,7 +907,7 @@
 }
 
 .ih-item.circle.effect8.colored .info {
-  background: #1a4a72;
+  background: #181C1F;
 }
 .ih-item.circle.effect8 .img-container {
   -webkit-transform: scale(1);
@@ -1111,7 +1117,7 @@
   transition: all 0.35s ease-out;
 }
 .ih-item.circle.effect9.colored .info {
-  background: #1a4a72;
+  background: #181C1F;
 }
 .ih-item.circle.effect9 .info {
   background: #333333;
@@ -1237,7 +1243,7 @@
   transition: all 0.35s ease-in-out;
 }
 .ih-item.circle.effect10.colored .info {
-  background: #1a4a72;
+  background: #181C1F;
 }
 .ih-item.circle.effect10 .info {
   background: #333333;
@@ -1326,7 +1332,7 @@
   transition: all 0.35s ease-in-out;
 }
 .ih-item.circle.effect11.colored .info {
-  background: #1a4a72;
+  background: #181C1F;
 }
 .ih-item.circle.effect11 .info {
   background: #333333;
@@ -1486,7 +1492,7 @@
   transition: all 0.35s ease-in-out;
 }
 .ih-item.circle.effect12.colored .info {
-  background: #1a4a72;
+  background: #181C1F;
 }
 .ih-item.circle.effect12 .info {
   background: #333333;
@@ -1659,7 +1665,7 @@
 }
 
 .ih-item.circle.effect13.colored .info {
-  background: #1a4a72;
+  background: #181C1F;
   background: rgba(26, 74, 114, 0.6);
 }
 .ih-item.circle.effect13 .info {
@@ -1808,7 +1814,7 @@
   transition: all 0.4s ease-out;
 }
 .ih-item.circle.effect14.colored .info {
-  background: #1a4a72;
+  background: #181C1F;
 }
 .ih-item.circle.effect14 .info {
   background: #333333;
@@ -2015,7 +2021,7 @@
   transition: all 0.35s ease-in-out;
 }
 .ih-item.circle.effect15.colored .info {
-  background: #1a4a72;
+  background: #181C1F;
 }
 .ih-item.circle.effect15 .info {
   background: #333333;
@@ -2075,7 +2081,7 @@
   transition: all 0.35s ease-in-out;
 }
 .ih-item.circle.effect16.colored .info {
-  background: #1a4a72;
+  background: #181C1F;
 }
 .ih-item.circle.effect16 .info {
   background: #333333;
@@ -2211,7 +2217,7 @@
   opacity: 1;
 }
 .ih-item.circle.effect17.colored a:hover .img:before {
-  box-shadow: inset 0 0 0 110px #1a4a72, inset 0 0 0 16px rgba(255, 255, 255, 0.8), 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 0 0 110px #181C1F, inset 0 0 0 16px rgba(255, 255, 255, 0.8), 0 1px 2px rgba(0, 0, 0, 0.1);
   box-shadow: inset 0 0 0 110px rgba(26, 74, 114, 0.6), inset 0 0 0 16px rgba(255, 255, 255, 0.8),
     0 1px 2px rgba(0, 0, 0, 0.1);
 }
@@ -2228,7 +2234,7 @@
   transition: all 0.5s ease-in-out;
 }
 .ih-item.circle.effect18.colored .info .info-back {
-  background: #1a4a72;
+  background: #181C1F;
 }
 .ih-item.circle.effect18 .info {
   -webkit-transform-style: preserve-3d;
@@ -2325,7 +2331,7 @@
 }
 
 .ih-item.circle.effect19.colored .info {
-  background: #1a4a72;
+  background: #181C1F;
   background: rgba(26, 74, 114, 0.6);
 }
 .ih-item.circle.effect19 .info {
@@ -2384,7 +2390,7 @@
   transform-origin: 50% 0%;
 }
 .ih-item.circle.effect20.colored .info .info-back {
-  background: #1a4a72;
+  background: #181C1F;
 }
 .ih-item.circle.effect20 .info {
   -webkit-transform-style: preserve-3d;
@@ -2486,7 +2492,7 @@
   overflow: hidden;
 }
 .ih-item.square.effect1.colored .info {
-  background: #1a4a72;
+  background: #181C1F;
 }
 .ih-item.square.effect1 .img {
   z-index: 11;
@@ -2600,7 +2606,7 @@
   overflow: hidden;
 }
 .ih-item.square.effect2.colored .info {
-  background: #1a4a72;
+  background: #181C1F;
 }
 .ih-item.square.effect2.colored .info h3 {
   background: rgba(12, 34, 52, 0.6);
@@ -2680,7 +2686,7 @@
   overflow: hidden;
 }
 .ih-item.square.effect3.colored .info {
-  background: #1a4a72;
+  background: #181C1F;
 }
 .ih-item.square.effect3 .img {
   -webkit-transform: translateY(0);
@@ -2776,7 +2782,7 @@
 }
 .ih-item.square.effect4.colored .mask1,
 .ih-item.square.effect4.colored .mask2 {
-  background: #1a4a72;
+  background: #181C1F;
   background: rgba(26, 74, 114, 0.6);
 }
 .ih-item.square.effect4 .img {
@@ -2901,7 +2907,7 @@
 }
 
 .ih-item.square.effect5.colored .info {
-  background: #1a4a72;
+  background: #181C1F;
 }
 .ih-item.square.effect5.colored .info h3 {
   background: rgba(12, 34, 52, 0.6);
@@ -2983,11 +2989,11 @@
   overflow: hidden;
 }
 .ih-item.square.effect6.colored .info {
-  background: #1a4a72;
-  background: rgba(26, 74, 114, 0.6);
+  background: #6e0202e7;
+  background: rgba(29, 28, 28, 0.925);
 }
 .ih-item.square.effect6.colored .info h3 {
-  background: rgba(12, 34, 52, 0.6);
+  background: rgba(71, 1, 1, 0.6);
 }
 .ih-item.square.effect6 .img {
   -webkit-transition: all 0.35s ease-in-out;
@@ -3022,7 +3028,7 @@
 }
 .ih-item.square.effect6 .info p {
   font-style: italic;
-  font-size: 12px;
+
   position: relative;
   color: #bbb;
   padding: 20px 20px 20px;
@@ -3139,8 +3145,8 @@
   overflow: hidden;
 }
 .ih-item.square.effect7.colored .info {
-  background: #1a4a72;
-  background: rgba(26, 74, 114, 0.6);
+  background: #191d20;
+  background: rgba(138, 0, 0, 0.6);
 }
 .ih-item.square.effect7.colored .info h3 {
   background: rgba(12, 34, 52, 0.6);
@@ -3221,7 +3227,7 @@
   overflow: hidden;
 }
 .ih-item.square.effect8.colored .info {
-  background: #1a4a72;
+  background: #181C1F;
 }
 .ih-item.square.effect8.colored .info h3 {
   background: rgba(12, 34, 52, 0.6);
@@ -3367,7 +3373,7 @@
   perspective: 900px;
 }
 .ih-item.square.effect9.colored .info .info-back {
-  background: #1a4a72;
+  background: #181C1F;
 }
 .ih-item.square.effect9.colored .info h3 {
   background: rgba(12, 34, 52, 0.6);
@@ -3476,7 +3482,7 @@
   overflow: hidden;
 }
 .ih-item.square.effect10.colored .info {
-  background: #1a4a72;
+  background: #181C1F;
 }
 .ih-item.square.effect10.colored .info h3 {
   background: rgba(12, 34, 52, 0.6);
@@ -3636,7 +3642,7 @@
   overflow: hidden;
 }
 .ih-item.square.effect11.colored .info {
-  background: #1a4a72;
+  background: #181C1F;
 }
 .ih-item.square.effect11.colored .info h3 {
   background: rgba(12, 34, 52, 0.6);
@@ -3754,7 +3760,7 @@
   overflow: hidden;
 }
 .ih-item.square.effect12.colored .info {
-  background: #1a4a72;
+  background: #181C1F;
   background: rgba(26, 74, 114, 0.6);
 }
 .ih-item.square.effect12.colored .info h3 {
@@ -4009,7 +4015,7 @@
   overflow: hidden;
 }
 .ih-item.square.effect13.colored .info {
-  background: #1a4a72;
+  background: #181C1F;
   background: rgba(26, 74, 114, 0.6);
 }
 .ih-item.square.effect13.colored .info h3 {
@@ -4125,7 +4131,7 @@
 }
 
 .ih-item.square.effect14.colored .info {
-  background: #1a4a72;
+  background: #181C1F;
 }
 .ih-item.square.effect14.colored .info h3 {
   background: rgba(12, 34, 52, 0.6);
@@ -4253,7 +4259,7 @@
   perspective: 900px;
 }
 .ih-item.square.effect15.colored .info {
-  background: #1a4a72;
+  background: #181C1F;
 }
 .ih-item.square.effect15 .img {
   opacity: 1;

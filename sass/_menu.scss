@@ -3,7 +3,7 @@
 header {
   z-index: 2;
   position: relative;
-  color: $colorBlanco;
+  color: $Blanco;
   display: flex;
   justify-content: flex-end;
 
@@ -34,7 +34,7 @@ header {
         font-size: 20px;
       }
       a:hover {
-        color: $colorRojo;
+        color: $Rojo;
         transition: all 0.5s;
       }
     }
@@ -43,7 +43,7 @@ header {
 
 @media (max-width: 768px) {
   header {
-    background: $colorGris;
+    background: $Gris;
     label {
       margin-right: 20px;
       display: block;
@@ -51,7 +51,7 @@ header {
   }
 
   .menu {
-    background: $colorGris;
+    background: $Gris;
     position: absolute;
     top: 40px;
     left: 0;

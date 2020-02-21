@@ -4,10 +4,10 @@
     <nav class="menu">
         <ul>
             <li>
-                <a href="">Inicio</a>
+                <a href="/">Inicio</a>
             </li>
             <li>
-                <a href="">Nosotros</a>
+                <a href="nosotros.php">Nosotros</a>
             </li>
             <li>
                 <a href="">Áreas de práctica</a>

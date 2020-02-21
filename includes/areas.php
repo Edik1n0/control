@@ -9,13 +9,17 @@
                 <div class="row">
                     <div class="col-sm-6">
                         <!-- colored -->
-                        <div class="ih-item square colored effect6 from_top_and_bottom"><a href="#">
-                                <div class="img"><img src="" alt="img"></div>
-                                <div class="info">
-                                    <h3>Heading here</h3>
-                                    <p>Description goes here</p>
+                        <div class="ih-item square colored effect6 from_top_and_bottom"><a href="/#areaspract">
+                                <div class="img">
+                                    <img src="img/derecho-familia.jpg" alt="ajm-medellin" title="Derecho de familia">
                                 </div>
-                            </a></div>
+                                <div class="info">
+                                    <p style="margin-top: 60px">Conozca de primera mano nuestra experiencia con casos de
+                                        divorcios, demandas de
+                                        alimentos, interdicciones, filiación, impugnación de paternidad, sucesiones
+                                        entre otros.</p>
+                                </div>
+                        </div>
                         <!-- end colored -->
                     </div>
                 </div>
@@ -24,13 +28,16 @@
                 <div class="row">
                     <div class="col-sm-6">
                         <!-- colored -->
-                        <div class="ih-item square colored effect6 from_top_and_bottom"><a href="#">
-                                <div class="img"><img src="" alt="img"></div>
-                                <div class="info">
-                                    <h3>Heading here</h3>
-                                    <p>Description goes here</p>
+                        <div class="ih-item square colored effect6 from_top_and_bottom"><a href="/#areaspract">
+                                <div class="img"><img src="img/derecho-civil.jpg" alt="ajm-medellin" title="Derecho civil">
                                 </div>
-                            </a></div>
+                                <div class="info">
+                                    <p style="margin-top: 60px">Profesionales en las áreas de responsabilidad civil
+                                        contractual y
+                                        extracontractual,
+                                        contratos y negocios jurídicos y procesos de pertenencia entre otros.</p>
+                                </div>
+                        </div>
                         <!-- end colored -->
                     </div>
                 </div>
@@ -39,13 +46,20 @@
                 <div class="row">
                     <div class="col-sm-6">
                         <!-- colored -->
-                        <div class="ih-item square colored effect6 from_top_and_bottom"><a href="#">
-                                <div class="img"><img src="" alt="img"></div>
-                                <div class="info">
-                                    <h3>Heading here</h3>
-                                    <p>Description goes here</p>
+                        <div class="ih-item square colored effect6 from_top_and_bottom"><a href="/#areaspract">
+                                <div class="img"><img src="img/servicios-ajm-laboral.jpg" alt="ajm-medellin" title="Derecho Laboral y Seguridad Social">
                                 </div>
-                            </a></div>
+                                <div class="info">
+                                    <p style="margin-top: 60px">Atendemos demandas laborales, indemnizaciones por
+                                        despido injusto, culpa
+                                        patronal,
+                                        <strong>Casación Laboral ante La Corte Suprema de Justicia</strong>,
+                                        reconocimiento
+                                        pensión de vejez,
+                                        invalidez y muerte (sobrevivientes), entre otros.</p>
+                                </div>
+                            </a>
+                        </div>
                         <!-- end colored -->
                     </div>
                 </div>
@@ -56,13 +70,18 @@
                 <div class="row">
                     <div class="col-sm-6">
                         <!-- colored -->
-                        <div class="ih-item square colored effect6 from_top_and_bottom"><a href="#">
-                                <div class="img"><img src="" alt="img"></div>
-                                <div class="info">
-                                    <h3>Heading here</h3>
-                                    <p>Description goes here</p>
+                        <div class="ih-item square colored effect6 from_top_and_bottom"><a href="/#areaspract">
+                                <div class="img">
+                                    <img src="img/derecho-admin.jpg" alt="ajm-medellin" title="Derecho administrativo y constitucional">
                                 </div>
-                            </a></div>
+                                <div class="info">
+                                    <p style="margin-top: 60px">Demandas contra el estado, derecho disciplinario,
+                                        indemnización por
+                                        privación injusta de la libertad, derechos de petición, acciones de tutela,
+                                        recursos,
+                                        Responsabilidad por el uso de armas de dotación oficial, entre otros.</p>
+                                </div>
+                        </div>
                         <!-- end colored -->
                     </div>
                 </div>
@@ -71,13 +90,18 @@
                 <div class="row">
                     <div class="col-sm-6">
                         <!-- colored -->
-                        <div class="ih-item square colored effect6 from_top_and_bottom"><a href="#">
-                                <div class="img"><img src="" alt="img"></div>
-                                <div class="info">
-                                    <h3>Heading here</h3>
-                                    <p>Description goes here</p>
+                        <div class="ih-item square colored effect6 from_top_and_bottom"><a href="/#areaspract">
+                                <div class="img"><img src="img/derecho-comercial.jpg" alt="ajm-medellin" title="Derecho comercial">
                                 </div>
-                            </a></div>
+                                <div class="info">
+                                    <p style="margin-top: 60px">Derechos de los negocios, asesorías en procesos,
+                                        conformación de
+                                        sociedades, restitución de inmueble comercial, procesos jurídico comerciales,
+                                        entre
+                                        otros.
+                                    </p>
+                                </div>
+                        </div>
                         <!-- end colored -->
                     </div>
                 </div>
@@ -86,20 +110,23 @@
                 <div class="row">
                     <div class="col-sm-6">
                         <!-- colored -->
-                        <div class="ih-item square colored effect6 from_top_and_bottom"><a href="#">
-                                <div class="img"><img src="" alt="img"></div>
-                                <div class="info">
-                                    <h3>Heading here</h3>
-                                    <p>Description goes here</p>
+                        <div class="ih-item square colored effect6 from_top_and_bottom"><a href="/#areaspract">
+                                <div class="img"><img src="img/derecho-penal.jpg" alt="ajm-medellin" title="Derecho Penal">
                                 </div>
-                            </a></div>
+                                <div class="info">
+                                    <p style="margin-top: 60px">Defensa penal, conceptos de procesos penales, incidente
+                                        de reparación
+                                        de
+                                        perjuicios, entre otros.</p>
+                                </div>
+                            </a>
+                        </div>
                         <!-- end colored -->
                     </div>
                 </div>
             </div>
         </div>
+        <div class="areas_fin">
+            <p>Conozca más de nosotros ingresando <a href="#">Aquí</a></p>
+        </div>
     </div>
-    <div class="areas_fin">
-        <p>Conozca más de nosotros ingresando <a href="#">Aquí</a></p>
-    </div>
-</div>

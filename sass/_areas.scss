@@ -20,13 +20,14 @@
 }
 
 .areas_fin {
+  margin-top: 60px;
   text-align: center;
   a {
-    color: $colorNegro;
+    color: $Negro;
     text-decoration: none;
   }
   a:hover {
-    color: $colorRojo;
+    color: $Rojo;
     transition: all 0.5s;
   }
 }

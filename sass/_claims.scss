@@ -1,45 +1,69 @@
 @import "variables";
 
-.claims__header {
-  text-align: center;
-  margin-top: 60px;
-}
-
-.claims__body {
-  ul {
-    margin-top: 60px;
-    list-style: none;
-    display: flex;
-    padding: 0;
-    justify-content: center;
-  }
-
-  .claim-a,
-  .claim-b,
-  .claim-c {
-    width: 30%;
+.claims {
+  .claims__header {
     text-align: center;
-    p {
-      background: $colorRojo;
-      height: 36px;
-      width: 200px;
-      border-radius: 10px;
-      transition: all 0.5s;
-      color: white;
-      padding-top: 6px;
-      margin-top: -40px;
+    margin-top: 60px;
+  }
+
+  .claims__body {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    align-items: center;
+    top: 60px;
+    right: 60px;
+    margin-bottom: 260px;
+
+    img {
+      width: 120px;
+
+      &:hover {
+        opacity: 90%;
+        transition: all 0.6s;
+      }
     }
-  }
 
-  img {
-    z-index: 0;
-    width: 140px;
-    margin-top: 20px;
-  }
+    .claims__asesoria,
+    .claims__calidad,
+    .claims__clientes,
+    .claims__justicia {
+      a {
+        text-decoration: none;
+        position: absolute;
 
-  img:hover {
-    opacity: 70%;
-    transition: all 0.5s;
-    cursor: pointer;
+        p {
+          display: none;
+        }
+
+        &:hover {
+          p {
+            transition: all 0.6s;
+            margin: 0px;
+            padding: 0px;
+            display: flex;
+            text-align: center;
+            text-decoration: none;
+            color: $Blanco;
+            background: $Rojo;
+            width: 130px;
+            border-radius: 6px;
+            padding-left: 20px;
+            position: relative;
+            right: 16px;
+          }
+        }
+      }
+    }
+
+    .claims__calidad {
+      a {
+        &:hover {
+          p {
+            right: 20px;
+          }
+        }
+      }
+    }
   }
 }

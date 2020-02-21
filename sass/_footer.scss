@@ -1,15 +1,13 @@
 @import "variables";
 
 footer {
-  background: $colorGris;
+  background: $Gris;
   text-align: center;
   color: white;
+  width: 100%;
   height: 480px;
-
-  .container {
-    display: flex;
-    margin-left: -20px;
-  }
+  display: flex;
+  padding-top: 30px;
 }
 
 .footer__nav,
@@ -36,7 +34,7 @@ footer {
 
       a:hover {
         transition: all 0.5s;
-        color: $colorRojo;
+        color: $Rojo;
       }
     }
   }
@@ -53,7 +51,7 @@ footer {
 
       a:hover {
         transition: all 0.5s;
-        color: $colorRojo;
+        color: $Rojo;
       }
 
       img:hover {
@@ -64,8 +62,8 @@ footer {
 
     .social {
       display: flex;
-      justify-content: center;
-      margin-top: 20px;
+      justify-content: space-between;
+      margin-top: 60px;
 
       .face img {
         width: 30px;
@@ -100,7 +98,7 @@ footer {
 .footer__rights {
   display: flex;
   justify-content: center;
-  background: $colorGris;
+  background: $Gris;
   color: white;
   margin-top: -40px;
   padding-top: 20px;
