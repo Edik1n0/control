@@ -30,7 +30,7 @@
                 <div class="art-uno">
                     <div class="col-sm-6">
                         <!-- colored -->
-                        <div class="ih-item square colored effect6 from_top_and_bottom"><a href="/#areaspract">
+                        <div class="ih-item square colored effect6 from_top_and_bottom"><a href="actualidad-juridica/art01.php">
                                 <div class="img">
                                     <img src="img/derecho-familia.jpg" alt="ajm-medellin" title="Derecho de familia">
                                 </div>
