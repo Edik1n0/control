@@ -1,33 +1,43 @@
 @import "variables";
 
-.areas__header {
-  text-align: center;
-  margin-left: 40px;
-  margin-top: 40px;
-  margin-bottom: 30px;
-}
-
-.areas__body {
-  display: flex;
-  justify-content: center;
-}
-
-.areaUno,
-.areaDos,
-.areaTres {
-  margin-left: 40px;
-  margin-top: 40px;
-}
-
-.areas_fin {
-  margin-top: 60px;
-  text-align: center;
-  a {
-    color: $Negro;
-    text-decoration: none;
+.areas {
+  
+  img {
+    width: 300px;
   }
-  a:hover {
-    color: $Rojo;
-    transition: all 0.5s;
+
+  .areas__header {
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    display: block;
+    justify-content: space-around;
+  }
+
+  .areas__body {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .areaUno,
+  .areaDos,
+  .areaTres {
+    margin-left: 40px;
+    margin-top: 40px;
+  }
+
+  .areas_fin {
+    margin-top: 60px;
+    text-align: center;
+    a {
+      color: $Negro;
+      text-decoration: none;
+    }
+    a:hover {
+      color: $Rojo;
+      transition: all 0.5s;
+    }
   }
 }

@@ -1,0 +1,54 @@
+@import "variables";
+
+.mapa {
+  .header__mapa {
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .intro__mapa {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  .body__mapa {
+    .texto-mapa {
+      position: absolute;
+      right: 60px;
+      bottom: -580px;
+      z-index: 1;
+      background: $Gris;
+      color: $Blanco;
+      width: 340px;
+      height: 240px;
+      text-align: center;
+      padding: 30px;
+
+      .contactos {
+        ul {
+          list-style: none;
+          padding: 0;
+          li {
+            margin-top: 20px;
+            margin-bottom: 10px;
+            a {
+              color: $Blanco;
+              text-decoration: none;
+              &:hover {
+                color: $Rojo;
+                transition: all 0.6s;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    iframe {
+      width: 100%;
+      z-index: 0;
+      margin-bottom: 90px;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+@import "variables";
+
+.intro {
+  margin-top: 60px;
+  .container {
+    z-index: 0;
+    background: $Gris;
+    display: flex;
+    justify-content: space-around;
+    .intro__bg {
+      z-index: 1;
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      .intro__img {
+        width: 40%;
+        img {
+          width: 540px;
+        }
+      }
+
+      .intro__txt {
+        text-align: center;
+        margin: 40px;
+        color: $Blanco;
+        .header__intro--txt {
+          margin-bottom: 30px;
+        }
+
+        .separador__intro--txt {
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+}

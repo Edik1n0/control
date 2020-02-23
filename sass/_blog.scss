@@ -1,0 +1,46 @@
+@import "variables";
+
+.blog {
+  margin-right: 20px;
+  margin-bottom: 20px;
+  img {
+    width: 280px;
+  }
+  .blog__header,
+  .blog__intro {
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+
+  .blog__body {
+    margin-left: 10px;
+    margin-top: 60px;
+
+    .art-a,
+    .art-b {
+      margin-top: 40px;
+      display: flex;
+      justify-content: center;
+      margin-right: 20px;
+      margin-bottom: 20px;
+
+      .art-uno,
+      .art-dos,
+      .art-tres,
+      .art-cuatro,
+      .art-cinco,
+      .art-seis {
+        margin-left: 60px;
+        margin-top: 30px;
+      }
+
+      .art-cuatro,
+      .art-cinco,
+      .art-seis {
+          margin-bottom: 60px;
+      }
+    }
+  }
+}

@@ -91,7 +91,13 @@ footer {
 .footer__logo {
   img {
     margin-top: 40px;
-    width: 220px;
+    margin-left: 20px;
+    width: 200px;
+    &:hover {
+      width: 202px;
+      transition: all .6s;
+      opacity: 80%;
+    }
   }
 }
 

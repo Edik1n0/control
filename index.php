@@ -7,14 +7,16 @@
     <div class="container">
         <div class="intro__bg">
             <div class="intro__img">
-                <img src="" alt="">
+                <img src="img/imagen-intro.jpg" alt="">
             </div>
             <div class="intro__txt">
-                <h1>Bienvenido</h1>
-                <h2>Asesorías Jurídicas Medellín</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, provident sint? Quae, ut dolores eum dolore, consectetur facilis porro accusantium tempora aliquam voluptatibus similique explicabo alias earum inventore consequuntur quo.</p>
-                <p>Nobis quibusdam odio voluptatem tempore alias iusto autem, vero ipsam beatae ipsa, expedita sit. Modi animi illum deserunt rerum iusto consequatur.</p>
-                <p>You can red more <a href="#">Here</a> </p>
+                <div class="header__intro--txt">
+                    <h1>Asesorías Jurídicas Medellín</h1>
+                    <h2>Abogados profesionales en todas las áreas del derecho</h2>
+                </div>
+                <p>Conozca en Medellín los servicios jurídicos profesionales y especializados en todas las áreas del derecho, con Abogados expertos y con amplia experiencia en la ciudad.</p>
+                <p class="separador__intro--txt">_________________________________________________</p>
+                <p>Navegue y conozca nuestros servicios, medios de contacto y nuestro equipo, que le brindará servicios a nivel nacional.</p>
             </div>
         </div>
     </div>
@@ -22,6 +24,7 @@
 
 <?php include("includes/areas.php") ?>
 <?php include("includes/claims.php") ?>
+<?php include("includes/suscribe.php") ?>
 
 <!--Fin Cuerpo-->
 <?php include("includes/footer.php") ?>

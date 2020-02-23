@@ -1,0 +1,107 @@
+@import "variables";
+
+.nosotros {
+  margin-bottom: 60px;
+  img {
+    width: 280px;
+  }
+  .nosotros__header,
+  .nosotros__intro {
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+
+  .nosotros__body {
+    margin-left: 10px;
+    margin-top: 60px;
+
+    .nos__a,
+    .nos__b {
+      margin-top: 40px;
+      display: flex;
+      justify-content: center;
+
+      .natalia,
+      .michelle,
+      .carlos,
+      .isabel {
+        margin-left: 60px;
+      }
+    }
+  }
+
+  .apoyo {
+    margin-top: 60px;
+    margin-left: 50px;
+    .apoyo__header {
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    .apoyo__body {
+      margin-top: 40px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+      .nelson,
+      .mauricio,
+      .daniel {
+        padding-top: 10px;
+        cursor: pointer;
+        text-align: center;
+        background: $Gris;
+        color: $Blanco;
+        width: 340px;
+        height: 80px;
+        border-radius: 6px;
+
+        &:hover {
+          transition: all 0.6s;
+          -webkit-box-shadow: 6px 6px 2px 0px rgba(0, 0, 0, 0.75);
+          -moz-box-shadow: 6px 6px 2px 0px rgba(0, 0, 0, 0.75);
+          box-shadow: 6px 6px 2px 0px rgba(0, 0, 0, 0.75);
+        }
+      }
+    }
+  }
+
+  .sobre {
+    margin-top: 60px;
+
+    .sobre__header {
+      text-align: center;
+    }
+
+    .sobre__body {
+      margin-top: 60px;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: $Blanco;
+      display: flex;
+      justify-content: start;
+
+      .sobre__img {
+        margin: 20px;
+        img {
+          width: 620px;
+        }
+      }
+
+      .sobre__txt {
+        text-align: center;
+        display: block;
+        justify-content: space-around;
+        margin-top: 30px;
+
+        h3,
+        p {
+          margin-top: 20px;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}

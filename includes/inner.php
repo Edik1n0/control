@@ -1,11 +1,11 @@
-<div class="banner">
-    <div class="banner__logo">
+<div class="inner">
+    <div class="inner__logo">
         <a href="/"><img src="img/logo.gif" alt=""></a>
     </div>
     <div class="banner__line">
         <img src="img/marca-banner.png" alt="">
     </div>
-    <div class="banner__last">
+    <div class="inner__last">
         <a href="actualidad-juridica.php">
             <div class="card">
                 <div class="card__header">
@@ -21,10 +21,10 @@
             </div>
         </a>
     </div>
-    <div class="banner__img">
-        <img src="img/ajm-background-c.jpg" alt="">
+    <div class="inner__img">
+        <img src="img/inner-ajm-nosotros.jpg" alt="">
     </div>
-    <div class="banner__slogan">
+    <div class="inner__slogan">
         <p>Abogados profesionales en Medellín</p>
     </div>
 </div>

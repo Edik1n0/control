@@ -1,4 +1,4 @@
-<div class="areas">
+<div class="areas" id="areaspract">
     <div class="container">
         <div class="areas__header">
             <h2>Areas de práctica AJM</h2>
@@ -130,3 +130,5 @@
             <p>Conozca más de nosotros ingresando <a href="#">Aquí</a></p>
         </div>
     </div>
+
+</div>

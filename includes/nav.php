@@ -10,13 +10,13 @@
                 <a href="nosotros.php">Nosotros</a>
             </li>
             <li>
-                <a href="">Áreas de práctica</a>
+                <a href="/#areaspract">Áreas de práctica</a>
             </li>
             <li>
-                <a href="">Actualidad Jurídica</a>
+                <a href="actualidad-juridica.php">Actualidad Jurídica</a>
             </li>
             <li>
-                <a href="">Contacto</a>
+                <a href="contacto.php">Contacto</a>
             </li>
         </ul>
     </nav>
