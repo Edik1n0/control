@@ -1,14 +1,13 @@
-<div class="areas" id="areaspract">
+<div class="areas" id="areaspractice">
     <div class="container">
         <div class="areas__header">
-            <h2>Areas de práctica AJM</h2>
-            <h3>Conozca todas nuestras áreas de trabajo</h3>
+            <h2>Areas of practice AJM</h2>
+            <h3>Specialized lawyers in all areas of the law</h3>
         </div>
         <div class="areas__intro">
             <p>
-                Somos un equipo de abogados especializados que brinda asesoría y servicios profesionales
-                asesorarle en todas las áreas del derecho con el fin de prestarle un servicio íntegro y
-                calidad en el asesoramiento y defensa jurídica.
+                We are a team of specialized lawyers that provide advice and professional services to advise you in all<br>
+                areas of law in order to provide you with a complete and quality service in legal advice and defense.
             </p>
         </div>
         <div class="areas__body">
@@ -21,10 +20,8 @@
                                     <img src="img/derecho-familia.jpg" alt="ajm-medellin" title="Derecho de familia">
                                 </div>
                                 <div class="info">
-                                    <p style="margin-top: 60px">
-                                        Conozca de primera mano nuestra experiencia con casos de divorcios, demandas de alimentos,
-                                        interdicciones, filiación, impugnación de paternidad, sucesiones entre otros.
-                                    </p>
+                                    <p style="margin-top: 60px">Get to know first hand our experience with divorce cases,
+                                        food lawsuits, interdictions, filiation, paternity challenge, inheritance among others.</p>
                                 </div>
                         </div>
                         <!-- end colored -->
@@ -39,10 +36,8 @@
                                 <div class="img"><img src="img/derecho-civil.jpg" alt="ajm-medellin" title="Derecho civil">
                                 </div>
                                 <div class="info">
-                                    <p style="margin-top: 60px">Profesionales en las áreas de responsabilidad civil
-                                        contractual y
-                                        extracontractual,
-                                        contratos y negocios jurídicos y procesos de pertenencia entre otros.</p>
+                                    <p style="margin-top: 60px">Professionals in the areas of contractual and extra-contractual civil liability,
+                                        contracts and legal businesses and membership processes among others.</p>
                                 </div>
                         </div>
                         <!-- end colored -->
@@ -57,13 +52,11 @@
                                 <div class="img"><img src="img/servicios-ajm-laboral.jpg" alt="ajm-medellin" title="Derecho Laboral y Seguridad Social">
                                 </div>
                                 <div class="info">
-                                    <p style="margin-top: 60px">Atendemos demandas laborales, indemnizaciones por
-                                        despido injusto, culpa
-                                        patronal,
-                                        <strong>Casación Laboral ante La Corte Suprema de Justicia</strong>,
-                                        reconocimiento
-                                        pensión de vejez,
-                                        invalidez y muerte (sobrevivientes), entre otros.</p>
+                                    <p style="margin-top: 60px">
+                                        We attend labor demands, compensation for unfair dismissal, employer fault,
+                                        <strong> Labor Cassation before the Supreme Court of Justice </strong>,
+                                        recognition of old-age, disability and death pension (survivors), among others.
+                                    </p>
                                 </div>
                             </a>
                         </div>
@@ -82,11 +75,11 @@
                                     <img src="img/derecho-admin.jpg" alt="ajm-medellin" title="Derecho administrativo y constitucional">
                                 </div>
                                 <div class="info">
-                                    <p style="margin-top: 60px">Demandas contra el estado, derecho disciplinario,
-                                        indemnización por
-                                        privación injusta de la libertad, derechos de petición, acciones de tutela,
-                                        recursos,
-                                        Responsabilidad por el uso de armas de dotación oficial, entre otros.</p>
+                                    <p style="margin-top: 60px">
+                                        Lawsuits against the state, disciplinary law,
+                                        compensation for unjust deprivation of liberty, petition rights, guardianship actions,
+                                        resources, Responsibility for the use of weapons of official endowment, among others.
+                                    </p>
                                 </div>
                         </div>
                         <!-- end colored -->
@@ -98,14 +91,13 @@
                     <div class="col-sm-6">
                         <!-- colored -->
                         <div class="ih-item square colored effect6 from_top_and_bottom"><a href="/#areaspract">
-                                <div class="img"><img src="img/derecho-comercial.jpg" alt="ajm-medellin" title="Derecho comercial">
+                                <div class="img">
+                                    <img src="img/derecho-comercial.jpg" alt="ajm-medellin" title="Derecho comercial">
                                 </div>
                                 <div class="info">
-                                    <p style="margin-top: 60px">Derechos de los negocios, asesorías en procesos,
-                                        conformación de
-                                        sociedades, restitución de inmueble comercial, procesos jurídico comerciales,
-                                        entre
-                                        otros.
+                                    <p style="margin-top: 60px">
+                                        Business rights, process advice, formation of companies,
+                                        restitution of commercial property, commercial legal processes, among others.
                                     </p>
                                 </div>
                         </div>
@@ -118,13 +110,14 @@
                     <div class="col-sm-6">
                         <!-- colored -->
                         <div class="ih-item square colored effect6 from_top_and_bottom"><a href="/#areaspract">
-                                <div class="img"><img src="img/derecho-penal.jpg" alt="ajm-medellin" title="Derecho Penal">
+                                <div class="img">
+                                    <img src="img/derecho-penal.jpg" alt="ajm-medellin" title="Derecho Penal">
                                 </div>
                                 <div class="info">
-                                    <p style="margin-top: 60px">Defensa penal, conceptos de procesos penales, incidente
-                                        de reparación
-                                        de
-                                        perjuicios, entre otros.</p>
+                                    <p style="margin-top: 60px">
+                                        Criminal defense, criminal proceedings concepts, incident
+                                        of reparation of damages, among others.
+                                    </p>
                                 </div>
                             </a>
                         </div>
@@ -134,7 +127,7 @@
             </div>
         </div>
         <div class="areas_fin">
-            <p>Conozca más de nosotros ingresando <a href="#">Aquí</a></p>
+            <p>Know more about us <a href="about-us.php">Here</a></p>
         </div>
     </div>
 

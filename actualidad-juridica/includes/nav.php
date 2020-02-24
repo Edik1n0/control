@@ -18,6 +18,17 @@
             <li>
                 <a href="contacto.php">Contacto</a>
             </li>
+            <div class="menu__selector">
+                <li>
+                    <a href="/">ES</a>
+                </li>
+                <li>
+                    <p>|</p>
+                </li>
+                <li>
+                    <a href="en.php">EN</a>
+                </li>
+            </div>
         </ul>
     </nav>
 </header>

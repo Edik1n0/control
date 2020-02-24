@@ -1,5 +1,14 @@
 @import "variables";
 
+.bg__nos{
+  position: absolute;
+  z-index: 0;
+  margin-top: 420px;
+  img {
+    width: 100%;
+  }
+}
+
 .nosotros {
   margin-bottom: 60px;
   img {
@@ -33,6 +42,8 @@
   }
 
   .apoyo {
+    position: relative;
+    z-index: 1;
     margin-top: 60px;
     margin-left: 50px;
     .apoyo__header {
@@ -69,10 +80,12 @@
   }
 
   .sobre {
-    margin-top: 60px;
-
+    position: relative;
+    margin-top: 120px;
+    z-index: 1;
     .sobre__header {
       text-align: center;
+      margin-left: 40px;
     }
 
     .sobre__body {
@@ -103,5 +116,15 @@
         }
       }
     }
+  }
+}
+
+.bg__nosf {
+  position: relative;
+  bottom: 680px;
+  z-index: 0;
+  img {
+    width: 100%;
+    margin-bottom: -420px;
   }
 }

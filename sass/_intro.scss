@@ -2,11 +2,23 @@
 
 .intro {
   margin-top: 60px;
+
+  .intro__background {
+    position: absolute;
+    top: 900px;
+    z-index: 0;
+    img {
+      width: 100%;
+    }
+  }
+
   .container {
     z-index: 0;
-    background: $Gris;
+    background: $Gristr;
     display: flex;
     justify-content: space-around;
+    position: relative;
+    z-index: 1;
     .intro__bg {
       z-index: 1;
       display: flex;

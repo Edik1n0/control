@@ -1,6 +1,8 @@
 @import "variables";
 
 .blog {
+  z-index: 1;
+  position: relative;
   margin-right: 20px;
   margin-bottom: 20px;
   img {
@@ -39,8 +41,17 @@
       .art-cuatro,
       .art-cinco,
       .art-seis {
-          margin-bottom: 60px;
+        margin-bottom: 160px;
       }
     }
+  }
+}
+
+.bg__arts {
+  position: absolute;
+  z-index: 0;
+  top: 820px;
+  img {
+    width: 100%;
   }
 }

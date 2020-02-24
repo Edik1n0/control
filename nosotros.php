@@ -1,7 +1,12 @@
 <?php include("includes/header.php") ?>
 <?php include("includes/nav.php") ?>
 <?php include("includes/inner.php") ?>
+<?php include("includes/wp.php") ?>
 <!--Cuerpo-->
+
+<div class="bg__nos">
+    <img src="img/fondo-nos.png" alt="">
+</div>
 
 <div class="container">
     <div class="nosotros">

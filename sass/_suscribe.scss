@@ -1,14 +1,20 @@
 @import "variables";
 
 .subs {
+  z-index: 1;
+  margin-top: 60px;
+  position: relative;
   padding-top: 10px;
-  background: $Gris;
+  background: $Gristr;
   color: $Blanco;
+
   .subs__header {
     padding-top: 30px;
     text-align: center;
 
-    h3, h4, p {
+    h3,
+    h4,
+    p {
       margin-top: 20px;
       margin-bottom: 10px;
     }
@@ -50,5 +56,15 @@
         transition: all 0.6s;
       }
     }
+  }
+}
+
+.subsback {
+  z-index: 0;
+  margin-top: -440px;
+  margin-bottom: 60px;
+  img {
+    opacity: 60%;
+    width: 100%;
   }
 }

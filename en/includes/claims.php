@@ -1,28 +1,28 @@
 <div class="container" style="margin-bottom: 60px;">
     <div class="claims" id="claims">
         <div class="claims__header">
-            <h2>Destacamos</h2>
-            <h3>Por nuestro trabajo serio y transparente</h3>
+            <h2>We stand ot</h2>
+            <h3>For our serious and transparent work</h3>
         </div>
         <div class="claims__body">
             <div class="claims__asesoria">
                 <a href="#claims"><img src="img/claim-asesoria-ajm.png" alt="">
-                    <p style="margin-left: 10px;">Calidad de servicio<br>garantizada</p>
+                    <p style="margin-left: 20px;">Service quality<br>guaranteed</p>
                 </a>
             </div>
             <div class="claims__calidad">
                 <a href="#claims"><img src="img/claim-calidad-ajm.png" alt="">
-                    <p>Servicio profesional<br>y transparente</p>
+                    <p>Professional and<br>transparent service</p>
                 </a>
             </div>
             <div class="claims__clientes">
                 <a href="#claims"><img src="img/claim-clientes-ajm.png" alt="">
-                    <p>Protegemos la privacidad<br>de nuestros clientes</p>
+                    <p style="margin-left: -8px;">We protect the privacy<br>of our clients</p>
                 </a>
             </div>
             <div class="claims__justicia">
                 <a href="#claims"><img src="img/claim-justicia-ajm.png" alt="">
-                    <p>Asesoría personalizada<br>y accesible</p>
+                    <p style="margin-left: 10px;">Personalized and<br>accessible advice</p>
                 </a>
             </div>
         </div>

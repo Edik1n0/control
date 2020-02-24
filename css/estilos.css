@@ -99,6 +99,7 @@ footer {
 * {
   margin: 0;
   padding: 0;
+  font-family: "Oswald", sans-serif;
 }
 
 .container {
@@ -145,6 +146,9 @@ header label {
 
 .menu {
   margin-right: 60px;
+  width: 820px;
+  display: flex;
+  justify-content: end;
 }
 .menu ul {
   list-style: none;
@@ -159,11 +163,22 @@ header label {
   display: block;
   color: white;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 18px;
 }
 .menu ul li a:hover {
   color: #470808;
   transition: all 0.5s;
+}
+.menu ul .menu__selector {
+  display: flex;
+}
+.menu ul .menu__selector p {
+  font-size: 30px;
+  margin-top: 4px;
+}
+.menu ul .menu__selector li {
+  margin: 0px;
+  padding: 0px;
 }
 
 @media (max-width: 768px) {
@@ -5310,6 +5325,9 @@ header label {
   display: block;
   justify-content: space-around;
 }
+.areas .areas__intro {
+  text-align: center;
+}
 .areas .areas__body {
   margin-top: 30px;
   display: flex;
@@ -5354,6 +5372,13 @@ header label {
   opacity: 90%;
   transition: all 0.6s;
 }
+.claims .claims__body .claims__asesoria,
+.claims .claims__body .claims__calidad,
+.claims .claims__body .claims__clientes,
+.claims .claims__body .claims__justicia {
+  display: inline-block;
+  justify-content: center;
+}
 .claims .claims__body .claims__asesoria a,
 .claims .claims__body .claims__calidad a,
 .claims .claims__body .claims__clientes a,
@@ -5366,6 +5391,7 @@ header label {
 .claims .claims__body .claims__clientes a p,
 .claims .claims__body .claims__justicia a p {
   display: none;
+  text-align: center;
 }
 .claims .claims__body .claims__asesoria a:hover p,
 .claims .claims__body .claims__calidad a:hover p,
@@ -5373,30 +5399,38 @@ header label {
 .claims .claims__body .claims__justicia a:hover p {
   transition: all 0.6s;
   margin-top: 20px;
-  padding: 0px;
+  padding: 10px;
   display: flex;
   text-align: center;
   text-decoration: none;
   color: white;
   background: #470808;
-  width: 130px;
   border-radius: 6px;
-  padding-left: 20px;
   position: relative;
   right: 16px;
 }
-.claims .claims__body .claims__calidad a:hover p {
-  right: 20px;
+.claims .claims__body .claims__clientes a p {
+  margin-left: -14px;
 }
 
 .intro {
   margin-top: 60px;
 }
+.intro .intro__background {
+  position: absolute;
+  top: 900px;
+  z-index: 0;
+}
+.intro .intro__background img {
+  width: 100%;
+}
 .intro .container {
   z-index: 0;
-  background: #181C1F;
+  background: rgba(94, 94, 94, 0.6);
   display: flex;
   justify-content: space-around;
+  position: relative;
+  z-index: 1;
 }
 .intro .container .intro__bg {
   z-index: 1;
@@ -5423,15 +5457,20 @@ header label {
 }
 
 .subs {
+  z-index: 1;
+  margin-top: 60px;
+  position: relative;
   padding-top: 10px;
-  background: #181C1F;
+  background: rgba(94, 94, 94, 0.6);
   color: white;
 }
 .subs .subs__header {
   padding-top: 30px;
   text-align: center;
 }
-.subs .subs__header h3, .subs .subs__header h4, .subs .subs__header p {
+.subs .subs__header h3,
+.subs .subs__header h4,
+.subs .subs__header p {
   margin-top: 20px;
   margin-bottom: 10px;
 }
@@ -5471,6 +5510,25 @@ header label {
   transition: all 0.6s;
 }
 
+.subsback {
+  z-index: 0;
+  margin-top: -440px;
+  margin-bottom: 60px;
+}
+.subsback img {
+  opacity: 60%;
+  width: 100%;
+}
+
+.bg__nos {
+  position: absolute;
+  z-index: 0;
+  margin-top: 420px;
+}
+.bg__nos img {
+  width: 100%;
+}
+
 .nosotros {
   margin-bottom: 60px;
 }
@@ -5505,6 +5563,8 @@ header label {
   margin-left: 60px;
 }
 .nosotros .apoyo {
+  position: relative;
+  z-index: 1;
   margin-top: 60px;
   margin-left: 50px;
 }
@@ -5539,10 +5599,13 @@ header label {
   box-shadow: 6px 6px 2px 0px rgba(0, 0, 0, 0.75);
 }
 .nosotros .sobre {
-  margin-top: 60px;
+  position: relative;
+  margin-top: 120px;
+  z-index: 1;
 }
 .nosotros .sobre .sobre__header {
   text-align: center;
+  margin-left: 40px;
 }
 .nosotros .sobre .sobre__body {
   margin-top: 60px;
@@ -5570,7 +5633,19 @@ header label {
   margin-bottom: 10px;
 }
 
+.bg__nosf {
+  position: relative;
+  bottom: 680px;
+  z-index: 0;
+}
+.bg__nosf img {
+  width: 100%;
+  margin-bottom: -420px;
+}
+
 .blog {
+  z-index: 1;
+  position: relative;
   margin-right: 20px;
   margin-bottom: 20px;
 }
@@ -5617,7 +5692,16 @@ header label {
 .blog .blog__body .art-b .art-cuatro,
 .blog .blog__body .art-b .art-cinco,
 .blog .blog__body .art-b .art-seis {
-  margin-bottom: 60px;
+  margin-bottom: 160px;
+}
+
+.bg__arts {
+  position: absolute;
+  z-index: 0;
+  top: 820px;
+}
+.bg__arts img {
+  width: 100%;
 }
 
 .mapa .header__mapa {
@@ -5661,6 +5745,445 @@ header label {
   width: 100%;
   z-index: 0;
   margin-bottom: 90px;
+}
+
+.alert {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+.alert-heading {
+  color: inherit;
+}
+
+.alert-link {
+  font-weight: 700;
+}
+
+.alert-dismissible {
+  padding-right: 3.90625rem;
+}
+
+.alert-dismissible .close {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.75rem 1.25rem;
+  color: inherit;
+}
+
+.alert-primary {
+  color: #1d2f42;
+  background-color: #d7dee5;
+  border-color: #c7d1db;
+}
+
+.alert-primary hr {
+  border-top-color: #b7c4d1;
+}
+
+.alert-primary .alert-link {
+  color: #0d161f;
+}
+
+.alert-secondary {
+  color: #232323;
+  background-color: #dadada;
+  border-color: #cbcbcb;
+}
+
+.alert-secondary hr {
+  border-top-color: #bebebe;
+}
+
+.alert-secondary .alert-link {
+  color: #0a0909;
+}
+
+.alert-success {
+  color: #006249;
+  background-color: #ccf2e8;
+  border-color: #b8ecdf;
+}
+
+.alert-success hr {
+  border-top-color: #a4e7d6;
+}
+
+.alert-success .alert-link {
+  color: #002f23;
+}
+
+.alert-info {
+  color: #1b4f72;
+  background-color: #d6eaf8;
+  border-color: #c6e2f5;
+}
+
+.alert-info hr {
+  border-top-color: #b0d7f1;
+}
+
+.alert-info .alert-link {
+  color: #113249;
+}
+
+.alert-warning {
+  color: #7e5109;
+  background-color: #fdebd0;
+  border-color: #fce3bd;
+}
+
+.alert-warning hr {
+  border-top-color: #fbd9a5;
+}
+
+.alert-warning .alert-link {
+  color: #4e3206;
+}
+
+.alert-danger {
+  color: #78281f;
+  background-color: #fadbd8;
+  border-color: #f8cdc8;
+}
+
+.alert-danger hr {
+  border-top-color: #f5b8b1;
+}
+
+.alert-danger .alert-link {
+  color: #4f1a15;
+}
+
+.alert-light {
+  color: #5a5e62;
+  background-color: #eff0f2;
+  border-color: #e8eaed;
+}
+
+.alert-light hr {
+  border-top-color: #dadde2;
+}
+
+.alert-light .alert-link {
+  color: #424547;
+}
+
+.alert-dark {
+  color: #191919;
+  background-color: #d6d6d6;
+  border-color: #c5c5c5;
+}
+
+.alert-dark hr {
+  border-top-color: #b8b8b8;
+}
+
+.alert-dark .alert-link {
+  color: black;
+}
+
+.alert-dismissible .close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.75rem 1.25rem;
+  color: inherit;
+}
+
+.close {
+  float: right;
+  font-size: 1.40625rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-shadow: none;
+  opacity: 0.5;
+}
+
+.close:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.close:not(:disabled):not(.disabled):hover,
+.close:not(:disabled):not(.disabled):focus {
+  opacity: 0.75;
+}
+
+button.close {
+  padding: 0;
+  background-color: transparent;
+  border: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+a.close.disabled {
+  pointer-events: none;
+}
+
+/* Artículo */
+.articulo {
+  display: block;
+}
+.articulo .header__articulo {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.articulo .header__articulo h1,
+.articulo .header__articulo h2 {
+  margin-top: 10px;
+}
+.articulo .articulo__intro {
+  padding: 20px;
+  color: #181C1F;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.articulo .articulo__intro .articulo__img {
+  background: #181C1F;
+  width: 780px;
+  display: block;
+  align-items: center;
+}
+.articulo .articulo__intro .articulo__img img {
+  margin: 20px;
+  width: 740px;
+}
+.articulo .articulo__intro .articulo__img .articulo__txt {
+  padding-bottom: 16px;
+}
+.articulo .articulo__intro .articulo__img .articulo__txt p {
+  color: white;
+  font-size: 14px;
+  margin-top: -8px;
+}
+.articulo .articulo__body {
+  width: 1170px;
+  margin-top: 30px;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.articulo .articulo__body p {
+  margin-left: 240px;
+}
+.articulo .articulo__footer .data {
+  margin-top: -50px;
+  margin-bottom: 40px;
+  margin-left: 120px;
+  width: 320px;
+}
+.articulo .articulo__footer .share {
+  margin-top: 20px;
+}
+.articulo .articulo__footer .share .share__text {
+  margin-bottom: 40px;
+}
+.articulo .articulo__footer .share .container {
+  background: rgba(94, 94, 94, 0.6);
+}
+.articulo .articulo__footer .share .container .comments__box .comentarios__pub .nombre__usuario {
+  margin-top: 10px;
+}
+.articulo .articulo__footer .share .container .comments__box .comentarios__pub .comentario__user {
+  margin-top: 10px;
+  margin-left: 30px;
+  background: rgba(255, 255, 255, 0.568);
+  height: 60px;
+  width: 80%;
+  padding: 16px;
+  border-radius: 6px;
+}
+.articulo .articulo__footer .share .container .comments__box .comentarios__pub .timestamp p {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.articulo .articulo__footer .share .container .comments__box .comentario__ejemplo {
+  width: 70%;
+}
+.articulo .articulo__footer .share .container .comments__box .comentario__ejemplo .comment__ej {
+  margin-left: 40px;
+  margin-top: 10px;
+}
+.articulo .articulo__footer .share .container .comments__box .comentario__ejemplo .comment__ej p {
+  margin: 12px;
+}
+.articulo .articulo__footer .share .container .comments__box .comentario__ejemplo .comment__ej .comm__ej {
+  border: 1px solid #181C1F;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  background: rgba(255, 255, 255, 0.568);
+}
+.articulo .articulo__footer .share .container .comments__box .social__comments {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.articulo .articulo__footer .share .container .comments__box .social__comments .sc__body {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 40%;
+}
+.articulo .articulo__footer .share .container .comments__box .social__comments .sc__body img {
+  width: 100px;
+  border-radius: 50px;
+}
+.articulo .articulo__footer .share .container .comments__box .social__comments .sc__body img:hover {
+  opacity: 90%;
+  transition: all 0.6s;
+  -webkit-box-shadow: 6px 6px 4px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 6px 4px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 6px 4px 0px rgba(0, 0, 0, 0.75);
+}
+.articulo .articulo__footer .share .container .comments__box .container .share__social .share__form {
+  color: white;
+}
+.articulo .articulo__footer .share .container .comments__box .container .share__social .share__form a {
+  color: white;
+  text-decoration: none;
+}
+.articulo .articulo__footer .share .container .comments__box .container .share__social .share__form a:hover {
+  transition: all 0.6s;
+  color: #470808;
+}
+.articulo .articulo__footer .share .container .comments__box .container .share__social .share__form .commment__header {
+  text-align: center;
+}
+.articulo .articulo__footer .share .container .comments__box .container .share__social .share__form .form__group {
+  padding: 30px;
+  width: 70%;
+}
+.articulo .articulo__footer .share .container .comments__box .container .share__social .share__form .form__group .checks__comments {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.articulo .articulo__footer .share .container .comments__box .container .share__social .share__form .form__group .checks__comments .recibir__info {
+  margin-bottom: 10px;
+}
+.articulo .articulo__footer .share .container .comments__box .container .share__social .share__form .form__group .checks__comments .recibir__info,
+.articulo .articulo__footer .share .container .comments__box .container .share__social .share__form .form__group .checks__comments .acepto__politica {
+  display: flex;
+}
+.articulo .articulo__footer .share .container .comments__box .container .share__social .share__form .form__group .checks__comments .recibir__info input,
+.articulo .articulo__footer .share .container .comments__box .container .share__social .share__form .form__group .checks__comments .acepto__politica input {
+  cursor: pointer;
+  margin-top: 4px;
+  width: 30px;
+}
+.articulo .articulo__footer .share .container .comments__box .container .share__social .share__form .form__group .checks__comments .recibir__info p,
+.articulo .articulo__footer .share .container .comments__box .container .share__social .share__form .form__group .checks__comments .acepto__politica p {
+  font-size: 14px;
+}
+.articulo .articulo__footer .share .container .comments__box .container .share__social .share__form .form__group .nombre,
+.articulo .articulo__footer .share .container .comments__box .container .share__social .share__form .form__group .phone,
+.articulo .articulo__footer .share .container .comments__box .container .share__social .share__form .form__group .email,
+.articulo .articulo__footer .share .container .comments__box .container .share__social .share__form .form__group .comentario {
+  margin-top: 10px;
+}
+.articulo .articulo__footer .share .container .comments__box .container .share__social .share__form .form__group .nombre input,
+.articulo .articulo__footer .share .container .comments__box .container .share__social .share__form .form__group .nombre textarea,
+.articulo .articulo__footer .share .container .comments__box .container .share__social .share__form .form__group .phone input,
+.articulo .articulo__footer .share .container .comments__box .container .share__social .share__form .form__group .phone textarea,
+.articulo .articulo__footer .share .container .comments__box .container .share__social .share__form .form__group .email input,
+.articulo .articulo__footer .share .container .comments__box .container .share__social .share__form .form__group .email textarea,
+.articulo .articulo__footer .share .container .comments__box .container .share__social .share__form .form__group .comentario input,
+.articulo .articulo__footer .share .container .comments__box .container .share__social .share__form .form__group .comentario textarea {
+  width: 70%;
+  height: 30px;
+  padding-left: 20px;
+  border-radius: 6px;
+  margin-top: 6px;
+}
+.articulo .articulo__footer .share .container .comments__box .container .share__social .share__form .form__group .nombre input:hover,
+.articulo .articulo__footer .share .container .comments__box .container .share__social .share__form .form__group .nombre textarea:hover,
+.articulo .articulo__footer .share .container .comments__box .container .share__social .share__form .form__group .phone input:hover,
+.articulo .articulo__footer .share .container .comments__box .container .share__social .share__form .form__group .phone textarea:hover,
+.articulo .articulo__footer .share .container .comments__box .container .share__social .share__form .form__group .email input:hover,
+.articulo .articulo__footer .share .container .comments__box .container .share__social .share__form .form__group .email textarea:hover,
+.articulo .articulo__footer .share .container .comments__box .container .share__social .share__form .form__group .comentario input:hover,
+.articulo .articulo__footer .share .container .comments__box .container .share__social .share__form .form__group .comentario textarea:hover {
+  transition: all 0.6s;
+  -webkit-box-shadow: 6px 6px 4px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 6px 4px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 6px 4px 0px rgba(0, 0, 0, 0.75);
+}
+.articulo .articulo__footer .share .container .comments__box .container .share__social .share__form .form__group .nombre textarea,
+.articulo .articulo__footer .share .container .comments__box .container .share__social .share__form .form__group .phone textarea,
+.articulo .articulo__footer .share .container .comments__box .container .share__social .share__form .form__group .email textarea,
+.articulo .articulo__footer .share .container .comments__box .container .share__social .share__form .form__group .comentario textarea {
+  height: 200px;
+  padding-top: 20px;
+}
+.articulo .articulo__footer .share .container .comments__box .container .share__social .share__form .form__group .btn__comment {
+  margin-top: 10px;
+  margin-left: 40px;
+}
+.articulo .articulo__footer .share .container .comments__box .container .share__social .share__form .form__group .btn__comment .btn__comm {
+  background: #470808;
+  color: white;
+  border: 0px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 60px;
+  height: 40px;
+}
+.articulo .articulo__footer .share .container .comments__box .container .share__social .share__form .form__group .btn__comment .btn__comm:hover {
+  transition: all 0.6s;
+  -webkit-box-shadow: 6px 6px 4px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 6px 4px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 6px 4px 0px rgba(0, 0, 0, 0.75);
+}
+
+.wp {
+  display: flex;
+  position: fixed;
+  top: 580px;
+  z-index: 2;
+  right: 20px;
+  justify-content: end;
+  align-items: right;
+}
+.wp .container a {
+  display: flex;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.wp .container a p {
+  display: none;
+  margin-right: 20px;
+  background: #4fcc5d;
+  border-radius: 4px;
+  width: 220px;
+  padding-top: 10px;
+}
+.wp .container a:hover p {
+  display: block;
+  transition: all 0.6s;
+  -webkit-box-shadow: 6px 6px 4px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 6px 4px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 6px 4px 0px rgba(0, 0, 0, 0.75);
+}
+.wp .container a:hover img {
+  position: relative;
+  transition: all 0.6s;
+  opacity: 90%;
+}
+.wp .container img {
+  width: 80px;
+  position: relative;
 }
 
 /*# sourceMappingURL=estilos.css.map */
