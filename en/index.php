@@ -1,21 +1,21 @@
 <?php include("includes/header.php") ?>
-<?php include("en/includes/nav.php") ?>
-<?php include("en/includes/banner.php") ?>
-<?php include("en/includes/wp.php") ?>
+<?php include("includes/nav.php") ?>
+<?php include("includes/banner.php") ?>
+<?php include("includes/wp.php") ?>
 <!--Cuerpo-->
 
 <div class="intro">
 
     <div class="intro__background">
         <div class="bg__home">
-            <img src="img/fondo-med.png" alt="">
+            <img src="../img/fondo-med.png" alt="">
         </div>
     </div>
 
     <div class="container">
         <div class="intro__bg">
             <div class="intro__img">
-                <img src="img/imagen-intro.jpg" alt="">
+                <img src="/img/imagen-intro.jpg" alt="">
             </div>
             <div class="intro__txt">
                 <div class="header__intro--txt">
@@ -32,9 +32,9 @@
     </div>
 </div>
 
-<?php include("en/includes/areas.php") ?>
-<?php include("en/includes/claims.php") ?>
-<?php include("en/includes/suscribe.php") ?>
+<?php include("includes/areas.php") ?>
+<?php include("includes/claims.php") ?>
+<?php include("includes/suscribe.php") ?>
 
 <!--Fin Cuerpo-->
-<?php include("en/includes/footer.php") ?>
+<?php include("includes/footer.php") ?>

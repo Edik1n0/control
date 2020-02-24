@@ -11,6 +11,7 @@
 
 <?php include("includes/nav.php") ?>
 <?php include("includes/inner.php") ?>
+<?php include("includes/wp.php") ?>
 <!--Cuerpo-->
 
 <div class="container">
@@ -82,7 +83,7 @@
 
                             <div class="share__social">
                                 <div class="share__form">
-                                    <form action="comentarios.php" method="POST">
+                                    <form action="comentarios" method="POST">
                                         <div class="commment__header">
                                             <h4>Indícanos tus datos y deja tu comentario al final</h4>
                                             <p>Los campos marcados con (*) son obligatorios</p>

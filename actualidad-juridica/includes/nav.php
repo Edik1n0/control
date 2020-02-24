@@ -7,16 +7,16 @@
                 <a href="/">Inicio</a>
             </li>
             <li>
-                <a href="nosotros.php">Nosotros</a>
+                <a href="/nosotros">Nosotros</a>
             </li>
             <li>
                 <a href="/#areaspract">Áreas de práctica</a>
             </li>
             <li>
-                <a href="actualidad-juridica.php">Actualidad Jurídica</a>
+                <a href="/actualidad-juridica">Actualidad Jurídica</a>
             </li>
             <li>
-                <a href="contacto.php">Contacto</a>
+                <a href="/contacto">Contacto</a>
             </li>
             <div class="menu__selector">
                 <li>
@@ -26,7 +26,7 @@
                     <p>|</p>
                 </li>
                 <li>
-                    <a href="en.php">EN</a>
+                    <a href="/en">EN</a>
                 </li>
             </div>
         </ul>

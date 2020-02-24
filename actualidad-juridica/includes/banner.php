@@ -6,7 +6,7 @@
         <img src="../img/marca-banner.png" alt="">
     </div>
     <div class="banner__last">
-        <a href="actualidad-juridica.php">
+        <a href="actualidad-juridica">
             <div class="card">
                 <div class="card__header">
                     <p>Último artículo</p>

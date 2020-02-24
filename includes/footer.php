@@ -3,19 +3,19 @@
         <h4>Navegación</h4>
         <ul>
             <li>
-                <a href="#">Inicio</a>
+                <a href="/">Inicio</a>
             </li>
             <li>
-                <a href="#">Nosotros</a>
+                <a href="nosotros">Nosotros</a>
             </li>
             <li>
-                <a href="#">Servicios</a>
+                <a href="/#areaspract">Servicios</a>
             </li>
             <li>
-                <a href="#">Blog</a>
+                <a href="actualidad-juridica">Blog</a>
             </li>
             <li>
-                <a href="#">Contacto</a>
+                <a href="contacto">Contacto</a>
             </li>
         </ul>
     </div>

@@ -31,9 +31,10 @@
                 <div class="art-uno">
                     <div class="col-sm-6">
                         <!-- colored -->
-                        <div class="ih-item square colored effect6 from_top_and_bottom"><a href="actualidad-juridica/art01.php">
+                        <div class="ih-item square colored effect6 from_top_and_bottom">
+                            <a href="art01">
                                 <div class="img">
-                                    <img src="img/derecho-familia.jpg" alt="ajm-medellin" title="Derecho de familia">
+                                    <img src="../img/derecho-familia.jpg" alt="ajm-medellin" title="Derecho de familia">
                                 </div>
                                 <div class="info">
                                     <h3>Artículo 0001</h3>
@@ -48,9 +49,10 @@
                 <div class="art-dos">
                     <div class="col-sm-6">
                         <!-- colored -->
-                        <div class="ih-item square colored effect6 from_top_and_bottom"><a href="/#areaspract">
+                        <div class="ih-item square colored effect6 from_top_and_bottom">
+                            <a href="/#areaspract">
                                 <div class="img">
-                                    <img src="img/derecho-familia.jpg" alt="ajm-medellin" title="Derecho de familia">
+                                    <img src="../img/derecho-familia.jpg" alt="ajm-medellin" title="Derecho de familia">
                                 </div>
                                 <div class="info">
                                     <h3>Artículo 0001</h3>
@@ -65,9 +67,10 @@
                 <div class="art-tres">
                     <div class="col-sm-6">
                         <!-- colored -->
-                        <div class="ih-item square colored effect6 from_top_and_bottom"><a href="/#areaspract">
+                        <div class="ih-item square colored effect6 from_top_and_bottom">
+                            <a href="/#areaspract">
                                 <div class="img">
-                                    <img src="img/derecho-familia.jpg" alt="ajm-medellin" title="Derecho de familia">
+                                    <img src="../img/derecho-familia.jpg" alt="ajm-medellin" title="Derecho de familia">
                                 </div>
                                 <div class="info">
                                     <h3>Artículo 0001</h3>
@@ -86,9 +89,10 @@
                 <div class="art-cuatro">
                     <div class="col-sm-6">
                         <!-- colored -->
-                        <div class="ih-item square colored effect6 from_top_and_bottom"><a href="/#areaspract">
+                        <div class="ih-item square colored effect6 from_top_and_bottom">
+                            <a href="/#areaspract">
                                 <div class="img">
-                                    <img src="img/derecho-civil.jpg" alt="ajm-medellin" title="Derecho civil">
+                                    <img src="../img/derecho-civil.jpg" alt="ajm-medellin" title="Derecho civil">
                                 </div>
                                 <div class="info">
                                     <h3>Artículo 0001</h3>
@@ -103,9 +107,10 @@
                 <div class="art-cinco">
                     <div class="col-sm-6">
                         <!-- colored -->
-                        <div class="ih-item square colored effect6 from_top_and_bottom"><a href="/#areaspract">
+                        <div class="ih-item square colored effect6 from_top_and_bottom">
+                            <a href="/#areaspract">
                                 <div class="img">
-                                    <img src="img/derecho-civil.jpg" alt="ajm-medellin" title="Derecho civil">
+                                    <img src="../img/derecho-civil.jpg" alt="ajm-medellin" title="Derecho civil">
                                 </div>
                                 <div class="info">
                                     <h3>Artículo 0001</h3>
@@ -122,7 +127,7 @@
                         <!-- colored -->
                         <div class="ih-item square colored effect6 from_top_and_bottom"><a href="/#areaspract">
                                 <div class="img">
-                                    <img src="img/derecho-civil.jpg" alt="ajm-medellin" title="Derecho civil">
+                                    <img src="../img/derecho-civil.jpg" alt="ajm-medellin" title="Derecho civil">
                                 </div>
                                 <div class="info">
                                     <h3>Artículo 0001</h3>
@@ -140,7 +145,7 @@
 </div>
 
 <div class="bg__arts">
-    <img src="img/fondo-med.png" alt="">
+    <img src="../img/fondo-med.png" alt="">
 </div>
 
 <!--Fin Cuerpo-->

@@ -6,7 +6,7 @@
             <p>Enter your Email and receive our updates in your mailbox</p>
         </div>
         <div class="subs__body">
-            <form action="subscribe.php" method="POST" class="form-group">
+            <form action="subscribe" method="POST" class="form-group">
                 <input type="email" class="correo" name="correo" placeholder="email@domain.com">
                 <input type="submit" class="btn" value="Send" name="subscribe">
             </form>
@@ -16,6 +16,6 @@
 
 <div class="subsback">
     <div class="subsback__img">
-        <img src="img/fondo-bajo.png" alt="">
+        <img src="/img/fondo-bajo.png" alt="">
     </div>
 </div>

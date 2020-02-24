@@ -3,19 +3,19 @@
         <h4>Explore</h4>
         <ul>
             <li>
-                <a href="en.php">Home</a>
+                <a href="en">Home</a>
             </li>
             <li>
-                <a href="about-us.php">About Us</a>
+                <a href="about-us">About Us</a>
             </li>
             <li>
                 <a href="/#areaspractice">Practice areas</a>
             </li>
             <li>
-                <a href="legal-news.php">Blog</a>
+                <a href="legal-news">Blog</a>
             </li>
             <li>
-                <a href="contact.php">Contact</a>
+                <a href="contact">Contact</a>
             </li>
         </ul>
     </div>

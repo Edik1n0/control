@@ -4,19 +4,19 @@
     <nav class="menu">
         <ul>
             <li>
-                <a href="../en.php">Home</a>
+                <a href="/">Home</a>
             </li>
             <li>
-                <a href="en/about-us.php">About us</a>
+                <a href="about-us">About us</a>
             </li>
             <li>
-                <a href="/#areaspractice">Practice areas</a>
+                <a href="/en/#areaspractice">Practice areas</a>
             </li>
             <li>
-                <a href="legal-news.php">Legal news</a>
+                <a href="/actualidad-juridica">Legal news</a>
             </li>
             <li>
-                <a href="contact.php">Contact</a>
+                <a href="contact">Contact</a>
             </li>
             <div class="menu__selector">
                 <li>
@@ -26,7 +26,7 @@
                     <p>|</p>
                 </li>
                 <li>
-                    <a href="en.php">EN</a>
+                    <a href="/en">EN</a>
                 </li>
             </div>
         </ul>
