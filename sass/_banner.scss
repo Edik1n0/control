@@ -82,6 +82,12 @@
 }
 
 .banner {
+  @media (min-width: 768px) {
+    .banner__mob {
+      display: none;
+    }
+  }
+
   .banner__logo {
     position: absolute;
     z-index: 2;
@@ -162,6 +168,43 @@
       align-items: center;
       color: $Blanco;
       font-size: 20px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .banner {
+    .banner__logo {
+      position: fixed;
+      z-index: 2;
+      cursor: pointer;
+      left: 30px;
+      img {
+        width: 150px;
+      }
+    }
+
+    .banner__mob {
+      img {
+        width: 100%;
+      }
+    }
+
+    .banner__img {
+      img {
+        display: none;
+      }
+    }
+
+    .banner__line {
+      position: sticky;
+      bottom: 374px;
+      z-index: 0;
+      border: 2px solid red;
+      img {
+        height: 190px;
+        width: 100%;
+      }
     }
   }
 }

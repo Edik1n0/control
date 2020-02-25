@@ -35,16 +35,17 @@
         position: absolute;
 
         p {
-          display: none;
+          opacity: 0%;
           text-align: center;
         }
 
         &:hover {
           p {
             transition: all 0.6s;
+            opacity: 100%;
             margin-top: 20px;
             padding: 10px;
-            display: flex;
+            display: block;
             text-align: center;
             text-decoration: none;
             color: $Blanco;
@@ -63,6 +64,10 @@
           margin-left: -14px;
         }
       }
+    }
+
+    .claims__calidad {
+      margin-right: 26px;
     }
   }
 }

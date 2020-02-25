@@ -1,6 +1,6 @@
 <header>
     <input type="checkbox" id="btn-menu">
-    <label for="btn-menu" class="icon-list-bullet"></label>
+    <label for="btn-menu" class="icon-menu"></label>
     <nav class="menu">
         <ul>
             <li>
