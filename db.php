@@ -10,11 +10,11 @@ session_start();
 // );
 
 
-$conn = mysqli_connect(
-     'localhost',
-     'root',
-     '',
-     'suscritos'
-);
+// $conn = mysqli_connect(
+//     'localhost',
+//     'root',
+//     '',
+//     'suscritos'
+// );
 
 ?>

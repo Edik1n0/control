@@ -1,7 +1,10 @@
 @import "variables";
 
 .areas {
-  
+  .ar_bod_mob {
+    display: none;
+  }
+
   img {
     width: 300px;
   }
@@ -43,5 +46,11 @@
       color: $Rojo;
       transition: all 0.5s;
     }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+  .areas {
+    display: none;
   }
 }

@@ -39,22 +39,22 @@
             </div>
             <div class="social">
                 <div class="face">
-                    <a href="https://facebook.com/">
+                    <a href="https://www.facebook.com/Asesor%C3%ADas-Jur%C3%ADdicas-Medell%C3%ADn-106571024289609">
                         <img src="img/facebook.png" alt="facebook" title="Facebook" class="butface"></a>
                 </div>
                 <div class="twit">
-                    <a href="https://twitter.com/">
+                    <a href="https://twitter.com/AsesorasJurdic3">
                         <img src="img/twitter.png" alt="twitter" title="Twitter" class="buttwit"></a>
                 </div>
                 <div class="linkedin">
-                    <a href="https://linkedin.com/">
+                    <a href="https://www.linkedin.com/in/juan-carlos-munera-montoya-30136a19a/">
                         <img src="img/linkedin.png" alt="linkedin" title="LinkedIn" class="butlink"></a>
                 </div>
             </div>
         </div>
     </div>
     <div class="footer__logo">
-        <h4>Logo</h4>
+        <h4>Asesorías Jurídicas Medellín</h4>
         <a href="/"><img src="img/logo.gif" alt=""></a>
     </div>
 </footer>

@@ -96,6 +96,11 @@ footer {
   height: 50px;
 }
 
+@media (min-width: 320px) and (max-width: 375px) {
+  footer {
+    display: none;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -143,12 +148,21 @@ header label {
   cursor: pointer;
   display: none;
 }
+header .banner__line {
+  z-index: 1;
+  position: absolute;
+  margin-top: -4px;
+}
+header .banner__line img {
+  width: 100%;
+}
 
 .menu {
   margin-right: 60px;
   width: 820px;
   display: flex;
   justify-content: end;
+  z-index: 1;
 }
 .menu ul {
   list-style: none;
@@ -181,41 +195,44 @@ header label {
   padding: 0px;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 375px) {
   header {
-    position: sticky;
-    top: 0px;
-    z-index: 1;
+    border: 2px solid red;
   }
-  header label {
-    font-size: 40px;
-    position: absolute;
-    top: -6px;
+
+  .menu {
+    position: fixed;
     z-index: 0;
-    margin-right: 20px;
-    display: block;
-  }
-  header .menu {
-    background: #181C1F;
-    position: absolute;
-    top: 40px;
+    top: 0px;
     left: 0;
     width: 100%;
     height: 1024px;
     transform: translateX(-100%);
     transition: all 0.5s;
   }
-  header .menu ul {
-    padding-top: 80px;
+  .menu ul {
+    padding-top: 100px;
     flex-direction: column;
     text-align: center;
+    padding-left: 100px;
   }
-  header .menu ul li {
+  .menu ul .menu__selector {
+    padding-left: 30px;
+  }
+  .menu ul li {
     margin-top: 20px;
   }
-  header #btn-menu:checked ~ .menu {
+
+  #btn-menu:checked ~ .menu {
+    position: fixed;
     transform: translateX(0%);
+    background: #181C1F;
+    z-index: 4;
   }
+}
+/* Inner */
+.inner .inner__mob {
+  display: none;
 }
 .inner .inner__logo {
   position: absolute;
@@ -231,14 +248,6 @@ header label {
   opacity: 80%;
   width: 182px;
   transition: all 0.6s;
-}
-.inner .banner__line {
-  z-index: 1;
-  position: absolute;
-  margin-top: -74px;
-}
-.inner .banner__line img {
-  width: 100%;
 }
 .inner .inner__last {
   position: absolute;
@@ -286,10 +295,9 @@ header label {
   bottom: 60px;
 }
 
-@media (min-width: 768px) {
-  .banner .banner__mob {
-    display: none;
-  }
+/* Banner */
+.banner .banner__mob {
+  display: none;
 }
 .banner .banner__logo {
   position: absolute;
@@ -363,56 +371,37 @@ header label {
   font-size: 20px;
 }
 
-@media (max-width: 768px) {
-  .banner .banner__logo {
-    position: fixed;
-    z-index: 2;
-    cursor: pointer;
-    left: 30px;
-  }
-  .banner .banner__logo img {
-    width: 150px;
-  }
-  .banner .banner__mob img {
-    width: 100%;
-  }
-  .banner .banner__img img {
+@media (min-width: 320px) and (max-width: 375px) {
+  .inner {
     display: none;
   }
-  .banner .banner__line {
-    position: sticky;
-    bottom: 374px;
-    z-index: 0;
-    border: 2px solid red;
-  }
-  .banner .banner__line img {
-    height: 190px;
-    width: 100%;
+
+  .banner {
+    display: none;
   }
 }
 @font-face {
   font-family: "fontello";
-  src: url("../font/fontello.eot?1201054");
-  src: url("../font/fontello.eot?1201054#iefix") format("embedded-opentype"), url("../font/fontello.woff2?1201054") format("woff2"), url("../font/fontello.woff?1201054") format("woff"), url("../font/fontello.ttf?1201054") format("truetype"), url("../font/fontello.svg?1201054#fontello") format("svg");
+  src: url("../font/fontello.eot?6503782");
+  src: url("../font/fontello.eot?6503782#iefix") format("embedded-opentype"), url("../font/fontello.woff2?6503782") format("woff2"), url("../font/fontello.woff?6503782") format("woff"), url("../font/fontello.ttf?6503782") format("truetype"), url("../font/fontello.svg?6503782#fontello") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 /* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
 /* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
 /*
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  @font-face {
-    font-family: 'fontello';
-    src: url('../font/fontello.svg?1201054#fontello') format('svg');
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+      font-family: 'fontello';
+      src: url('../font/fontello.svg?6503782#fontello') format('svg');
+    }
   }
-}
-*/
+  */
 [class^=icon-]:before,
 [class*=" icon-"]:before {
   font-family: "fontello";
   font-style: normal;
   font-weight: normal;
-  speak: none;
   display: inline-block;
   text-decoration: inherit;
   width: 1em;
@@ -441,11 +430,11 @@ header label {
 }
 
 /* '' */
-.icon-menu:before {
-  content: "";
+.icon-list-bullet:before {
+  content: "";
 }
 
-/* '' */
+/* '' */
 .ih-item {
   position: relative;
   -webkit-transition: all 0.35s ease-in-out;
@@ -5351,6 +5340,9 @@ header label {
   transform: rotateX(0);
 }
 
+.areas .ar_bod_mob {
+  display: none;
+}
 .areas img {
   width: 300px;
 }
@@ -5389,6 +5381,11 @@ header label {
   transition: all 0.5s;
 }
 
+@media (min-width: 320px) and (max-width: 375px) {
+  .areas {
+    display: none;
+  }
+}
 .claims .claims__header {
   text-align: center;
   margin-top: 60px;
@@ -5427,7 +5424,7 @@ header label {
 .claims .claims__body .claims__calidad a p,
 .claims .claims__body .claims__clientes a p,
 .claims .claims__body .claims__justicia a p {
-  opacity: 0%;
+  display: none;
   text-align: center;
 }
 .claims .claims__body .claims__asesoria a:hover p,
@@ -5435,10 +5432,9 @@ header label {
 .claims .claims__body .claims__clientes a:hover p,
 .claims .claims__body .claims__justicia a:hover p {
   transition: all 0.6s;
-  opacity: 100%;
   margin-top: 20px;
   padding: 10px;
-  display: block;
+  display: flex;
   text-align: center;
   text-decoration: none;
   color: white;
@@ -5450,10 +5446,12 @@ header label {
 .claims .claims__body .claims__clientes a p {
   margin-left: -14px;
 }
-.claims .claims__body .claims__calidad {
-  margin-right: 26px;
-}
 
+@media (min-width: 320px) and (max-width: 375px) {
+  .claims {
+    display: none;
+  }
+}
 .intro {
   margin-top: 60px;
 }
@@ -5497,6 +5495,11 @@ header label {
   margin-bottom: 30px;
 }
 
+@media (min-width: 320px) and (max-width: 375px) {
+  .intro {
+    display: none;
+  }
+}
 .subs {
   z-index: 1;
   margin-top: 60px;
@@ -5561,6 +5564,11 @@ header label {
   width: 100%;
 }
 
+@media (min-width: 320px) and (max-width: 375px) {
+  .subs {
+    display: none;
+  }
+}
 .bg__nos {
   position: absolute;
   z-index: 0;
@@ -5684,6 +5692,11 @@ header label {
   margin-bottom: -420px;
 }
 
+@media (min-width: 320px) and (max-width: 374px) {
+  .nosotros {
+    display: none;
+  }
+}
 .blog {
   z-index: 1;
   position: relative;
@@ -6203,7 +6216,7 @@ a.close.disabled {
   text-decoration: none;
 }
 .wp .container a p {
-  opacity: 0%;
+  display: none;
   margin-right: 20px;
   background: #4fcc5d;
   border-radius: 4px;
@@ -6211,7 +6224,7 @@ a.close.disabled {
   padding-top: 10px;
 }
 .wp .container a:hover p {
-  opacity: 100%;
+  display: block;
   transition: all 0.6s;
   -webkit-box-shadow: 6px 6px 4px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 6px 6px 4px 0px rgba(0, 0, 0, 0.75);
@@ -6225,6 +6238,12 @@ a.close.disabled {
 .wp .container img {
   width: 80px;
   position: relative;
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+  .wp {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */

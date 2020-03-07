@@ -16,6 +16,15 @@ header {
     cursor: pointer;
     display: none;
   }
+
+  .banner__line {
+    z-index: 1;
+    position: absolute;
+    margin-top: -4px;
+    img {
+      width: 100%;
+    }
+  }
 }
 
 .menu {
@@ -23,6 +32,7 @@ header {
   width: 820px;
   display: flex;
   justify-content: end;
+  z-index: 1;
   ul {
     list-style: none;
     padding: 0px;
@@ -57,40 +67,40 @@ header {
   }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 375px) {
   header {
-    position: sticky;
+    border: 2px solid red;
+  }
+
+  .menu {
+    position: fixed;
+    z-index: 0;
     top: 0px;
-    z-index: 1;
-    label {
-      font-size: 40px;
-      position: absolute;
-      top: -6px;
-      z-index: 0;
-      margin-right: 20px;
-      display: block;
-    }
-    .menu {
-      background: $Gris;
-      position: absolute;
-      top: 40px;
-      left: 0;
-      width: 100%;
-      height: 1024px;
-      transform: translateX(-100%);
-      transition: all 0.5s;
-      ul {
-        padding-top: 80px;
-        flex-direction: column;
-        text-align: center;
-        li {
-          margin-top: 20px;
-        }
+    left: 0;
+    width: 100%;
+    height: 1024px;
+    transform: translateX(-100%);
+    transition: all 0.5s;
+    ul {
+      padding-top: 100px;
+      flex-direction: column;
+      text-align: center;
+      padding-left: 100px;
+
+      .menu__selector {
+        padding-left: 30px;
+      }
+
+      li {
+        margin-top: 20px;
       }
     }
+  }
 
-    #btn-menu:checked ~ .menu {
-      transform: translateX(0%);
-    }
+  #btn-menu:checked ~ .menu {
+    position: fixed;
+    transform: translateX(0%);
+    background: $Gris;
+    z-index: 4;
   }
 }

@@ -1,6 +1,9 @@
 <header>
     <input type="checkbox" id="btn-menu">
-    <label for="btn-menu" class="icon-menu"></label>
+    <label for="btn-menu" class="icon-list-bullet"></label>
+    <div class="banner__line">
+        <img src="img/marca-banner.png" alt="">
+    </div>
     <nav class="menu">
         <ul>
             <li>
