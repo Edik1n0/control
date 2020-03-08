@@ -62,3 +62,5 @@
 <div class="footer__rights">
     <p>All rights reserved - Medellin - Asesorías Jurídicas Medellín 2019</p>
 </div>
+
+</body>

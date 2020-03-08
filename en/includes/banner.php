@@ -1,9 +1,9 @@
 <div class="banner">
     <div class="banner__logo">
-        <a href="/"><img src="/img/logo.gif" alt=""></a>
+        <a href="/"><img src="../img/logo.gif" alt=""></a>
     </div>
-    <div class="banner__line">
-        <img src="/img/marca-banner.png" alt="">
+    <div class="banner__mob">
+        <img src="../img/ajm-background-c-mob.jpg" alt="">
     </div>
     <div class="banner__last">
         <a href="actualidad-juridica">
@@ -12,7 +12,7 @@
                     <p>Last article</p>
                 </div>
                 <div class="card__img">
-                    <img src="/img/art-test.jpg" alt="">
+                    <img src="../img/art-test.jpg" alt="">
                     <p>___________________________</p>
                 </div>
                 <div class="card__desc">
@@ -22,7 +22,7 @@
         </a>
     </div>
     <div class="banner__img">
-        <img src="/img/ajm-background-c.jpg" alt="">
+        <img src="../img/ajm-background-c.jpg" alt="">
     </div>
     <div class="banner__slogan">
         <p>Professional Lawyers in Medellin</p>

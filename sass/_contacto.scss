@@ -52,3 +52,56 @@
     }
   }
 }
+
+@media (min-width: 320px) and (max-width: 374px) {
+  .mapa {
+    .body__mapa {
+      display: block;
+
+      .texto-mapa {
+        width: 260px;
+        left: 0px;
+      }
+
+      iframe {
+        margin-top: 344px;
+      }
+    }
+  }
+}
+
+@media (min-width: 375px) and (max-width: 410px) {
+  .mapa {
+    .body__mapa {
+      display: block;
+
+      .texto-mapa {
+        width: 300px;
+        left: 6px;
+        bottom: -620px;
+      }
+
+      iframe {
+        margin-top: 324px;
+      }
+    }
+  }
+}
+
+@media (min-width: 411px) and (max-width: 768px) {
+  .mapa {
+    .body__mapa {
+      display: block;
+
+      .texto-mapa {
+        width: 300px;
+        left: 26px;
+        bottom: -660px;
+      }
+
+      iframe {
+        margin-top: 324px;
+      }
+    }
+  }
+}

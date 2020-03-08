@@ -15,7 +15,7 @@
     <div class="container">
         <div class="intro__bg">
             <div class="intro__img">
-                <img src="/img/imagen-intro.jpg" alt="">
+                <img src="../img/imagen-intro.jpg" alt="">
             </div>
             <div class="intro__txt">
                 <div class="header__intro--txt">

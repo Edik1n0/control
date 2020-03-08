@@ -11,9 +11,7 @@
 
 .nosotros {
   margin-bottom: 60px;
-  img {
-    width: 280px;
-  }
+
   .nosotros__header,
   .nosotros__intro {
     text-align: center;
@@ -37,6 +35,10 @@
       .carlos,
       .isabel {
         margin-left: 60px;
+
+        img {
+          width: 280px;
+        }
       }
     }
   }
@@ -130,7 +132,251 @@
 }
 
 @media (min-width: 320px) and (max-width: 374px) {
-  .nosotros {
+  .bg__nos {
     display: none;
+  }
+
+  .bg__nosf {
+    img {
+      display: none;
+    }
+  }
+
+  .nosotros {
+    display: block;
+    .nosotros__header,
+    .nosotros__intro {
+      margin-left: 0px;
+    }
+
+    .nosotros__body {
+      margin-left: 0px;
+      .nos__a,
+      .nos__b {
+        display: block;
+
+        .natalia,
+        .michelle,
+        .carlos,
+        .isabel {
+          margin-left: 0px;
+        }
+      }
+    }
+
+    .apoyo {
+      margin: 0px;
+
+      .apoyo__body {
+        display: block;
+
+        .nelson,
+        .mauricio,
+        .daniel {
+          width: 280px;
+          padding: 6px;
+          margin-top: 10px;
+          margin-bottom: 20px;
+        }
+      }
+    }
+
+    .sobre {
+      img {
+        width: 280px;
+      }
+
+      .sobre__header {
+        text-align: center;
+        margin: 0px;
+      }
+
+      .sobre__body {
+        display: block;
+        .sobre__img {
+          margin: 0px;
+          img {
+            width: 300px;
+            margin-left: -30px;
+          }
+        }
+
+        .sobre__txt {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .apoyo {
+    display: block;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 410px) {
+  .bg__nos {
+    display: none;
+  }
+
+  .bg__nosf {
+    img {
+      display: none;
+    }
+  }
+
+  .nosotros {
+    display: block;
+
+    .nosotros__header,
+    .nosotros__intro {
+      margin-left: 0px;
+    }
+
+    .nosotros__body {
+      margin-left: 0px;
+      .nos__a,
+      .nos__b {
+        display: block;
+
+        .natalia,
+        .michelle,
+        .carlos,
+        .isabel {
+          margin-left: 0px;
+
+          img {
+            width: 320px;
+          }
+        }
+      }
+    }
+
+    .apoyo {
+      margin: 0px;
+
+      .apoyo__body {
+        display: block;
+
+        .nelson,
+        .mauricio,
+        .daniel {
+          width: 320px;
+          padding: 6px;
+          margin-top: 10px;
+          margin-bottom: 20px;
+        }
+      }
+    }
+
+    .sobre {
+
+      .sobre__header {
+        text-align: center;
+        margin: 0px;
+      }
+
+      .sobre__body {
+        display: block;
+        .sobre__img {
+          margin: 0px;
+          img {
+            width: 356px;
+            margin-left: -30px;
+          }
+        }
+
+        .sobre__txt {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .apoyo {
+    display: block;
+  }
+}
+
+@media (min-width: 411px) and (max-width: 768px) {
+  .bg__nos {
+    display: none;
+  }
+
+  .bg__nosf {
+    img {
+      display: none;
+    }
+  }
+
+  .nosotros {
+    display: block;
+
+    .nosotros__header,
+    .nosotros__intro {
+      margin-left: 0px;
+    }
+
+    .nosotros__body {
+      margin-left: 0px;
+      .nos__a,
+      .nos__b {
+        display: block;
+
+        .natalia,
+        .michelle,
+        .carlos,
+        .isabel {
+          margin-left: 0px;
+
+          img {
+            width: 360px;
+          }
+        }
+      }
+    }
+
+    .apoyo {
+      margin: 0px;
+
+      .apoyo__body {
+        display: block;
+
+        .nelson,
+        .mauricio,
+        .daniel {
+          width: 360px;
+          padding: 6px;
+          margin-top: 10px;
+          margin-bottom: 20px;
+        }
+      }
+    }
+
+    .sobre {
+
+      .sobre__header {
+        text-align: center;
+        margin: 0px;
+      }
+
+      .sobre__body {
+        display: block;
+        .sobre__img {
+          margin: 0px;
+          img {
+            width: 396px;
+            margin-left: -30px;
+          }
+        }
+
+        .sobre__txt {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .apoyo {
+    display: block;
   }
 }

@@ -2,8 +2,8 @@
     <div class="banner__logo">
         <a href="/"><img src="../img/logo.gif" alt=""></a>
     </div>
-    <div class="banner__line">
-        <img src="../img/marca-banner.png" alt="">
+    <div class="banner__mob">
+        <img src="../img/ajm-background-c-mob.jpg" alt="">
     </div>
     <div class="banner__last">
         <a href="actualidad-juridica">

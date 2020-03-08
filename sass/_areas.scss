@@ -49,8 +49,107 @@
   }
 }
 
-@media (min-width: 320px) and (max-width: 375px) {
+@media (min-width: 320px) and (max-width: 374px) {
   .areas {
-    display: none;
+    margin-top: 60px;
+    .areas__header {
+      margin: 0px;
+    }
+
+    .container {
+      display: block;
+      margin: 0px;
+
+      .ar_bod_mob {
+        display: block;
+
+        .ar-a {
+          margin-top: 10px;
+          margin-bottom: 20px;
+          p {
+            text-align: center;
+          }
+        }
+      }
+
+      .areas__body {
+        display: none;
+      }
+    }
+
+    img {
+      width: 280px;
+    }
+
+  }
+}
+
+@media (min-width: 375px) and (max-width: 410px) {
+  .areas {
+    margin-top: 60px;
+    .areas__header {
+      margin: 0px;
+    }
+
+    .container {
+      display: block;
+      margin: 0px;
+
+      .ar_bod_mob {
+        display: block;
+
+        .ar-a {
+          margin-top: 10px;
+          margin-bottom: 20px;
+          p {
+            text-align: center;
+          }
+        }
+      }
+
+      .areas__body {
+        display: none;
+      }
+    }
+
+    img {
+      width: 340px;
+    }
+
+  }
+}
+
+@media (min-width: 411px) and (max-width: 768px) {
+  .areas {
+    margin-top: 60px;
+    .areas__header {
+      margin: 0px;
+    }
+
+    .container {
+      display: block;
+      margin: 0px;
+
+      .ar_bod_mob {
+        display: block;
+
+        .ar-a {
+          margin-top: 10px;
+          margin-bottom: 20px;
+          p {
+            text-align: center;
+          }
+        }
+      }
+
+      .areas__body {
+        display: none;
+      }
+    }
+
+    img {
+      width: 380px;
+    }
+
   }
 }

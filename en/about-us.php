@@ -86,7 +86,7 @@
                         <!-- colored -->
                         <div class="ih-item square colored effect6 from_top_and_bottom"><a href="#">
                                 <div class="../img">
-                                    <img src="../img/abogados-isabel.jpg" alt="ajm-medellin" title="Derecho de familia">
+                                    <img src="" alt="ajm-medellin" title="Derecho de familia">
                                 </div>
                                 <div class="info">
                                     <h3>Dr. María Isabel Pareja Restrepo</h3>

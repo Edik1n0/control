@@ -17,7 +17,7 @@
                         <!-- colored -->
                         <div class="ih-item square colored effect6 from_top_and_bottom"><a href="/#areaspract">
                                 <div class="img">
-                                    <img src="/img/derecho-familia.jpg" alt="ajm-medellin" title="Derecho de familia">
+                                    <img src="../img/derecho-familia.jpg" alt="ajm-medellin" title="Derecho de familia">
                                 </div>
                                 <div class="info">
                                     <p style="margin-top: 60px">Get to know first hand our experience with divorce cases,
@@ -33,7 +33,7 @@
                     <div class="col-sm-6">
                         <!-- colored -->
                         <div class="ih-item square colored effect6 from_top_and_bottom"><a href="/#areaspract">
-                                <div class="img"><img src="/img/derecho-civil.jpg" alt="ajm-medellin" title="Derecho civil">
+                                <div class="img"><img src="../img/derecho-civil.jpg" alt="ajm-medellin" title="Derecho civil">
                                 </div>
                                 <div class="info">
                                     <p style="margin-top: 60px">Professionals in the areas of contractual and extra-contractual civil liability,
@@ -49,7 +49,7 @@
                     <div class="col-sm-6">
                         <!-- colored -->
                         <div class="ih-item square colored effect6 from_top_and_bottom"><a href="/#areaspract">
-                                <div class="img"><img src="/img/servicios-ajm-laboral.jpg" alt="ajm-medellin" title="Derecho Laboral y Seguridad Social">
+                                <div class="img"><img src="../img/servicios-ajm-laboral.jpg" alt="ajm-medellin" title="Derecho Laboral y Seguridad Social">
                                 </div>
                                 <div class="info">
                                     <p style="margin-top: 60px">
@@ -72,7 +72,7 @@
                         <!-- colored -->
                         <div class="ih-item square colored effect6 from_top_and_bottom"><a href="/#areaspract">
                                 <div class="img">
-                                    <img src="/img/derecho-admin.jpg" alt="ajm-medellin" title="Derecho administrativo y constitucional">
+                                    <img src="../img/derecho-admin.jpg" alt="ajm-medellin" title="Derecho administrativo y constitucional">
                                 </div>
                                 <div class="info">
                                     <p style="margin-top: 60px">
@@ -92,7 +92,7 @@
                         <!-- colored -->
                         <div class="ih-item square colored effect6 from_top_and_bottom"><a href="/#areaspract">
                                 <div class="img">
-                                    <img src="/img/derecho-comercial.jpg" alt="ajm-medellin" title="Derecho comercial">
+                                    <img src="../img/derecho-comercial.jpg" alt="ajm-medellin" title="Derecho comercial">
                                 </div>
                                 <div class="info">
                                     <p style="margin-top: 60px">
@@ -111,7 +111,7 @@
                         <!-- colored -->
                         <div class="ih-item square colored effect6 from_top_and_bottom"><a href="/#areaspract">
                                 <div class="img">
-                                    <img src="/img/derecho-penal.jpg" alt="ajm-medellin" title="Derecho Penal">
+                                    <img src="../img/derecho-penal.jpg" alt="ajm-medellin" title="Derecho Penal">
                                 </div>
                                 <div class="info">
                                     <p style="margin-top: 60px">

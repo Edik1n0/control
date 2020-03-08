@@ -25,7 +25,7 @@
             <div class="locals">
                 <div class="whatsapp">
                     <a href="https://api.whatsapp.com/send?phone=573108455348&text=Hola%20me%20gustaría%20tener%20mayor%20información%20sobre%20los%20servicios%20legales%20de%20Asesorías%20Jurídicas%20Medellín">
-                        <img src="/img/wp.png" alt="wpbutton" class="wpbutton">
+                        <img src="../img/wp.png" alt="wpbutton" class="wpbutton">
                     </a>
                 </div>
                 <div class="email">
@@ -40,22 +40,22 @@
             <div class="social">
                 <div class="face">
                     <a href="https://facebook.com/">
-                        <img src="/img/facebook.png" alt="facebook" title="Facebook" class="butface"></a>
+                        <img src="../img/facebook.png" alt="facebook" title="Facebook" class="butface"></a>
                 </div>
                 <div class="twit">
                     <a href="https://twitter.com/">
-                        <img src="/img/twitter.png" alt="twitter" title="Twitter" class="buttwit"></a>
+                        <img src="../img/twitter.png" alt="twitter" title="Twitter" class="buttwit"></a>
                 </div>
                 <div class="linkedin">
                     <a href="https://linkedin.com/">
-                        <img src="/img/linkedin.png" alt="linkedin" title="LinkedIn" class="butlink"></a>
+                        <img src="../img/linkedin.png" alt="linkedin" title="LinkedIn" class="butlink"></a>
                 </div>
             </div>
         </div>
     </div>
     <div class="footer__logo">
         <h4>Logo</h4>
-        <a href="/"><img src="/img/logo.gif" alt=""></a>
+        <a href="/"><img src="../img/logo.gif" alt=""></a>
     </div>
 </footer>
 <div class="footer__rights">

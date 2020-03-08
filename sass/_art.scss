@@ -415,3 +415,243 @@ a.close.disabled {
     }
   }
 }
+
+@media (min-width: 320px) and (max-width: 374px) {
+  .container {
+    .articulo {
+      .header__articulo {
+        display: block;
+      }
+
+      .articulo__intro {
+        .articulo__img {
+          img {
+            width: 280px;
+          }
+        }
+
+        .articulo__txt {
+          display: block;
+        }
+      }
+
+      .articulo__body {
+        display: block;
+        width: 280px;
+        p {
+          margin-left: 0px;
+        }
+      }
+
+      .articulo__footer {
+        .data {
+          width: 280px;
+          margin: 0px;
+          margin-top: -50px;
+          margin-bottom: 40px;
+        }
+
+        .share {
+          display: block;
+          .share__text {
+            display: block;
+          }
+
+          .container {
+            .comments__box {
+              .container {
+                .share__social {
+                  .share__form {
+                    form {
+                      .commment__header {
+                        margin-bottom: 40px;
+                      }
+                      
+                      .form__group {
+                        padding: 0px;
+                        width: 100%;
+                        input,
+                        textarea {
+                          width: 180px;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+
+              .social__comments {
+                .sc__body {
+                  margin-left: 70px;
+                  img {
+                    width: 80px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      } 
+    }
+  }
+}
+
+@media (min-width: 375px) and (max-width: 410px) {
+  .container {
+    .articulo {
+      .header__articulo {
+        display: block;
+      }
+
+      .articulo__intro {
+        .articulo__img {
+          img {
+            width: 320px;
+          }
+        }
+
+        .articulo__txt {
+          display: block;
+        }
+      }
+
+      .articulo__body {
+        display: block;
+        width: 320px;
+        p {
+          margin-left: 0px;
+        }
+      }
+
+      .articulo__footer {
+        .data {
+          width: 320px;
+          margin: 0px;
+          margin-top: -50px;
+          margin-bottom: 40px;
+        }
+
+        .share {
+          display: block;
+          .share__text {
+            display: block;
+          }
+
+          .container {
+            .comments__box {
+              .container {
+                .share__social {
+                  .share__form {
+                    form {
+                      .commment__header {
+                        margin-bottom: 40px;
+                      }
+                      
+                      .form__group {
+                        padding: 0px;
+                        width: 100%;
+                        input,
+                        textarea {
+                          width: 240px;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+
+              .social__comments {
+                .sc__body {
+                  margin-left: 70px;
+                  img {
+                    width: 80px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      } 
+    }
+  }
+}
+
+@media (min-width: 411px) and (max-width: 768px) {
+  .container {
+    .articulo {
+      .header__articulo {
+        display: block;
+      }
+
+      .articulo__intro {
+        .articulo__img {
+          img {
+            width: 360px;
+          }
+        }
+
+        .articulo__txt {
+          display: block;
+        }
+      }
+
+      .articulo__body {
+        display: block;
+        width: 360px;
+        p {
+          margin-left: 0px;
+        }
+      }
+
+      .articulo__footer {
+        .data {
+          width: 360px;
+          margin: 0px;
+          margin-top: -50px;
+          margin-bottom: 40px;
+        }
+
+        .share {
+          display: block;
+          .share__text {
+            display: block;
+          }
+
+          .container {
+            .comments__box {
+              .container {
+                .share__social {
+                  .share__form {
+                    form {
+                      .commment__header {
+                        margin-bottom: 40px;
+                      }
+                      
+                      .form__group {
+                        padding: 0px;
+                        width: 100%;
+                        input,
+                        textarea {
+                          width: 280px;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+
+              .social__comments {
+                .sc__body {
+                  margin-left: 70px;
+                  img {
+                    width: 80px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      } 
+    }
+  }
+}

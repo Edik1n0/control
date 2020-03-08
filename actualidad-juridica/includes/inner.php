@@ -1,9 +1,11 @@
 <div class="inner">
     <div class="inner__logo">
-        <a href="/"><img src="../img/logo.gif" alt=""></a>
+        <a href="/">
+            <img src="../img/logo.gif" alt="">
+        </a>
     </div>
-    <div class="banner__line">
-        <img src="../img/marca-banner.png" alt="">
+    <div class="inner__mob">
+        <img src="../img/ajm-background-d-mob.jpg" alt="">
     </div>
     <div class="inner__last">
         <a href="actualidad-juridica">

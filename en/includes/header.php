@@ -46,5 +46,3 @@
     <script src="js/jquery-3.4.1.min.js" type="text/javascript"></script>
     <script src="js/menu.js" type="text/javascript"></script>
     <!-- Inicia cuerpo -->
-
-    <body>

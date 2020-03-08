@@ -67,26 +67,20 @@
   }
 }
 
-@media (min-width: 320px) and (max-width: 375px) {
+@media (min-width: 320px) and (max-width: 374px) {
   .claims {
     display: none;
   }
 }
 
-// @media (min-width: 375px) and (max-width: 411px) {
-//   .claims {
-//     display: none;
-//   }
-// }
+@media (min-width: 375px) and (max-width: 410px) {
+  .claims {
+    display: none;
+  }
+}
 
-// @media (min-width: 411px) and (max-width: 768px) {
-//   .claims {
-//     display: none;
-//   }
-// }
-
-// @media (min-width: 768px) and (max-width: 1280px) {
-//   .claims {
-//     display: none;
-//   }
-// }
+@media (min-width: 411px) and (max-width: 768px) {
+  .claims {
+    display: none;
+  }
+}
