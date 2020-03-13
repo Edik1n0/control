@@ -1,6 +1,6 @@
 <div class="banner">
     <div class="banner__logo">
-        <a href="/"><img src="../img/logo.gif" alt=""></a>
+        <a href="/"><img src="../img/logo.png" alt=""></a>
     </div>
     <div class="banner__mob">
         <img src="../img/ajm-background-c-mob.jpg" alt="">

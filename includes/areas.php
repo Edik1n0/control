@@ -11,53 +11,61 @@
                 calidad en el asesoramiento y defensa jurídica.
             </p>
         </div>
+
         <div class="ar_bod_mob">
-            <div class="ar-a">
-                <img src="img/derecho-familia.jpg" alt="">
-                <p>Conozca de primera mano nuestra experiencia con casos de divorcios, demandas de alimentos,
-                    interdicciones, filiación, impugnación de paternidad, sucesiones entre otros.</p>
+
+            <div class="ars-a">
+                <div class="ar-a">
+                    <img src="img/derecho-familia.jpg" alt="">
+                    <p>Conozca de primera mano nuestra experiencia con casos de divorcios, demandas de alimentos,
+                        interdicciones, filiación, impugnación de paternidad, sucesiones entre otros.</p>
+                </div>
+                <div class="ar-a">
+                    <img src="img/derecho-civil.jpg" alt="">
+                    <p>Profesionales en las áreas de responsabilidad civil
+                        contractual y
+                        extracontractual,
+                        contratos y negocios jurídicos y procesos de pertenencia entre otros.</p>
+                </div>
+                <div class="ar-a">
+                    <img src="img/servicios-ajm-laboral.jpg" alt="">
+                    <p>Atendemos demandas laborales, indemnizaciones por
+                        despido injusto, culpa
+                        patronal,
+                        <strong>Casación Laboral ante La Corte Suprema de Justicia</strong>,
+                        reconocimiento
+                        pensión de vejez,
+                        invalidez y muerte (sobrevivientes), entre otros.</p>
+                </div>
             </div>
-            <div class="ar-a">
-                <img src="img/derecho-civil.jpg" alt="">
-                <p>Profesionales en las áreas de responsabilidad civil
-                    contractual y
-                    extracontractual,
-                    contratos y negocios jurídicos y procesos de pertenencia entre otros.</p>
-            </div>
-            <div class="ar-a">
-                <img src="img/servicios-ajm-laboral.jpg" alt="">
-                <p>Atendemos demandas laborales, indemnizaciones por
-                    despido injusto, culpa
-                    patronal,
-                    <strong>Casación Laboral ante La Corte Suprema de Justicia</strong>,
-                    reconocimiento
-                    pensión de vejez,
-                    invalidez y muerte (sobrevivientes), entre otros.</p>
-            </div>
-            <div class="ar-a">
-                <img src="img/derecho-admin.jpg" alt="">
-                <p>Demandas contra el estado, derecho disciplinario,
-                    indemnización por
-                    privación injusta de la libertad, derechos de petición, acciones de tutela,
-                    recursos,
-                    Responsabilidad por el uso de armas de dotación oficial, entre otros.</p>
-            </div>
-            <div class="ar-a">
-                <img src="img/derecho-comercial.jpg" alt="">
-                <p>Derechos de los negocios, asesorías en procesos,
-                    conformación de
-                    sociedades, restitución de inmueble comercial, procesos jurídico comerciales,
-                    entre
-                    otros.</p>
-            </div>
-            <div class="ar-a">
-                <img src="img/derecho-penal.jpg" alt="">
-                <p>Defensa penal, conceptos de procesos penales, incidente
-                    de reparación
-                    de
-                    perjuicios, entre otros.</p>
+
+            <div class="ars-b">
+                <div class="ar-a">
+                    <img src="img/derecho-admin.jpg" alt="">
+                    <p>Demandas contra el estado, derecho disciplinario,
+                        indemnización por
+                        privación injusta de la libertad, derechos de petición, acciones de tutela,
+                        recursos,
+                        Responsabilidad por el uso de armas de dotación oficial, entre otros.</p>
+                </div>
+                <div class="ar-a">
+                    <img src="img/derecho-comercial.jpg" alt="">
+                    <p>Derechos de los negocios, asesorías en procesos,
+                        conformación de
+                        sociedades, restitución de inmueble comercial, procesos jurídico comerciales,
+                        entre
+                        otros.</p>
+                </div>
+                <div class="ar-a">
+                    <img src="img/derecho-penal.jpg" alt="">
+                    <p>Defensa penal, conceptos de procesos penales, incidente
+                        de reparación
+                        de
+                        perjuicios, entre otros.</p>
+                </div>
             </div>
         </div>
+
         <div class="areas__body">
             <div class="areaUno">
                 <div class="row">

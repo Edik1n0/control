@@ -26,6 +26,7 @@
     margin-top: 30px;
     display: flex;
     justify-content: center;
+    height: 380px;
   }
 
   .areaUno,
@@ -80,7 +81,6 @@
     img {
       width: 280px;
     }
-
   }
 }
 
@@ -115,7 +115,6 @@
     img {
       width: 340px;
     }
-
   }
 }
 
@@ -150,6 +149,103 @@
     img {
       width: 380px;
     }
+  }
+}
 
+@media (min-width: 768px) and (max-width: 1280px) {
+  .areas {
+    margin-top: 60px;
+    .areas__header {
+      margin: 0px;
+    }
+
+    .areas__intro {
+      p {
+        margin-top: 40px;
+        margin-bottom: 40px;
+      }
+    }
+
+    .container {
+      display: block;
+      margin: 0px;
+
+      .ar_bod_mob {
+        display: block;
+        text-align: center;
+        padding-left: 24px;
+
+        .ars-a,
+        .ars-b {
+          display: flex;
+          .ar-a {
+            display: block;
+            width: 440px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            p {
+              text-align: center;
+            }
+          }
+        }
+      }
+
+      .areas__body {
+        display: none;
+      }
+    }
+
+    img {
+      width: 380px;
+    }
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1440px) {
+  .areas {
+    margin-top: 60px;
+    .areas__header {
+      margin: 0px;
+    }
+
+    .areas__intro {
+      p {
+        margin-top: 40px;
+        margin-bottom: 40px;
+      }
+    }
+
+    .container {
+      display: block;
+      margin: 0px;
+
+      .ar_bod_mob {
+        display: block;
+        text-align: center;
+        padding-left: 24px;
+
+        .ars-a,
+        .ars-b {
+          display: flex;
+          .ar-a {
+            display: block;
+            width: 440px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            p {
+              text-align: center;
+            }
+          }
+        }
+      }
+
+      .areas__body {
+        display: none;
+      }
+    }
+
+    img {
+      width: 380px;
+    }
   }
 }

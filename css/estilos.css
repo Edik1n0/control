@@ -5746,6 +5746,7 @@ header .banner__line img {
   margin-top: 30px;
   display: flex;
   justify-content: center;
+  height: 380px;
 }
 .areas .areaUno,
 .areas .areaDos,
@@ -5841,6 +5842,90 @@ header .banner__line img {
     margin-bottom: 20px;
   }
   .areas .container .ar_bod_mob .ar-a p {
+    text-align: center;
+  }
+  .areas .container .areas__body {
+    display: none;
+  }
+  .areas img {
+    width: 380px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1280px) {
+  .areas {
+    margin-top: 60px;
+  }
+  .areas .areas__header {
+    margin: 0px;
+  }
+  .areas .areas__intro p {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .areas .container {
+    display: block;
+    margin: 0px;
+  }
+  .areas .container .ar_bod_mob {
+    display: block;
+    text-align: center;
+    padding-left: 24px;
+  }
+  .areas .container .ar_bod_mob .ars-a,
+.areas .container .ar_bod_mob .ars-b {
+    display: flex;
+  }
+  .areas .container .ar_bod_mob .ars-a .ar-a,
+.areas .container .ar_bod_mob .ars-b .ar-a {
+    display: block;
+    width: 440px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .areas .container .ar_bod_mob .ars-a .ar-a p,
+.areas .container .ar_bod_mob .ars-b .ar-a p {
+    text-align: center;
+  }
+  .areas .container .areas__body {
+    display: none;
+  }
+  .areas img {
+    width: 380px;
+  }
+}
+@media (min-width: 1280px) and (max-width: 1440px) {
+  .areas {
+    margin-top: 60px;
+  }
+  .areas .areas__header {
+    margin: 0px;
+  }
+  .areas .areas__intro p {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .areas .container {
+    display: block;
+    margin: 0px;
+  }
+  .areas .container .ar_bod_mob {
+    display: block;
+    text-align: center;
+    padding-left: 24px;
+  }
+  .areas .container .ar_bod_mob .ars-a,
+.areas .container .ar_bod_mob .ars-b {
+    display: flex;
+  }
+  .areas .container .ar_bod_mob .ars-a .ar-a,
+.areas .container .ar_bod_mob .ars-b .ar-a {
+    display: block;
+    width: 440px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .areas .container .ar_bod_mob .ars-a .ar-a p,
+.areas .container .ar_bod_mob .ars-b .ar-a p {
     text-align: center;
   }
   .areas .container .areas__body {
@@ -5948,18 +6033,23 @@ header .banner__line img {
 .intro .container .intro__bg {
   z-index: 1;
   display: flex;
-  justify-content: space-around;
+  justify-content: start;
   width: 100%;
+  padding-left: 140px;
+  padding-right: 0;
 }
 .intro .container .intro__bg .intro__img {
   width: 40%;
+  margin-top: 20px;
 }
 .intro .container .intro__bg .intro__img img {
   width: 540px;
 }
 .intro .container .intro__bg .intro__txt {
-  text-align: center;
-  margin: 40px;
+  text-align: start;
+  width: 40%;
+  margin: 20px;
+  margin-left: 80px;
   color: white;
 }
 .intro .container .intro__bg .intro__txt .header__intro--txt {
@@ -6024,6 +6114,50 @@ header .banner__line img {
   }
   .intro .container .intro__bg .intro__txt {
     margin: 0px;
+  }
+  .intro .container .intro__bg .intro__txt .separador__intro--txt {
+    margin-left: -12px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1279px) {
+  .intro .intro__background {
+    display: none;
+  }
+  .intro .container {
+    margin: 0px;
+  }
+  .intro .container .intro__bg {
+    display: flex;
+    padding-left: 180px;
+  }
+  .intro .container .intro__bg .intro__img img {
+    margin-top: 40px;
+    width: 500px;
+  }
+  .intro .container .intro__bg .intro__txt {
+    margin-left: 110px;
+  }
+  .intro .container .intro__bg .intro__txt .separador__intro--txt {
+    margin-left: -12px;
+  }
+}
+@media (min-width: 1280px) and (max-width: 1441px) {
+  .intro .intro__background {
+    display: none;
+  }
+  .intro .container {
+    margin: 0px;
+  }
+  .intro .container .intro__bg {
+    display: flex;
+    padding-left: 180px;
+  }
+  .intro .container .intro__bg .intro__img img {
+    margin-top: 20px;
+    width: 500px;
+  }
+  .intro .container .intro__bg .intro__txt {
+    margin-left: 110px;
   }
   .intro .container .intro__bg .intro__txt .separador__intro--txt {
     margin-left: -12px;
@@ -7460,6 +7594,18 @@ a.close.disabled {
 @media (min-width: 320px) and (max-width: 375px) {
   .wp {
     display: block;
+  }
+}
+@media (min-width: 768px) and (max-width: 1280px) {
+  .wp {
+    display: block;
+    top: 680px;
+  }
+}
+@media (min-width: 1280px) and (max-width: 1440px) {
+  .wp {
+    display: block;
+    top: 680px;
   }
 }
 

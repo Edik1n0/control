@@ -1,7 +1,7 @@
 <div class="inner">
     <div class="inner__logo">
         <a href="/">
-            <img src="img/logo.gif" alt="">
+            <img src="img/logo.png" alt="">
         </a>
     </div>
     <div class="inner__mob">

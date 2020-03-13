@@ -22,18 +22,24 @@
     .intro__bg {
       z-index: 1;
       display: flex;
-      justify-content: space-around;
+      justify-content: start;
       width: 100%;
+      padding-left: 140px;
+      padding-right: 0;
+
       .intro__img {
         width: 40%;
+        margin-top: 20px;
         img {
           width: 540px;
         }
       }
 
       .intro__txt {
-        text-align: center;
-        margin: 40px;
+        text-align: start;
+        width: 40%;
+        margin: 20px;
+        margin-left: 80px;
         color: $Blanco;
         .header__intro--txt {
           margin-bottom: 30px;
@@ -121,6 +127,67 @@
 
         .intro__txt {
           margin: 0px;
+
+          .separador__intro--txt {
+            margin-left: -12px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .intro {
+    .intro__background {
+      display: none;
+    }
+
+    .container {
+      margin: 0px;
+      .intro__bg {
+        display: flex;
+        padding-left: 180px;
+        .intro__img {
+          img {
+            margin-top: 40px;
+            width: 500px;
+          }
+        }
+
+        .intro__txt {
+          margin-left: 110px;
+
+          .separador__intro--txt {
+            margin-left: -12px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1441px) {
+  .intro {
+    .intro__background {
+      display: none;
+    }
+
+    .container {
+      margin: 0px;
+      .intro__bg {
+        display: flex;
+        padding-left: 180px;
+
+        .intro__img {
+          img {
+            margin-top: 20px;
+            width: 500px;
+          }
+        }
+
+        .intro__txt {
+          margin-left: 110px;
 
           .separador__intro--txt {
             margin-left: -12px;

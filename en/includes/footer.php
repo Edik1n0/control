@@ -56,7 +56,7 @@
     </div>
     <div class="footer__logo">
         <h4>Logo</h4>
-        <a href="/"><img src="img/logo.gif" alt=""></a>
+        <a href="/"><img src="img/logo.png" alt=""></a>
     </div>
 </footer>
 <div class="footer__rights">

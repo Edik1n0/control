@@ -25,7 +25,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta property="og:title" content="Asesorías Jurídicas Medellín">
     <meta property="og:type" content="Web">
-    <meta property="og:url" content="https://wwww.asesoriasjuridicasmed.com/">
+    <meta property="og:url" content="https://www.asesoriasjuridicasmed.com/">
     <meta property="og:image" content="https://www.asesoriasjuridicasmed.com/img/logo-og.gif">
     <meta property="og:local" content="es_LA">
     <link rel="stylesheet" href="css/estilos.css">
