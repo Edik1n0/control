@@ -1,3 +1,12 @@
+<?php include("db.php") ?>
+
+<?php if (isset($_SESSION['message'])) { ?>
+    <div class="alert alert-dismissible alert-secondary">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <?= $_SESSION['message'] ?>
+    </div>
+<?php session_unset(); } ?>
+
 <?php include("includes/header.php") ?>
 <?php include("includes/nav.php") ?>
 <?php include("includes/banner.php") ?>
