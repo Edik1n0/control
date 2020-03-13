@@ -99,6 +99,7 @@
 
         .intro__txt {
           margin: 0px;
+          width: 320px;
 
           .separador__intro--txt {
             margin-left: -12px;
@@ -119,6 +120,7 @@
       margin: 0px;
       .intro__bg {
         display: block;
+        padding-left: 0px;
         .intro__img {
           img {
             width: 370px;
@@ -127,6 +129,7 @@
 
         .intro__txt {
           margin: 0px;
+          width: 380px;
 
           .separador__intro--txt {
             margin-left: -12px;
@@ -181,7 +184,6 @@
 
         .intro__img {
           img {
-            margin-top: 20px;
             width: 500px;
           }
         }

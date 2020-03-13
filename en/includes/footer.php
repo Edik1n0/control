@@ -41,15 +41,15 @@
             <div class="social">
                 <div class="face">
                     <a href="https://facebook.com/">
-                    <img src="img/facebook.png" alt="facebook" title="Facebook" class="butface"></a>
+                        <img src="img/facebook.png" alt="facebook" title="Facebook" class="butface"></a>
                 </div>
                 <div class="twit">
                     <a href="https://twitter.com/">
-                    <img src="img/twitter.png" alt="twitter" title="Twitter" class="buttwit"></a>
+                        <img src="img/twitter.png" alt="twitter" title="Twitter" class="buttwit"></a>
                 </div>
                 <div class="linkedin">
                     <a href="https://linkedin.com/">
-                    <img src="img/linkedin.png" alt="linkedin" title="LinkedIn" class="butlink"></a>
+                        <img src="img/linkedin.png" alt="linkedin" title="LinkedIn" class="butlink"></a>
                 </div>
             </div>
         </div>
@@ -64,3 +64,5 @@
 </div>
 
 </body>
+
+</html>

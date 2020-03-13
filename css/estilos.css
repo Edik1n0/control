@@ -6094,6 +6094,7 @@ header .banner__line img {
   }
   .intro .container .intro__bg .intro__txt {
     margin: 0px;
+    width: 320px;
   }
   .intro .container .intro__bg .intro__txt .separador__intro--txt {
     margin-left: -12px;
@@ -6108,12 +6109,14 @@ header .banner__line img {
   }
   .intro .container .intro__bg {
     display: block;
+    padding-left: 0px;
   }
   .intro .container .intro__bg .intro__img img {
     width: 370px;
   }
   .intro .container .intro__bg .intro__txt {
     margin: 0px;
+    width: 380px;
   }
   .intro .container .intro__bg .intro__txt .separador__intro--txt {
     margin-left: -12px;
@@ -6153,7 +6156,6 @@ header .banner__line img {
     padding-left: 180px;
   }
   .intro .container .intro__bg .intro__img img {
-    margin-top: 20px;
     width: 500px;
   }
   .intro .container .intro__bg .intro__txt {
