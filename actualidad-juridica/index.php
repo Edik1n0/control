@@ -32,13 +32,13 @@
                     <div class="col-sm-6">
                         <!-- colored -->
                         <div class="ih-item square colored effect6 from_top_and_bottom">
-                            <a href="art01">
+                            <a href="arrendamiento">
                                 <div class="img">
-                                    <img src="../img/derecho-familia.jpg" alt="ajm-medellin" title="Derecho de familia">
+                                    <img src="../img/arrenda-mini.jpg" alt="ajm-medellin" title="Derecho de familia">
                                 </div>
                                 <div class="info">
-                                    <h3>Artículo 0001</h3>
-                                    <p style="margin-top: 60px">De la importancia de los valores en la sociedad</p>
+                                    <h3>Hablemos claro del arrendamiento</h3>
+                                    <p style="margin-top: 60px">Hablemos claro del arrendamiento en tiempos de COVID-19.</p>
                                 </div>
                             </a>
                         </div>

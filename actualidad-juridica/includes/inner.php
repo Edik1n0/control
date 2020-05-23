@@ -11,14 +11,14 @@
         <a href="actualidad-juridica">
             <div class="card">
                 <div class="card__header">
-                    <p>Último artículo</p>
+                    <p>Hablemos claro del Arrendamiento</p>
                 </div>
                 <div class="card__img">
-                    <img src="../img/art-test.jpg" alt="">
+                    <img src="../img/arrenda.jpg" alt="">
                     <p>___________________________</p>
                 </div>
                 <div class="card__desc">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p>Hablemos Claro del arrendamiento en tiempos de COVID-19.</p>
                 </div>
             </div>
         </a>
