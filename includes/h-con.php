@@ -36,14 +36,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1>">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta property="og:title" content="Contáctanos | Asesorías Jurídicas Medellín">
+    <meta property="og:title" content="Contáctanos | Asesorías Jurídicas Medellín | Abogados en Medellín">
     <meta property="og:description" content="Contáctanos | Asesorías Jurídicas Medellín | Abogados especializados con alta experiencia en Medellín">
     <meta property="og:type" content="Web">
     <meta property="og:url" content="https://www.asesoriasjuridicasmed.com/contacto">
     <meta property="og:image" content="https://www.asesoriasjuridicasmed.com/img/logo-face.jpg">
     <meta property="og:local" content="es_LA">
     <link rel="stylesheet" href="css/estilos.css">
-    <title>Contacto | Asesorías Jurídicas Medellín</title>
+    <title>Contáctanos | Asesorías Jurídicas Medellín | Abogados en Medellín</title>
     <meta name="description" content="Contáctanos | Asesorías Jurídicas Medellín | Abogados en Medellín | Consulta abogados expertos en Medellín y déjanos representarte.">
     <meta name="keywords" content="contáctanos, abogados, medellín, asesorías, asesorias, jurídicas, juridicas, asesorías jurídicas medellin, ajm,
     abogados en medellin, asesorias juridicas medellin, representante legal, derecho penal, derecho civil, derecho de familia,

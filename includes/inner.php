@@ -1,11 +1,11 @@
 <div class="inner">
-    <div class="inner__logo">
-        <span itemscope itemtype="http://schema.org/ImageObject">
-            <a href="/"><img itemprop="brand" src="img/logo.png" alt="logo-ajm"></a>
-        </span>
+
+    <div class="inner__logo" itemscope itemtype="http://schema.org/Organization">
+        <a itemprop="url" href="https://asesoriasjuridicasmed.com/"><img itemprop="logo" src="img/logo.png" alt="logo-ajm"></a>
     </div>
+
     <div class="inner__mob">
-        <img itemprop="image" src="img/ajm-background-d-mob.jpg" alt="background-ajm">
+        <img src="img/ajm-background-d-mob.jpg" alt="background-ajm">
     </div>
     <div class="inner__last">
         <a href="actualidad-juridica">

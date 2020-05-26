@@ -1,7 +1,9 @@
 <div class="banner">
-    <div itemscope itemtype="http://schema.org/ImageObject" class="banner__logo">
-        <a href="/"><img src="../img/logo.png" alt="logo-ajm" itemprop="AsesoriasJuridicas"></a>
+
+    <div class="banner__logo" itemscope itemtype="http://schema.org/Organization">
+        <a itemprop="url" href="https://asesoriasjuridicasmed.com/"><img itemprop="logo" src="../img/logo.png" alt="logo-ajm"></a>
     </div>
+
     <div class="banner__mob">
         <img src="../img/ajm-background-c-mob.jpg" alt="background-ajm">
     </div>

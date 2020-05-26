@@ -42,7 +42,7 @@
     <meta property="og:image" content="https://www.asesoriasjuridicasmed.com/img/logo-face.jpg">
     <meta property="og:local" content="es_LA">
     <link rel="stylesheet" href="../css/estilos.css">
-    <title>About Us | Asesorías Jurídicas Medellín</title>
+    <title>About Us | Lawyers in Medellín | Asesorías Jurídicas Medellín</title>
     <meta name="description" content="About Us | Asesorías Jurídicas Medellín | Lawyers in Medellín | Consult expert lawyers in Medellín and let us represent you.">
     <meta name="keywords" content="about us, contact  us, lawyers, medellín, consultancies, legal advisory, legal, legal consultancies medellin, ajm, lawyers in medellin, legal advice medellin, legal representative, criminal law, civil law, family law, lawsuits against the state, inheritances, inheritances, demand for food, cassations before the supreme court of justice, lawsuits, criminal law, legal advice, legal advice, legal advice, legal, civil rights, law firm, labor law, labor rights, legal services, lawyer">
     <meta name="author" content="k1n0com">

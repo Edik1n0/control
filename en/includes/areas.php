@@ -1,4 +1,4 @@
-<div class="areas" id="areaspractice" itemscope itemtype="http://schema.org/ItemList">
+<div class="areas" id="areaspractice">
     <div class="container">
         <div class="areas__header">
             <h2>Areas of practice AJM</h2>
@@ -14,28 +14,28 @@
         <div class="ar_bod_mob">
 
             <div class="ars-a">
-                <div class="ar-a" itemprop="itemListElement" itemscope itemtype="http://schema.org/Product">
-                    <img itemprop="image" src="img/derecho-familia.jpg" alt="Derecho de Familia">
+                <div class="ar-a">
+                    <img src="img/derecho-familia.jpg" alt="Derecho de Familia">
                     <p style="margin-top: 60px">
-                        <span itemprop="description">
+                        <span>
                             Get to know first hand our experience with divorce cases,
                             food lawsuits, interdictions, filiation, paternity challenge, inheritance among others.
                         </span>
                     </p>
                 </div>
-                <div class="ar-a" itemprop="itemListElement" itemscope itemtype="http://schema.org/Product">
-                    <img itemprop="image" src="img/derecho-civil.jpg" alt="Derecho Civil">
+                <div class="ar-a">
+                    <img src="img/derecho-civil.jpg" alt="Derecho Civil">
                     <p style="margin-top: 60px">
-                        <span itemprop="description">
+                        <span>
                             Professionals in the areas of contractual and extra-contractual civil liability,
                             contracts and legal businesses and membership processes among others.
                         </span>
                     </p>
                 </div>
-                <div class="ar-a" itemprop="itemListElement" itemscope itemtype="http://schema.org/Product">
-                    <img itemprop="image" src="img/servicios-ajm-laboral.jpg" alt="Derecho Laboral">
+                <div class="ar-a">
+                    <img src="img/servicios-ajm-laboral.jpg" alt="Derecho Laboral">
                     <p style="margin-top: 60px">
-                        <span itemprop="description">
+                        <span>
                             We attend labor demands, compensation for unfair dismissal, employer fault,
                             <strong> Labor Cassation before the Supreme Court of Justice </strong>,
                             recognition of old-age, disability and death pension (survivors), among others.
@@ -45,29 +45,29 @@
             </div>
 
             <div class="ars-b">
-                <div class="ar-a" itemprop="itemListElement" itemscope itemtype="http://schema.org/Product">
-                    <img itemprop="image" src="img/derecho-admin.jpg" alt="Derecho Administrativo">
+                <div class="ar-a">
+                    <img src="img/derecho-admin.jpg" alt="Derecho Administrativo">
                     <p style="margin-top: 60px">
-                        <span itemprop="description">
+                        <span>
                             Lawsuits against the state, disciplinary law,
                             compensation for unjust deprivation of liberty, petition rights, guardianship actions,
                             resources, Responsibility for the use of weapons of official endowment, among others.
                         </span>
                     </p>
                 </div>
-                <div class="ar-a" itemprop="itemListElement" itemscope itemtype="http://schema.org/Product">
-                    <img itemprop="image" src="img/derecho-comercial.jpg" alt="Derecho comercial">
+                <div class="ar-a">
+                    <img src="img/derecho-comercial.jpg" alt="Derecho comercial">
                     <p style="margin-top: 60px">
-                        <span itemprop="description">
+                        <span>
                             Business rights, process advice, formation of companies,
                             restitution of commercial property, commercial legal processes, among others.
                         </span>
                     </p>
                 </div>
-                <div class="ar-a" itemprop="itemListElement" itemscope itemtype="http://schema.org/Product">
-                    <img itemprop="image" src="img/derecho-penal.jpg" alt="Derecho Penal">
+                <div class="ar-a">
+                    <img src="img/derecho-penal.jpg" alt="Derecho Penal">
                     <p style="margin-top: 60px">
-                        <span itemprop="description">
+                        <span>
                             Criminal defense, criminal proceedings concepts, incident
                             of reparation of damages, among others.
                         </span>
@@ -80,13 +80,13 @@
                     <div class="row">
                         <div class="col-sm-6">
                             <!-- colored -->
-                            <div class="ih-item square colored effect6 from_top_and_bottom" itemprop="itemListElement" itemscope itemtype="http://schema.org/Product"><a href="/#areaspract">
+                            <div class="ih-item square colored effect6 from_top_and_bottom" ><a href="/#areaspract">
                                     <div class="img">
-                                        <img itemprop="image" src="../img/derecho-familia.jpg" alt="ajm-medellin" title="Derecho de familia">
+                                        <img src="../img/derecho-familia.jpg" alt="ajm-medellin" title="Derecho de familia">
                                     </div>
                                     <div class="info">
                                         <p style="margin-top: 60px">
-                                            <span itemprop="description">
+                                            <span>
                                                 Get to know first hand our experience with divorce cases,
                                                 food lawsuits, interdictions, filiation, paternity challenge, inheritance among others.
                                             </span>
@@ -101,12 +101,12 @@
                     <div class="row">
                         <div class="col-sm-6">
                             <!-- colored -->
-                            <div class="ih-item square colored effect6 from_top_and_bottom" itemprop="itemListElement" itemscope itemtype="http://schema.org/Product"><a href="/#areaspract">
-                                    <div class="img"><img itemprop="image" src="../img/derecho-civil.jpg" alt="ajm-medellin" title="Derecho civil">
+                            <div class="ih-item square colored effect6 from_top_and_bottom" ><a href="/#areaspract">
+                                    <div class="img"><img src="../img/derecho-civil.jpg" alt="ajm-medellin" title="Derecho civil">
                                     </div>
                                     <div class="info">
                                         <p style="margin-top: 60px">
-                                            <span itemprop="description">
+                                            <span>
                                                 Professionals in the areas of contractual and extra-contractual civil liability,
                                                 contracts and legal businesses and membership processes among others.
                                             </span>
@@ -121,12 +121,12 @@
                     <div class="row">
                         <div class="col-sm-6">
                             <!-- colored -->
-                            <div class="ih-item square colored effect6 from_top_and_bottom" itemprop="itemListElement" itemscope itemtype="http://schema.org/Product"><a href="/#areaspract">
-                                    <div class="img"><img itemprop="image" src="../img/servicios-ajm-laboral.jpg" alt="ajm-medellin" title="Derecho Laboral y Seguridad Social">
+                            <div class="ih-item square colored effect6 from_top_and_bottom" ><a href="/#areaspract">
+                                    <div class="img"><img src="../img/servicios-ajm-laboral.jpg" alt="ajm-medellin" title="Derecho Laboral y Seguridad Social">
                                     </div>
                                     <div class="info">
                                         <p style="margin-top: 60px">
-                                            <span itemprop="description">
+                                            <span>
                                                 We attend labor demands, compensation for unfair dismissal, employer fault,
                                                 <strong> Labor Cassation before the Supreme Court of Justice </strong>,
                                                 recognition of old-age, disability and death pension (survivors), among others.
@@ -145,13 +145,13 @@
                     <div class="row">
                         <div class="col-sm-6">
                             <!-- colored -->
-                            <div class="ih-item square colored effect6 from_top_and_bottom" itemprop="itemListElement" itemscope itemtype="http://schema.org/Product"><a href="/#areaspract">
+                            <div class="ih-item square colored effect6 from_top_and_bottom" ><a href="/#areaspract">
                                     <div class="img">
-                                        <img itemprop="image" src="../img/derecho-admin.jpg" alt="ajm-medellin" title="Derecho administrativo y constitucional">
+                                        <img src="../img/derecho-admin.jpg" alt="ajm-medellin" title="Derecho administrativo y constitucional">
                                     </div>
                                     <div class="info">
                                         <p style="margin-top: 60px">
-                                            <span itemprop="description">
+                                            <span>
                                                 Lawsuits against the state, disciplinary law,
                                                 compensation for unjust deprivation of liberty, petition rights, guardianship actions,
                                                 resources, Responsibility for the use of weapons of official endowment, among others.
@@ -167,13 +167,13 @@
                     <div class="row">
                         <div class="col-sm-6">
                             <!-- colored -->
-                            <div class="ih-item square colored effect6 from_top_and_bottom" itemprop="itemListElement" itemscope itemtype="http://schema.org/Product"><a href="/#areaspract">
+                            <div class="ih-item square colored effect6 from_top_and_bottom" ><a href="/#areaspract">
                                     <div class="img">
-                                        <img itemprop="image" src="../img/derecho-comercial.jpg" alt="ajm-medellin" title="Derecho comercial">
+                                        <img src="../img/derecho-comercial.jpg" alt="ajm-medellin" title="Derecho comercial">
                                     </div>
                                     <div class="info">
                                         <p style="margin-top: 60px">
-                                            <span itemprop="description">
+                                            <span>
                                                 Business rights, process advice, formation of companies,
                                                 restitution of commercial property, commercial legal processes, among others.
                                             </span>
@@ -188,13 +188,13 @@
                     <div class="row">
                         <div class="col-sm-6">
                             <!-- colored -->
-                            <div class="ih-item square colored effect6 from_top_and_bottom" itemprop="itemListElement" itemscope itemtype="http://schema.org/Product"><a href="/#areaspract">
+                            <div class="ih-item square colored effect6 from_top_and_bottom" ><a href="/#areaspract">
                                     <div class="img">
-                                        <img itemprop="image" src="../img/derecho-penal.jpg" alt="ajm-medellin" title="Derecho Penal">
+                                        <img src="../img/derecho-penal.jpg" alt="ajm-medellin" title="Derecho Penal">
                                     </div>
                                     <div class="info">
                                         <p style="margin-top: 60px">
-                                            <span itemprop="description">
+                                            <span>
                                                 Criminal defense, criminal proceedings concepts, incident
                                                 of reparation of damages, among others.
                                             </span>

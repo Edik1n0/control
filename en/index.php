@@ -23,7 +23,7 @@
     </div>
 
     <div class="container">
-        <div class="intro__bg" itemscope itemtype="http://schema.org/ImageObject">
+        <div class="intro__bg" itemscope itemtype="http://schema.org/Organization">
             <div class="intro__img">
                 <img itemprop="image" src="../img/imagen-intro.jpg" alt="Imagen introducción">
             </div>

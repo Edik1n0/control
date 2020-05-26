@@ -1,12 +1,12 @@
 <div class="banner">
-    <div class="banner__logo">
-        <span itemscope itemtype="http://schema.org/ImageObject">
-            <a href="/"><img itemprop="brand" src="img/logo.png" alt="logo-ajm"></a>
-        </span>
+    <div class="banner__logo" itemscope itemtype="http://schema.org/Organization">
+        <a itemprop="url" href="https://asesoriasjuridicasmed.com/"><img itemprop="logo" src="img/logo.png" alt="logo-ajm"></a>
     </div>
+
     <div class="banner__mob">
-        <img src="../img/ajm-background-c-mob.jpg" alt="background-ajm">
+        <img src="../img/ajm-background-c.jpg" alt="background-ajm">
     </div>
+    
     <div class="banner__last">
         <a href="actualidad-juridica">
             <div class="card">
@@ -24,7 +24,7 @@
         </a>
     </div>
     <div class="banner__img">
-        <img src="../img/ajm-background-c.jpg" alt="background-mobile">
+        <img src="../img/ajm-background-c-mob.jpg" alt="background-mobile">
     </div>
     <div class="banner__slogan">
         <p>Professional Lawyers in Medellin</p>

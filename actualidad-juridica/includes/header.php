@@ -42,7 +42,7 @@
     <meta property="og:image" content="https://www.asesoriasjuridicasmed.com/img/logo-og.gif">
     <meta property="og:local" content="es_LA">
     <link rel="stylesheet" href="../css/estilos.css">
-    <title>Actualidad Jurídica | Asesorías Jurídicas Medellín</title>
+    <title>Actualidad Jurídica | Abogados en Medellín | Asesorías Jurídicas Medellín</title>
     <meta name="description" content="Actualidad Jurídica | Abogados en Medellín | Asesorías Jurídicas Medellín | Consulta abogados expertos en Medellín y déjanos representarte.">
     <meta name="keywords" content="actualidad juridica, noticias de derecho, abogados, medellín, asesorías, asesorias, jurídicas, juridicas, asesorías jurídicas medellin, ajm,
     abogados en medellin, asesorias juridicas medellin, representante legal, derecho penal, derecho civil, derecho de familia,
