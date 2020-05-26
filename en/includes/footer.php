@@ -24,13 +24,11 @@
         <div class="footer__loc--contacts">
             <div class="locals">
                 <div class="whatsapp">
-                    <img src="" alt="">
                     <a href="https://api.whatsapp.com/send?phone=573108455348&text=Hola%20me%20gustaría%20tener%20mayor%20información%20sobre%20los%20servicios%20legales%20de%20Asesorías%20Jurídicas%20Medellín">
                         <img src="img/wp.png" alt="wpbutton" class="wpbutton">
                     </a>
                 </div>
                 <div class="email">
-                    <img src="" alt="">
                     <a href="mailto:juridicasmed@gmail.com">juridicasmed@gmail.com</a>
                 </div>
                 <div class="mapa">
@@ -56,13 +54,32 @@
     </div>
     <div class="footer__logo">
         <h4>Logo</h4>
-        <a href="/"><img src="img/logo.png" alt=""></a>
+        <a href="/"><img src="img/logo.png" alt="Asesorías Jurídicas Medellín"></a>
     </div>
 </footer>
 <div class="footer__rights">
     <p>All rights reserved - Medellin - Asesorías Jurídicas Medellín 2019</p>
 </div>
-
+<script type="application/ld+json">
+{
+ "@context" : "http://schema.org",
+ "@type" : "Organization",
+ "name" : "Asesorías Jurídicas Medellín",
+ "url" : "https://asesoriasjuridicasmed.com",
+ "sameAs" : [
+   "https://twitter.com/AsesorasJurdic3",
+   "https://www.facebook.com/juridicasmed",
+   "https://www.linkedin.com/in/juan-carlos-munera-montoya-30136a19a/",
+  ],
+ "address": {
+   "@type": "PostalAddress",
+   "streetAddress": "Calle 49 #50-21, Of 2005.",
+   "addressRegion": "Medellín, Antioquia",
+   "postalCode": "050012",
+   "addressCountry": "COL"
+ }
+}
+</script>
 </body>
 
 </html>

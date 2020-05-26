@@ -1,32 +1,31 @@
-<?php include("includes/header.php") ?>
+<?php include("includes/h-con.php") ?>
 <?php include("includes/nav.php") ?>
 <?php include("includes/inner.php") ?>
 <!--Cuerpo-->
 
 <div class="mapa">
     <div class="header__mapa">
-        <h1>Comunícate con AJM</h1>
-        <h2>Abogados profesionales y especializados en Medellín</h2>
+        <h1>Contact AJM</h1>
+        <h2>Professional and specialized lawyers in Medellín</h2>
     </div>
     <div class="intro__mapa">
         <p>
-            Contacta ya mismo a AJM, equipo calificado de abogados en Medellín, dispuestos a atenderte en horario de
-            8:00 a.m. a 5:00 p.m. a través de nuestros medios virtuales y telefónicos.
+            Contact AJM, a qualified team of lawyers in Medellín, ready to assist you during business hours. 8:00 am. at 5:00 p.m. through our virtual and telephone means.
         </p>
     </div>
-    <div class="body__mapa">
+    <div class="body__mapa" itemscope itemtype="http://schema.org/CivicStructure">
         <div class="texto-mapa">
             <div class="hmap">
-                <p><strong>Encuéntranos fácilmente</strong></p>
-                <p><strong>En Medellín</strong></p>
+                <p><strong>Find us easily</strong></p>
+                <p><strong>In <span itemprop="name">Medellín</span></strong></p>
             </div>
-            <div class="contactos">
+            <div class="contactos" itemprop="address">
 
                 <ul>
-                    <li><a href="https://goo.gl/maps/TPM7Lk6ZLHgjAWWk6" target="_blank" alt="mapa">Calle 49 #50-21, Of 2005.<br>
-                            Edificio del Café, Medellín, Antioquia, Colombia</a></li>
-                    <li><a href="/contacto">(+574) 511 93 94</a></li>
-                    <li><a href="mailto:juridicasmedellin@gmail.com">juridicasmedellin@gmail.com</a></li>
+                    <li><a itemprop="url" href="https://goo.gl/maps/TPM7Lk6ZLHgjAWWk6" target="_blank" alt="mapa"><span itemprop="streetAddress">Calle 49 #50-21, Of 2005.</span><br>
+                            Edificio del Café, <span itemprop="addressLocality">Medellín</span>, <span itemprop="addressRegion">Antioquia, Colombia</span></a></li>
+                    <li><a itemprop="url" href="/contacto">(+574) 511 93 94</a></li>
+                    <li><a itemprop="url" href="mailto:juridicasmedellin@gmail.com">juridicasmedellin@gmail.com</a></li>
                 </ul>
 
             </div>

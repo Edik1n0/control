@@ -2,7 +2,7 @@
     <input type="checkbox" id="btn-menu">
     <label for="btn-menu" class="icon-list-bullet"></label>
     <div class="banner__line">
-        <img src="img/marca-banner.png" alt="">
+        <img src="img/marca-banner.png" alt="Transparencia">
     </div>
     <nav class="menu">
         <ul>

@@ -1,4 +1,4 @@
-<?php include("includes/header.php") ?>
+<?php include("includes/h-con.php") ?>
 <?php include("includes/nav.php") ?>
 <?php include("includes/inner.php") ?>
 <?php include("includes/wp.php") ?>
@@ -15,21 +15,19 @@
             8:00 a.m. a 5:00 p.m. a través de nuestros medios virtuales y telefónicos.
         </p>
     </div>
-    <div class="body__mapa">
+    <div class="body__mapa" itemscope itemtype="http://schema.org/CivicStructure">
         <div class="texto-mapa">
             <div class="hmap">
                 <p><strong>Encuéntranos fácilmente</strong></p>
-                <p><strong>En Medellín</strong></p>
+                <p><strong>En <span itemprop="name">Medellín</span></strong></p>
             </div>
-            <div class="contactos">
-
+            <div class="contactos" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                 <ul>
-                    <li><a href="https://goo.gl/maps/TPM7Lk6ZLHgjAWWk6" target="_blank" alt="mapa">Calle 49 #50-21, Of 2005.<br>
-                            Edificio del Café, Medellín, Antioquia, Colombia</a></li>
-                    <li><a href="/contacto">(+574) 511 93 94</a></li>
-                    <li><a href="mailto:juridicasmedellin@gmail.com">juridicasmedellin@gmail.com</a></li>
+                    <li"><a itemprop="url" href="https://goo.gl/maps/TPM7Lk6ZLHgjAWWk6" target="_blank" alt="mapa"><span itemprop="streetAddress">Calle 49 #50-21, Of 2005.</span><br>
+                            Edificio del Café, <span itemprop="addressLocality">Medellín</span> , <span itemprop="addressRegion">Antioquia, Colombia</span></a></li>
+                    <li><a itemprop="url" href="/contacto">(+574) 511 93 94</a></li>
+                    <li><a itemprop="email" href="mailto:juridicasmedellin@gmail.com">juridicasmedellin@gmail.com</a></li>
                 </ul>
-
             </div>
         </div>
 

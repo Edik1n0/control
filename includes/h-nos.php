@@ -36,16 +36,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1>">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta property="og:title" content="Asesorías Jurídicas Medellín | Abogados en Medellín">
-    <meta property="og:description" content="Asesorías Jurídicas Medellín | Servicios Legales | Abogados especializados con alta experiencia en Medellín">
+    <meta property="og:title" content="Nosotros | Asesorías Jurídicas Medellín">
+    <meta property="og:description" content="Nosotros somos | Asesorías Jurídicas Medellín | Abogados especializados con alta experiencia en Medellín">
     <meta property="og:type" content="Web">
-    <meta property="og:url" content="https://www.asesoriasjuridicasmed.com/">
+    <meta property="og:url" content="https://www.asesoriasjuridicasmed.com/nosotros">
     <meta property="og:image" content="https://www.asesoriasjuridicasmed.com/img/logo-face.jpg">
     <meta property="og:local" content="es_LA">
     <link rel="stylesheet" href="css/estilos.css">
-    <title>Asesorías Jurídicas Medellín | Abogados en Medellín</title>
-    <meta name="description" content="Abogados en Medellín | Asesorías Jurídicas Medellín | Consulta abogados expertos en Medellín y déjanos representarte.">
-    <meta name="keywords" content="abogados, medellín, asesorías, asesorias, jurídicas, juridicas, asesorías jurídicas medellin, ajm,
+    <title>Nosotros | Asesorías Jurídicas Medellín</title>
+    <meta name="description" content="Nosotros | Asesorías Jurídicas Medellín | Abogados en Medellín | Consulta abogados expertos en Medellín y déjanos representarte.">
+    <meta name="keywords" content="nosotros, abogados, medellín, asesorías, asesorias, jurídicas, juridicas, asesorías jurídicas medellin, ajm,
     abogados en medellin, asesorias juridicas medellin, representante legal, derecho penal, derecho civil, derecho de familia,
     demandas contra el estado, sucesiones, herencias, demanda por alimentos, casaciones ante la corte suprema de justicia, demandas,
     derecho penal, asesoramiento juridico, asesoramiento legal, asesoria legal, legal, derechos civiles, estudio de abogados, derecho laboral,

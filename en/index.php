@@ -5,7 +5,8 @@
         <button type="button" class="close" data-dismiss="alert">&times;</button>
         <?= $_SESSION['message'] ?>
     </div>
-<?php session_unset(); } ?>
+<?php session_unset();
+} ?>
 
 <?php include("includes/header.php") ?>
 <?php include("includes/nav.php") ?>
@@ -17,22 +18,22 @@
 
     <div class="intro__background">
         <div class="bg__home">
-            <img src="../img/fondo-med.png" alt="">
+            <img src="../img/fondo-med.png" alt="Background Cuerpo">
         </div>
     </div>
 
     <div class="container">
-        <div class="intro__bg">
+        <div class="intro__bg" itemscope itemtype="http://schema.org/ImageObject">
             <div class="intro__img">
-                <img src="../img/imagen-intro.jpg" alt="">
+                <img itemprop="image" src="../img/imagen-intro.jpg" alt="Imagen introducción">
             </div>
             <div class="intro__txt">
                 <div class="header__intro--txt">
-                    <h1>Asesorías Jurídicas Medellín</h1>
-                    <h2>Professional lawyers in all areas of the law</h2>
+                    <h1 itemprop="name">Asesorías Jurídicas Medellín</h1>
+                    <h2 itemprop="slogan">Professional lawyers in all areas of the law</h2>
                 </div>
-                <p>Meet in Medellín professional and specialized legal services in all areas of law,
-                    with experienced lawyers and with extensive experience in the city.</p>
+                <p> <span itemprop="description">Meet in Medellín professional and specialized legal services in all areas of law,
+                    with experienced lawyers and with extensive experience in the city.</span> </p>
                 <p class="separador__intro--txt">_________________________________________________</p>
                 <p>Explore and know our services, means of contact and our team, which will provide legal services
                     in Colombia.</p>

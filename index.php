@@ -17,21 +17,21 @@
 
     <div class="intro__background">
         <div class="bg__home">
-            <img src="img/fondo-med.png" alt="">
+            <img src="img/fondo-med.png" alt="Background Cuerpo">
         </div>
     </div>
 
     <div class="container">
-        <div class="intro__bg">
+        <div class="intro__bg" itemscope itemtype="http://schema.org/ImageObject">
             <div class="intro__img">
-                <img src="img/imagen-intro.jpg" alt="">
+                <img itemprop="image" src="img/imagen-intro.jpg" alt="Imagen introducción">
             </div>
             <div class="intro__txt">
                 <div class="header__intro--txt">
-                    <h1>Asesorías Jurídicas Medellín</h1>
-                    <h2>Abogados profesionales en todas las áreas del derecho</h2>
+                    <h1 itemprop="name">Asesorías Jurídicas Medellín</h1>
+                    <h2 itemprop="slogan">Abogados expertos en Medellín</h2>
                 </div>
-                <p>Conozca en Medellín los servicios jurídicos profesionales y especializados en todas las áreas del derecho, con Abogados expertos y con amplia experiencia en la ciudad.</p>
+                <p><span itemprop="description">Conozca en Medellín los servicios jurídicos profesionales. Asesoramiento legal con <strong>Abogados expertos</strong> y con amplia experiencia en la ciudad.</span></p>
                 <p class="separador__intro--txt">_________________________________________________</p>
                 <p>Navegue y conozca nuestros servicios, medios de contacto y nuestro equipo, que le brindará servicios a nivel nacional.</p>
             </div>

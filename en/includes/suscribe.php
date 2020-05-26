@@ -16,6 +16,6 @@
 
 <div class="subsback">
     <div class="subsback__img">
-        <img src="../img/fondo-bajo.png" alt="">
+        <img src="../img/fondo-bajo.png" alt="Fondo Bajo Imagen">
     </div>
 </div>

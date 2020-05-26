@@ -60,4 +60,27 @@
 </footer>
 <div class="footer__rights">
     <p>Todos los derechos reservados - Medellín - Asesorías Jurídicas Medellín 2019</p>
+
+
 </div>
+
+<script type="application/ld+json">
+{
+ "@context" : "http://schema.org",
+ "@type" : "Organization",
+ "name" : "Asesorías Jurídicas Medellín",
+ "url" : "https://asesoriasjuridicasmed.com",
+ "sameAs" : [
+   "https://twitter.com/AsesorasJurdic3",
+   "https://www.facebook.com/juridicasmed",
+   "https://www.linkedin.com/in/juan-carlos-munera-montoya-30136a19a/",
+  ],
+ "address": {
+   "@type": "PostalAddress",
+   "streetAddress": "Calle 49 #50-21, Of 2005.",
+   "addressRegion": "Medellín, Antioquia",
+   "postalCode": "050012",
+   "addressCountry": "COL"
+ }
+}
+</script>

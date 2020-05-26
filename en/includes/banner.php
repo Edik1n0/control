@@ -1,9 +1,11 @@
 <div class="banner">
     <div class="banner__logo">
-        <a href="/"><img src="../img/logo.png" alt=""></a>
+        <span itemscope itemtype="http://schema.org/ImageObject">
+            <a href="/"><img itemprop="brand" src="img/logo.png" alt="logo-ajm"></a>
+        </span>
     </div>
     <div class="banner__mob">
-        <img src="../img/ajm-background-c-mob.jpg" alt="">
+        <img src="../img/ajm-background-c-mob.jpg" alt="background-ajm">
     </div>
     <div class="banner__last">
         <a href="actualidad-juridica">
@@ -12,7 +14,7 @@
                     <p>Hablemos claro del Arrendamiento</p>
                 </div>
                 <div class="card__img">
-                    <img src="../img/arrenda.jpg" alt="">
+                    <img src="../img/arrenda.jpg" alt="imagen-arrendamiento">
                     <p>___________________________</p>
                 </div>
                 <div class="card__desc">
@@ -22,7 +24,7 @@
         </a>
     </div>
     <div class="banner__img">
-        <img src="../img/ajm-background-c.jpg" alt="">
+        <img src="../img/ajm-background-c.jpg" alt="background-mobile">
     </div>
     <div class="banner__slogan">
         <p>Professional Lawyers in Medellin</p>

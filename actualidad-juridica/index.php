@@ -34,7 +34,7 @@
                         <div class="ih-item square colored effect6 from_top_and_bottom">
                             <a href="arrendamiento">
                                 <div class="img">
-                                    <img src="../img/arrenda-mini.jpg" alt="ajm-medellin" title="Derecho de familia">
+                                    <img src="../img/arrenda-mini.jpg" alt="Arrendamientos" title="Arrendamientos">
                                 </div>
                                 <div class="info">
                                     <h3>Hablemos claro del arrendamiento</h3>

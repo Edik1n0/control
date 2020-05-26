@@ -1,16 +1,16 @@
-<?php include("../en/includes/header.php") ?>
+<?php include("includes/h-about.php") ?>
 <?php include("includes/nav.php") ?>
 <?php include("includes/inner.php") ?>
 <!--Cuerpo-->
 
 <div class="bg__nos">
-    <img src="../img/fondo-nos.png" alt="">
+    <img src="../img/fondo-nos.png" alt="Fondo Nosotros">
 </div>
 
 <div class="container">
-    <div class="nosotros">
+    <div class="nosotros" itemscope itemtype="http://schema.org/Organization">
         <div class="nosotros__header">
-            <h1>Meet the team that integrates AJM</h1>
+            <h1>Meet the team that integrates <span itemprop="name">Asesorías Jurídicas Medellín</span></h1>
             <h2>Specialized Lawyers in Medellín</h2>
         </div>
         <div class="nosotros__intro">
@@ -25,16 +25,14 @@
                         <!-- colored -->
                         <div class="ih-item square colored effect6 from_top_and_bottom"><a href="#">
                                 <div class="../img">
-                                    <img src="../img/natalia.png" alt="ajm-medellin" title="Derecho de familia">
+                                    <img itemprop="image" src="../img/natalia.png" alt="Natalia Urrea" title="Natalia Urrea Patiño">
                                 </div>
-
                                 <div class="info">
-                                    <h3>Dr. Natalia Urrea Patiño</h3>
-                                    <p style="margin-top: 60px">
-                                        Public Accountant and Lawyer (U of A) / Finance Specialist Public (ESAP).
-                                    </p>
+                                    <span itemprop="alumni" itemscope itemtype="http://schema.org/Person">
+                                        <h3><span itemprop="name">Dra. Natalia Urrea Patiño</span></h3>
+                                        <p style="margin-top: 60px">Public Accountant and Lawyer (U of A) / Finance Specialist Public (ESAP).</p>
+                                    </span>
                                 </div>
-
                             </a>
                         </div>
                         <!-- end colored -->
@@ -45,14 +43,14 @@
                         <!-- colored -->
                         <div class="ih-item square colored effect6 from_top_and_bottom"><a href="#">
                                 <div class="../img">
-                                    <img src="../img/michele.png" alt="ajm-medellin" title="Derecho de familia">
+                                    <img itemprop="image" src="../img/michele.png" alt="Cinthia Michele Narváez" title="Cinthia Michele Narváez">
                                 </div>
                                 <div class="info">
-                                    <h3>Dr. Cinthia Michele Narváez Hoyos</h3>
-                                    <p style="margin-top: 60px">
-                                        Lawyer (U of A) / Specialist in Labor Law and Industrial
-                                        Relations (Universidad Externado de Colombia).
-                                    </p>
+                                    <span itemprop="alumni" itemscope itemtype="http://schema.org/Person">
+                                        <h3><span itemprop="name">Dr. Cinthia Michele Narváez Hoyos</span></h3>
+                                        <p style="margin-top: 60px">Lawyer (U of A) / Specialist in Labor Law and Industrial
+                                            Relations (Universidad Externado de Colombia)..</p>
+                                    </span>
                                 </div>
                             </a>
                         </div>
@@ -67,14 +65,14 @@
                         <!-- colored -->
                         <div class="ih-item square colored effect6 from_top_and_bottom"><a href="#">
                                 <div class="../img">
-                                    <img src="../img/carlos-montoya.png" alt="ajm-medellin" title="Derecho de familia">
+                                    <img itemprop="image" src="../img/carlos-montoya.png" alt="Juan Carlos Múnera" title="Juan Carlos Múnera">
                                 </div>
                                 <div class="info">
-                                    <h3>Dr. Juan Carlos Múnera Montoya</h3>
-                                    <p style="margin-top: 60px">
-                                        Lawyer (U of A) / Specialist in Public Administrative Law
-                                        (UNAULA) / Professor at the University of Antioquia.
-                                    </p>
+                                    <span itemprop="alumni" itemscope itemtype="http://schema.org/Person">
+                                        <h3><span itemprop="name">Dr. Juan Carlos Múnera Montoya</span></h3>
+                                        <p style="margin-top: 60px">Lawyer (U of A) / Specialist in Public Administrative Law
+                                            (UNAULA) / Professor at the University of Antioquia.</p>
+                                    </span>
                                 </div>
                             </a>
                         </div>
@@ -86,14 +84,14 @@
                         <!-- colored -->
                         <div class="ih-item square colored effect6 from_top_and_bottom"><a href="#">
                                 <div class="../img">
-                                    <img src="" alt="ajm-medellin" title="Derecho de familia">
+                                    <img itemprop="image" src="../img/abogados-isabel.jpg" alt="María Isabel Pareja" title="María Isabel Pareja">
                                 </div>
                                 <div class="info">
-                                    <h3>Dr. María Isabel Pareja Restrepo</h3>
-                                    <p style="margin-top: 60px">
-                                        Lawyer (UdeA) / Specialist in Work and Administrative Laws
-                                        (University of Medellín).
-                                    </p>
+                                    <span itemprop="alumni" itemscope itemtype="http://schema.org/Person">
+                                        <h3><span itemprop="name">Dr. María Isabel Pareja Restrepo</span></h3>
+                                        <p style="margin-top: 60px">Lawyer (UdeA) / Specialist in Work and Administrative Laws
+                                            (University of Medellín).</p>
+                                    </span>
                                 </div>
                             </a>
                         </div>
@@ -145,7 +143,7 @@
             </div>
             <div class="sobre__body">
                 <div class="sobre__img">
-                    <img src="../img/imagen-valores-ajm.jpg" alt="">
+                    <img src="img/imagen-valores-ajm.jpg" alt="Nuestros Valores" title="Our Values">
                 </div>
                 <div class="sobre__txt">
                     <h3 class="uniquehtres">Our Mision</h3>
@@ -175,7 +173,7 @@
 </div>
 
 <div class="bg__nosf">
-    <img src="../img/fondo-bajo.png" alt="">
+    <img src="../img/fondo-bajo.png" alt="Fondo Bajo Nosotros">
 </div>
 
 <!--Fin Cuerpo-->

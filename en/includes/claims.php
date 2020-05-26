@@ -5,22 +5,22 @@
     </div>
     <div class="claims__body">
         <div class="claims__asesoria">
-            <a href="#claims"><img src="../img/claim-asesoria-ajm.png" alt="">
+            <a href="#claims"><img src="../img/claim-asesoria-ajm.png" alt="Claim Asesoría">
                 <p style="margin-left: 20px;">Service quality<br>guaranteed</p>
             </a>
         </div>
         <div class="claims__calidad">
-            <a href="#claims"><img src="../img/claim-calidad-ajm.png" alt="">
+            <a href="#claims"><img src="../img/claim-calidad-ajm.png" alt="Claim Calidad">
                 <p>Professional and<br>transparent service</p>
             </a>
         </div>
         <div class="claims__clientes">
-            <a href="#claims"><img src="../img/claim-clientes-ajm.png" alt="">
+            <a href="#claims"><img src="../img/claim-clientes-ajm.png" alt="Claim Clientes">
                 <p style="margin-left: -8px;">We protect the privacy<br>of our clients</p>
             </a>
         </div>
         <div class="claims__justicia">
-            <a href="#claims"><img src="../img/claim-justicia-ajm.png" alt="">
+            <a href="#claims"><img src="../img/claim-justicia-ajm.png" alt="Claim Justicia">
                 <p style="margin-left: 10px;">Personalized and<br>accessible advice</p>
             </a>
         </div>
