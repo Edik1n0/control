@@ -72,7 +72,7 @@
             "https://twitter.com/AsesorasJurdic3",
             "https://www.youtube.com/channel/UC-BVRDpwP6PiT2GDryZkXPA",
             "https://www.linkedin.com/in/juan-carlos-munera-montoya-30136a19a/"
-        ]
+        ],
         "address": {
             "@type": "PostalAddress",
             "streetAddress": "Calle 49 #50-21, Of 2005",
@@ -90,10 +90,10 @@
         "legalName": "Asesorías Jurídicas Medellín",
         "url": "https://asesoriasjuridicasmed.com",
         "contactPoint": [{
-            "@type": "Consulta con nosotros",
+            "@type": "contactPoint",
             "telephone": "+57 310 8455348",
-            "contactType": "Atención al cliente"
-        }]
+            "contactType": "Contacta con nosotros"
+        }],
         "logo": "https://www.asesoriasjuridicasmed.com/img/logo-face.jpg",
         "sameAs": ["https://www.facebook.com/juridicasmed",
             "https://twitter.com/AsesorasJurdic3",
@@ -135,4 +135,5 @@
         }
     }
 </script>
+
 </body>
