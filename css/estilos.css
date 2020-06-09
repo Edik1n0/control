@@ -55,20 +55,29 @@ footer {
 }
 .footer__loc .footer__loc--contacts .social {
   display: flex;
-  justify-content: space-between;
   margin-top: 60px;
+  margin-left: 10px;
+}
+.footer__loc .footer__loc--contacts .social .sc-a,
+.footer__loc .footer__loc--contacts .social .sc-b {
+  display: flex;
 }
 .footer__loc .footer__loc--contacts .social .face img {
   width: 30px;
-  margin: 14px;
+  margin: 24px;
 }
 .footer__loc .footer__loc--contacts .social .twit img {
   width: 70px;
-  margin: 14px;
+  margin: 24px;
 }
 .footer__loc .footer__loc--contacts .social .linkedin img {
   width: 60px;
-  margin: 14px;
+  margin: 24px;
+}
+.footer__loc .footer__loc--contacts .social .youtube img {
+  width: 70px;
+  margin-top: 34px;
+  margin-left: 24px;
 }
 .footer__loc .footer__loc--contacts .social img:hover {
   opacity: 70%;
@@ -100,7 +109,7 @@ footer {
   footer {
     display: block;
     text-align: center;
-    height: 940px;
+    height: 980px;
   }
   footer .footer__nav,
 footer .footer__loc,
@@ -112,10 +121,19 @@ footer .footer__logo {
   footer .footer__loc {
     margin-top: 60px;
   }
-  footer .footer__loc .social {
-    margin-top: 0px;
+  footer .footer__loc .footer__loc--contacts .social {
+    margin-top: 40px;
+    display: block;
   }
-  footer .footer__loc .social img {
+  footer .footer__loc .footer__loc--contacts .social .sc-a,
+footer .footer__loc .footer__loc--contacts .social .sc-b {
+    display: flex;
+    margin-left: 70px;
+  }
+  footer .footer__loc .footer__loc--contacts .social .sc-b {
+    margin-left: 54px;
+  }
+  footer .footer__loc .footer__loc--contacts .social img {
     width: 80px;
   }
   footer .footer__logo {
@@ -130,6 +148,7 @@ footer .footer__logo {
   .footer__rights {
     background: #181C1F;
     text-align: center;
+    margin-top: 0px;
   }
   .footer__rights p {
     background: #181C1F;
@@ -141,7 +160,7 @@ footer .footer__logo {
   footer {
     display: block;
     text-align: center;
-    height: 940px;
+    height: 950px;
   }
   footer .footer__nav,
 footer .footer__loc,
@@ -153,10 +172,19 @@ footer .footer__logo {
   footer .footer__loc {
     margin-top: 60px;
   }
-  footer .footer__loc .social {
-    margin-top: 0px;
+  footer .footer__loc .footer__loc--contacts .social {
+    margin-top: 40px;
+    display: block;
   }
-  footer .footer__loc .social img {
+  footer .footer__loc .footer__loc--contacts .social .sc-a,
+footer .footer__loc .footer__loc--contacts .social .sc-b {
+    display: flex;
+    margin-left: 70px;
+  }
+  footer .footer__loc .footer__loc--contacts .social .sc-b {
+    margin-left: 54px;
+  }
+  footer .footer__loc .footer__loc--contacts .social img {
     width: 80px;
   }
   footer .footer__logo {
@@ -171,6 +199,7 @@ footer .footer__logo {
   .footer__rights {
     background: #181C1F;
     text-align: center;
+    margin-top: 0px;
   }
   .footer__rights p {
     background: #181C1F;
@@ -194,10 +223,19 @@ footer .footer__logo {
   footer .footer__loc {
     margin-top: 60px;
   }
-  footer .footer__loc .social {
-    margin-top: 0px;
+  footer .footer__loc .footer__loc--contacts .social {
+    margin-top: 40px;
+    display: block;
   }
-  footer .footer__loc .social img {
+  footer .footer__loc .footer__loc--contacts .social .sc-a,
+footer .footer__loc .footer__loc--contacts .social .sc-b {
+    display: flex;
+    margin-left: 70px;
+  }
+  footer .footer__loc .footer__loc--contacts .social .sc-b {
+    margin-left: 54px;
+  }
+  footer .footer__loc .footer__loc--contacts .social img {
     width: 80px;
   }
   footer .footer__logo {
@@ -212,6 +250,7 @@ footer .footer__logo {
   .footer__rights {
     background: #181C1F;
     text-align: center;
+    margin-top: 0px;
   }
   .footer__rights p {
     background: #181C1F;
@@ -571,7 +610,7 @@ header .banner__line img {
   top: 240px;
   z-index: 2;
   width: 220px;
-  height: 280px;
+  height: 240px;
   color: white;
   background: #181C1F;
   border-radius: 6px;
@@ -6071,12 +6110,14 @@ header .banner__line img {
   }
   .intro .container .intro__bg {
     display: block;
+    padding-left: 10px;
   }
   .intro .container .intro__bg .intro__img img {
     width: 280px;
   }
   .intro .container .intro__bg .intro__txt {
     margin: 0px;
+    width: 100%;
   }
   .intro .container .intro__bg .intro__txt .separador__intro--txt {
     margin-left: -12px;
@@ -6091,6 +6132,7 @@ header .banner__line img {
   }
   .intro .container .intro__bg {
     display: block;
+    padding-left: 10px;
   }
   .intro .container .intro__bg .intro__img img {
     width: 330px;

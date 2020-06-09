@@ -36,14 +36,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1>">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta property="og:description" content="Contact us | Asesorías Jurídicas Medellín | Specialized lawyers with high experience in Medellín">
+    <meta property="og:description" content="Asesorías Jurídicas Medellín | Specialized lawyers with high experience in Medellín">
     <meta property="og:title" content="Lawyers in Medellín | Asesorías Jurídicas Medellín">
     <meta property="og:type" content="Web">
     <meta property="og:url" content="https://www.asesoriasjuridicasmed.com/en/">
     <meta property="og:image" content="https://www.asesoriasjuridicasmed.com/img/logo-face.jpg">
     <meta property="og:local" content="es_LA">
     <link rel="stylesheet" href="../css/estilos.css">
-    <title>Contact us | Lawyers in Medellín | Asesorías Jurídicas Medellín</title>
+    <title>Lawyers in Medellín | Asesorías Jurídicas Medellín</title>
     <meta name="description" content="Lawyers in Medellín | Asesorías Jurídicas Medellín | Consult expert lawyers in Medellín and let us represent you">
     <meta name="keywords" content="lawyers, medellín, consultancies, legal advisory, legal, legal consultancies medellin, ajm, lawyers in medellin, legal advice medellin, legal representative, criminal law, civil law, family law, lawsuits against the state, inheritances, inheritances, demand for food, cassations before the supreme court of justice, lawsuits, criminal law, legal advice, legal advice, legal advice, legal, civil rights, law firm, labor law, labor rights, legal services, lawyer">
     <meta name="author" content="k1n0com">

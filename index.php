@@ -31,7 +31,7 @@
                     <h1 itemprop="name">Asesorías Jurídicas Medellín</h1>
                     <h2 itemprop="slogan">Abogados expertos en Medellín</h2>
                 </div>
-                <p><span itemprop="description">Conozca en Medellín los servicios jurídicos profesionales. Asesoramiento legal con <strong>Abogados expertos</strong> y con amplia experiencia en la ciudad.</span></p>
+                <p><span itemprop="description">Conozca los servicios jurídicos que podemos brindarle, mediante el asesoramiento con <strong>abogados expertos</strong> y con amplia experiencia.</span></p>
                 <p class="separador__intro--txt">_________________________________________________</p>
                 <p>Navegue y conozca nuestros servicios, medios de contacto y nuestro equipo, que le brindará servicios a nivel nacional.</p>
             </div>

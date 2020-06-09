@@ -8,17 +8,17 @@
         <img src="img/ajm-background-d-mob.jpg" alt="background-ajm">
     </div>
     <div class="inner__last">
-        <a href="actualidad-juridica">
+        <a href="https://www.youtube.com/watch?v=fN61m6G0BAU" target="_blank" rel="nofollow">
             <div class="card">
                 <div class="card__header">
-                    <p>Hablemos claro del Arrendamiento</p>
+                    <p>Pago de letras, cheques y pagarés en época de COVID-19</p>
                 </div>
                 <div class="card__img">
-                    <img src="img/arrenda.jpg" alt="imagen-arrendamiento">
+                    <img src="img/pagos.jpg" alt="pagos">
                     <p>___________________________</p>
                 </div>
                 <div class="card__desc">
-                    <p>Hablemos Claro del arrendamiento en tiempos de COVID-19.</p>
+                    <p>Ver en YouTube</p>
                 </div>
             </div>
         </a>

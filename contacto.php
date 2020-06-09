@@ -23,7 +23,7 @@
             </div>
             <div class="contactos" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                 <ul>
-                    <li"><a itemprop="url" href="https://goo.gl/maps/TPM7Lk6ZLHgjAWWk6" target="_blank" alt="mapa"><span itemprop="streetAddress">Calle 49 #50-21, Of 2005.</span><br>
+                    <li><a itemprop="url" href="https://goo.gl/maps/TPM7Lk6ZLHgjAWWk6" target="_blank" alt="mapa"><span itemprop="streetAddress">Calle 49 #50-21, Of 2005.</span><br>
                             Edificio del Café, <span itemprop="addressLocality">Medellín</span> , <span itemprop="addressRegion">Antioquia, Colombia</span></a></li>
                     <li><a itemprop="url" href="/contacto">(+574) 511 93 94</a></li>
                     <li><a itemprop="email" href="mailto:juridicasmedellin@gmail.com">juridicasmedellin@gmail.com</a></li>

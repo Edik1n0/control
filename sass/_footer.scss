@@ -62,22 +62,32 @@ footer {
 
     .social {
       display: flex;
-      justify-content: space-between;
       margin-top: 60px;
+      margin-left: 10px;
+      .sc-a,
+      .sc-b {
+        display: flex;
+      }
 
       .face img {
         width: 30px;
-        margin: 14px;
+        margin: 24px;
       }
 
       .twit img {
         width: 70px;
-        margin: 14px;
+        margin: 24px;
       }
 
       .linkedin img {
         width: 60px;
-        margin: 14px;
+        margin: 24px;
+      }
+
+      .youtube img {
+        width: 70px;
+        margin-top: 34px;
+        margin-left: 24px;
       }
 
       img:hover {
@@ -115,7 +125,7 @@ footer {
   footer {
     display: block;
     text-align: center;
-    height: 940px;
+    height: 980px;
 
     .footer__nav,
     .footer__loc,
@@ -128,11 +138,23 @@ footer {
     .footer__loc {
       margin-top: 60px;
 
-      .social {
-        margin-top: 0px;
+      .footer__loc--contacts {
+        .social {
+          margin-top: 40px;
+          display: block;
+          .sc-a,
+          .sc-b {
+            display: flex;
+            margin-left: 70px;
+          }
 
-        img {
-          width: 80px;
+          .sc-b {
+            margin-left: 54px;
+          }
+
+          img {
+            width: 80px;
+          }
         }
       }
     }
@@ -150,6 +172,7 @@ footer {
   .footer__rights {
     background: $Gris;
     text-align: center;
+    margin-top: 0px;
     p {
       background: $Gris;
       display: block;
@@ -162,7 +185,7 @@ footer {
   footer {
     display: block;
     text-align: center;
-    height: 940px;
+    height: 950px;
 
     .footer__nav,
     .footer__loc,
@@ -175,11 +198,23 @@ footer {
     .footer__loc {
       margin-top: 60px;
 
-      .social {
-        margin-top: 0px;
+      .footer__loc--contacts {
+        .social {
+          margin-top: 40px;
+          display: block;
+          .sc-a,
+          .sc-b {
+            display: flex;
+            margin-left: 70px;
+          }
 
-        img {
-          width: 80px;
+          .sc-b {
+            margin-left: 54px;
+          }
+
+          img {
+            width: 80px;
+          }
         }
       }
     }
@@ -197,6 +232,7 @@ footer {
   .footer__rights {
     background: $Gris;
     text-align: center;
+    margin-top: 0px;
     p {
       background: $Gris;
       display: block;
@@ -222,11 +258,23 @@ footer {
     .footer__loc {
       margin-top: 60px;
 
-      .social {
-        margin-top: 0px;
+      .footer__loc--contacts {
+        .social {
+          margin-top: 40px;
+          display: block;
+          .sc-a,
+          .sc-b {
+            display: flex;
+            margin-left: 70px;
+          }
 
-        img {
-          width: 80px;
+          .sc-b {
+            margin-left: 54px;
+          }
+
+          img {
+            width: 80px;
+          }
         }
       }
     }
@@ -244,6 +292,7 @@ footer {
   .footer__rights {
     background: $Gris;
     text-align: center;
+    margin-top: 0px;
     p {
       background: $Gris;
       display: block;

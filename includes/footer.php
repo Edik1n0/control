@@ -29,24 +29,32 @@
                     </a>
                 </div>
                 <div class="email">
-                    <a href="mailto:juridicasmed@gmail.com">juridicasmed@gmail.com</a>
+                    <a href="mailto:juridicasmed@gmail.com">juridicasmedellin@gmail.com</a>
                 </div>
                 <div class="mapa">
-                    <a href="https://g.page/asesorias-juridicas-medellin?share">Calle 49# 50-21, Medellín, Antioquia</a>
+                    <a href="https://g.page/asesorias-juridicas-medellin?share">Calle 49# 50-21 Oficina 2005, Medellín, Antioquia</a>
                 </div>
             </div>
             <div class="social">
-                <div class="face">
-                    <a href="https://www.facebook.com/juridicasmed">
-                        <img src="img/facebook.png" alt="facebook" title="Facebook" class="butface"></a>
+                <div class="sc-a">
+                    <div class="face">
+                        <a href="https://www.facebook.com/juridicasmed">
+                            <img src="img/facebook.png" alt="facebook" title="Facebook" class="butface"></a>
+                    </div>
+                    <div class="twit">
+                        <a href="https://twitter.com/AsesorasJurdic3">
+                            <img src="img/twitter.png" alt="twitter" title="Twitter" class="buttwit"></a>
+                    </div>
                 </div>
-                <div class="twit">
-                    <a href="https://twitter.com/AsesorasJurdic3">
-                        <img src="img/twitter.png" alt="twitter" title="Twitter" class="buttwit"></a>
-                </div>
-                <div class="linkedin">
-                    <a href="https://www.linkedin.com/in/juan-carlos-munera-montoya-30136a19a/">
-                        <img src="img/linkedin.png" alt="linkedin" title="LinkedIn" class="butlink"></a>
+                <div class="sc-b">
+                    <div class="linkedin">
+                        <a href="https://www.linkedin.com/in/juan-carlos-munera-montoya-30136a19a/">
+                            <img src="img/linkedin.png" alt="linkedin" title="LinkedIn" class="butlink"></a>
+                    </div>
+                    <div class="youtube">
+                        <a href="https://www.youtube.com/channel/UC-BVRDpwP6PiT2GDryZkXPA">
+                            <img src="img/youtube.png" alt="youtube" title="Youtube" class="butlink"></a>
+                    </div>
                 </div>
             </div>
         </div>

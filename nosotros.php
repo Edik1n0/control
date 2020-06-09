@@ -67,7 +67,7 @@
                         <!-- colored -->
                         <div class="ih-item square colored effect6 from_top_and_bottom"><a href="#">
                                 <div class="img">
-                                    <img itemprop="image" src="img/carlos-montoya.png" alt="Dr. Juan Carlos Múnera Montoya" title="Dr. Juan Carlos Múnera Montoya">
+                                    <img itemprop="image" src="img/carlos-montoya-b.png" alt="Dr. Juan Carlos Múnera Montoya" title="Dr. Juan Carlos Múnera Montoya">
                                 </div>
                                 <div class="info">
                                     <span itemprop="alumni" itemscope itemtype="http://schema.org/Person">
