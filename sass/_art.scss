@@ -198,18 +198,16 @@ a.close.disabled {
   .articulo__intro {
     padding: 20px;
     color: $Gris;
-    display: flex;
-    justify-content: space-around;
+    display: block;
+    justify-content: center;
     text-align: center;
 
     .articulo__img {
-      background: $Gris;
-      width: 780px;
+      margin-top: 20px;
       display: block;
       align-items: center;
       img {
         margin: 20px;
-        width: 740px;
       }
       .articulo__txt {
         padding-bottom: 16px;
@@ -417,6 +415,8 @@ a.close.disabled {
 }
 
 .arrows {
+  display: flex;
+  justify-content: space-around;
   img {
     width: 40px;
     &:hover {
@@ -424,18 +424,6 @@ a.close.disabled {
       transition: all 0.6s;
       position: relative;
     }
-  }
-
-  .arrow__left {
-    position: absolute;
-    right: 140px;
-    top: 1120px;
-  }
-
-  .arrow__right {
-    position: absolute;
-    left: 140px;
-    top: 1120px;
   }
 }
 
@@ -526,15 +514,7 @@ a.close.disabled {
     }
   }
   .arrows {
-    .arrow__left {
-      margin-top: 40px;
-      margin-right: -100px;
-    }
-
-    .arrow__right {
-      margin-top: 40px;
-      margin-left: -100px;
-    }
+    margin-top: 80px;
   }
 }
 
@@ -622,17 +602,6 @@ a.close.disabled {
           }
         }
       }
-    }
-  }
-  .arrows {
-    .arrow__left {
-      margin-top: 80px;
-      margin-right: -100px;
-    }
-
-    .arrow__right {
-      margin-top: 80px;
-      margin-left: -100px;
     }
   }
 }
@@ -723,17 +692,6 @@ a.close.disabled {
       }
     }
   }
-  .arrows {
-    .arrow__left {
-      margin-top: 40px;
-      margin-right: -100px;
-    }
-
-    .arrow__right {
-      margin-top: 40px;
-      margin-left: -100px;
-    }
-  }
 }
 
 @media (min-width: 411px) and (max-width: 768px) {
@@ -820,18 +778,6 @@ a.close.disabled {
           }
         }
       }
-    }
-  }
-
-  .arrows {
-    .arrow__left {
-      margin-top: 40px;
-      margin-right: -100px;
-    }
-
-    .arrow__right {
-      margin-top: 40px;
-      margin-left: -100px;
     }
   }
 }

@@ -7275,19 +7275,17 @@ a.close.disabled {
 .articulo .articulo__intro {
   padding: 20px;
   color: #181C1F;
-  display: flex;
-  justify-content: space-around;
+  display: block;
+  justify-content: center;
   text-align: center;
 }
 .articulo .articulo__intro .articulo__img {
-  background: #181C1F;
-  width: 780px;
+  margin-top: 20px;
   display: block;
   align-items: center;
 }
 .articulo .articulo__intro .articulo__img img {
   margin: 20px;
-  width: 740px;
 }
 .articulo .articulo__intro .articulo__img .articulo__txt {
   padding-bottom: 16px;
@@ -7477,6 +7475,10 @@ a.close.disabled {
   box-shadow: 6px 6px 4px 0px rgba(0, 0, 0, 0.75);
 }
 
+.arrows {
+  display: flex;
+  justify-content: space-around;
+}
 .arrows img {
   width: 40px;
 }
@@ -7484,16 +7486,6 @@ a.close.disabled {
   width: 44px;
   transition: all 0.6s;
   position: relative;
-}
-.arrows .arrow__left {
-  position: absolute;
-  right: 140px;
-  top: 1120px;
-}
-.arrows .arrow__right {
-  position: absolute;
-  left: 140px;
-  top: 1120px;
 }
 
 @media (min-width: 320px) and (max-width: 359px) {
@@ -7552,13 +7544,8 @@ a.close.disabled {
     margin: 4px;
   }
 
-  .arrows .arrow__left {
-    margin-top: 40px;
-    margin-right: -100px;
-  }
-  .arrows .arrow__right {
-    margin-top: 40px;
-    margin-left: -100px;
+  .arrows {
+    margin-top: 80px;
   }
 }
 @media (min-width: 360px) and (max-width: 374px) {
@@ -7616,15 +7603,6 @@ a.close.disabled {
     width: 60px;
     margin: 4px;
   }
-
-  .arrows .arrow__left {
-    margin-top: 80px;
-    margin-right: -100px;
-  }
-  .arrows .arrow__right {
-    margin-top: 80px;
-    margin-left: -100px;
-  }
 }
 @media (min-width: 375px) and (max-width: 410px) {
   .container .articulo .header__articulo {
@@ -7681,15 +7659,6 @@ a.close.disabled {
     width: 60px;
     margin: 4px;
   }
-
-  .arrows .arrow__left {
-    margin-top: 40px;
-    margin-right: -100px;
-  }
-  .arrows .arrow__right {
-    margin-top: 40px;
-    margin-left: -100px;
-  }
 }
 @media (min-width: 411px) and (max-width: 768px) {
   .container .articulo .header__articulo {
@@ -7745,15 +7714,6 @@ a.close.disabled {
   .container .articulo .articulo__footer .share .container .comments__box .social__comments .sc__body img {
     width: 60px;
     margin: 4px;
-  }
-
-  .arrows .arrow__left {
-    margin-top: 40px;
-    margin-right: -100px;
-  }
-  .arrows .arrow__right {
-    margin-top: 40px;
-    margin-left: -100px;
   }
 }
 .wp {

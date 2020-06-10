@@ -21,39 +21,43 @@
             <h2><em>El Dr. Juan Carlos Múnera, nos brinda un acercamiento al decreto por el cual se ha destinado un subsidio a la nómina de empleadores durante el COVID-19.</em></h2>
         </div>
 
-        <div class="arrows">
+        <div class="articulo__intro">
 
-            <div class="arrow__right">
-                <a href="empleadores"><img src="../img/a-right.png" alt=""></a>
-            </div>
-
-            <div class="articulo__intro">
-                <div class="articulo__img">
-                    <!-- <img src="../img/art-test.jpg" alt=""> -->
-                    <div style="overflow:hidden;position: relative;"><iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="800" height="450" type="text/html" src="https://www.youtube.com/embed/VnUeMV3bj4s?autoplay=0&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&vq=hd1080"></iframe>
-                        <div style="position: absolute;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;"><small style="line-height: 1.8;font-size: 0px;background: #fff;"> <a href="https://atpdfs.com/" rel="nofollow">atpdfs</a> </small></div>
-                        <style>
-                            .newst {
-                                position: relative;
-                                text-align: right;
-                                height: 420px;
-                                width: 520px;
-                            }
-
-                            #gmap_canvas img {
-                                max-width: none !important;
-                                background: none !important
-                            }
-                        </style>
-                    </div><br />
-                    <div class="articulo__txt">
-                        <p><em>Subsidio a la nómina de empleadores durante el COVID-19</em></p>
+            <div class="articulo__img">
+                <!-- <img src="../img/art-test.jpg" alt=""> -->
+                <div style="overflow:hidden;position: relative;">
+                    <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="800" height="450" type="text/html" src="https://www.youtube.com/embed/VnUeMV3bj4s?autoplay=0&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&vq=hd1080"></iframe>
+                    <div style="position: absolute;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;">
+                        <small style="line-height: 1.8;font-size: 0px;background: #fff;">
+                            <a href="https://atpdfs.com/" rel="nofollow">atpdfs</a>
+                        </small>
                     </div>
+                    <style>
+                        .newst {
+                            position: relative;
+                            text-align: right;
+                            height: 420px;
+                            width: 520px;
+                        }
+
+                        #gmap_canvas img {
+                            max-width: none !important;
+                            background: none !important
+                        }
+                    </style>
+                </div><br />
+                <div class="articulo__txt">
+                    <p><em>Subsidio a la nómina de empleadores durante el COVID-19</em></p>
                 </div>
             </div>
 
-            <div class="arrow__left">
-                <a href="pago-letras-cheques"><img src="../img/a-left.png" alt=""></a>
+            <div class="arrows">
+                <div class="arrow__right">
+                    <a href="pago-letras-cheques"><img src="../img/a-right.png" alt=""></a>
+                </div>
+                <div class="arrow__left">
+                    <a href="empleadores"><img src="../img/a-left.png" alt=""></a>
+                </div>
             </div>
 
         </div>
