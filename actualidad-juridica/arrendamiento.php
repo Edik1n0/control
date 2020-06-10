@@ -20,15 +20,43 @@
             <h1>Hablemos claro del arrendamiento</h1>
             <h2><em>Una mirada jurídica al tema del arrendamiento en tiempos de COVID-19</em></h2>
         </div>
-        <div class="articulo__intro">
-            <div class="articulo__img">
-                <!-- <img src="../img/art-test.jpg" alt=""> -->
-                <div style="overflow:hidden;position: relative;"><iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="800" height="450" type="text/html" src="https://www.youtube.com/embed/B8A9fQlMM8M?autoplay=0&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&vq=hd1080"></iframe><div style="position: absolute;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;"><small style="line-height: 1.8;font-size: 0px;background: #fff;"> <a href="https://atpdfs.com/" rel="nofollow">atpdfs</a> </small></div><style>.newst{position:relative;text-align:right;height:420px;width:520px;} #gmap_canvas img{max-width:none!important;background:none!important}</style></div><br />
-                <div class="articulo__txt">
-                    <p><em>Hablemos claro del arrendamiento en tiempos de COVID-19.</em></p>
+
+        <div class="arrows">
+
+            <div class="articulo__intro">
+                <div class="articulo__img">
+                    <!-- <img src="../img/art-test.jpg" alt=""> -->
+
+                    <div style="overflow:hidden;position: relative;"><iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="800" height="450" type="text/html" src="https://www.youtube.com/embed/B8A9fQlMM8M?autoplay=0&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&vq=hd1080"></iframe>
+                        <div style="position: absolute;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;"><small style="line-height: 1.8;font-size: 0px;background: #fff;"> <a href="https://atpdfs.com/" rel="nofollow">atpdfs</a> </small></div>
+                        <style>
+                            .newst {
+                                position: relative;
+                                text-align: right;
+                                height: 420px;
+                                width: 520px;
+                            }
+
+                            #gmap_canvas img {
+                                max-width: none !important;
+                                background: none !important
+                            }
+                        </style>
+                    </div><br>
+
+                    <div class="articulo__txt">
+                        <p><em>Hablemos claro del arrendamiento en tiempos de COVID-19.</em></p>
+                    </div>
                 </div>
             </div>
+
+            <div class="arrow__left">
+                <a href="empleadores"><img src="../img/a-left.png" alt=""></a>
+            </div>
+
         </div>
+
+
         <!-- <div class="articulo__body">
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate porro laboriosam voluptates praesentium!
@@ -46,7 +74,8 @@
                 Rem voluptatem temporibus ratione repellendus dolorem.
             </p>
         </div> -->
-        <br><br><br><div class="articulo__footer">
+        <br><br><br>
+        <div class="articulo__footer">
             <div class="data">
                 <p><strong>Publicado el: </strong><em>30/04/20</em></p>
                 <p><strong>A las: </strong><em>8:00 p.m. en Medellín, Colombia</em></p>

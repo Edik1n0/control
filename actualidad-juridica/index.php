@@ -68,7 +68,7 @@
                     <div class="col-sm-6">
                         <!-- colored -->
                         <div class="ih-item square colored effect6 from_top_and_bottom">
-                            <a href="arrendamiento">
+                            <a href="empleadores">
                                 <div class="img">
                                     <img src="../img/decisiones-mini.jpg" alt="Decisiones de empleadores en época de COVID-19 y sus consecuencias" title="Decisiones">
                                 </div>

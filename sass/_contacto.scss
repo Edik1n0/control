@@ -41,6 +41,12 @@
               }
             }
           }
+
+          .cont__teles {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+          }
         }
       }
     }
@@ -53,7 +59,7 @@
   }
 }
 
-@media (min-width: 320px) and (max-width: 374px) {
+@media (min-width: 320px) and (max-width: 359px) {
   .mapa {
     .body__mapa {
       display: block;
@@ -61,6 +67,25 @@
       .texto-mapa {
         width: 260px;
         left: 0px;
+        top: 1040px;
+      }
+
+      iframe {
+        margin-top: 344px;
+      }
+    }
+  }
+}
+
+@media (min-width: 360px) and (max-width: 374px) {
+  .mapa {
+    .body__mapa {
+      display: block;
+
+      .texto-mapa {
+        width: 260px;
+        left: 20px;
+        top: 1040px;
       }
 
       iframe {
@@ -96,7 +121,7 @@
       .texto-mapa {
         width: 300px;
         left: 26px;
-        bottom: -660px;
+        bottom: -620px;
       }
 
       iframe {

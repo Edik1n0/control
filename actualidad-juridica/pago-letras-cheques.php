@@ -20,30 +20,40 @@
             <h1>Pago de letras, cheques y pagarés en época de COVID-19</h1>
             <h2><em>El Dr. Juan Carlos Múnera M. Nos da un acercamiento al análisis jurídico del Pago de letras, cheques y pagarés en tiempos de COVID-19</em></h2>
         </div>
-        <div class="articulo__intro">
-            <div class="articulo__img">
-                <!-- <img src="../img/art-test.jpg" alt=""> -->
-                <div style="overflow:hidden;position: relative;"><iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="800" height="450" type="text/html" src="https://www.youtube.com/embed/fN61m6G0BAU?autoplay=0&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&vq=hd1080"></iframe>
-                    <div style="position: absolute;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;"><small style="line-height: 1.8;font-size: 0px;background: #fff;"> <a href="https://atpdfs.com/" rel="nofollow">atpdfs</a> </small></div>
-                    <style>
-                        .newst {
-                            position: relative;
-                            text-align: right;
-                            height: 420px;
-                            width: 520px;
-                        }
 
-                        #gmap_canvas img {
-                            max-width: none !important;
-                            background: none !important
-                        }
-                    </style>
-                </div><br />
-                <div class="articulo__txt">
-                    <p><em>Pago de letras, cheques y pagarés en época de COVID-19</em></p>
+        <div class="arrows">
+
+            <div class="arrow__left">
+                <a href="subsidios"><img src="../img/a-left.png" alt=""></a>
+            </div>
+
+            <div class="articulo__intro">
+                <div class="articulo__img">
+                    <!-- <img src="../img/art-test.jpg" alt=""> -->
+                    <div style="overflow:hidden;position: relative;"><iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="800" height="450" type="text/html" src="https://www.youtube.com/embed/fN61m6G0BAU?autoplay=0&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&vq=hd1080"></iframe>
+                        <div style="position: absolute;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;"><small style="line-height: 1.8;font-size: 0px;background: #fff;"> <a href="https://atpdfs.com/" rel="nofollow">atpdfs</a> </small></div>
+                        <style>
+                            .newst {
+                                position: relative;
+                                text-align: right;
+                                height: 420px;
+                                width: 520px;
+                            }
+
+                            #gmap_canvas img {
+                                max-width: none !important;
+                                background: none !important
+                            }
+                        </style>
+                    </div><br />
+                    <div class="articulo__txt">
+                        <p><em>Pago de letras, cheques y pagarés en época de COVID-19</em></p>
+                    </div>
                 </div>
             </div>
+
         </div>
+
         <!-- <div class="articulo__body">
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate porro laboriosam voluptates praesentium!
@@ -64,7 +74,7 @@
         <br><br><br>
         <div class="articulo__footer">
             <div class="data">
-                <p><strong>Publicado el: </strong><em>14/5/2020</em></p>
+                <p><strong>Publicado el: </strong><em>1/6/2020</em></p>
                 <p><strong>A las: </strong><em>8:00 p.m. en Medellín, Colombia</em></p>
                 <p><strong>Autor: </strong><em>Asesorías Jurídicas Medellín</em></p>
             </div>

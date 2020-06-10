@@ -125,7 +125,7 @@ footer {
   footer {
     display: block;
     text-align: center;
-    height: 980px;
+    height: 1080px;
 
     .footer__nav,
     .footer__loc,
@@ -185,7 +185,7 @@ footer {
   footer {
     display: block;
     text-align: center;
-    height: 950px;
+    height: 1080px;
 
     .footer__nav,
     .footer__loc,
@@ -245,7 +245,7 @@ footer {
   footer {
     display: block;
     text-align: center;
-    height: 940px;
+    height: 1080px;
 
     .footer__nav,
     .footer__loc,
@@ -262,6 +262,7 @@ footer {
         .social {
           margin-top: 40px;
           display: block;
+          padding-left: 20px;
           .sc-a,
           .sc-b {
             display: flex;
@@ -290,9 +291,9 @@ footer {
   }
 
   .footer__rights {
-    background: $Gris;
+    background: #181C1F;
     text-align: center;
-    margin-top: 0px;
+    margin-top: -10px;
     p {
       background: $Gris;
       display: block;

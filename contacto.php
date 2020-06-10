@@ -25,7 +25,7 @@
                 <ul>
                     <li><a itemprop="url" href="https://goo.gl/maps/TPM7Lk6ZLHgjAWWk6" target="_blank" alt="mapa"><span itemprop="streetAddress">Calle 49 #50-21, Of 2005.</span><br>
                             Edificio del Café, <span itemprop="addressLocality">Medellín</span> , <span itemprop="addressRegion">Antioquia, Colombia</span></a></li>
-                    <li><a itemprop="url" href="/contacto">(+574) 511 93 94</a></li>
+                    <li class="cont__teles"><a itemprop="url" href="/contacto">(+574) 511 93 94</a><p>|</p><a itemprop="url" href="tel:+573108455348">+57 310 8455348</a></li>
                     <li><a itemprop="email" href="mailto:juridicasmedellin@gmail.com">juridicasmedellin@gmail.com</a></li>
                 </ul>
             </div>

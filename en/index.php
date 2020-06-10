@@ -32,8 +32,7 @@
                     <h1 itemprop="name">Asesorías Jurídicas Medellín</h1>
                     <h2 itemprop="slogan">Professional lawyers in all areas of the law</h2>
                 </div>
-                <p> <span itemprop="description">Meet in Medellín professional and specialized legal services in all areas of law,
-                    with experienced lawyers and with extensive experience in the city.</span> </p>
+                <p><span itemprop="description">Know more about the legal services we can provide you, by consulting with <strong> expert lawyers </strong> and with extensive experience.</span></p>
                 <p class="separador__intro--txt">_________________________________________________</p>
                 <p>Explore and know our services, means of contact and our team, which will provide legal services
                     in Colombia.</p>

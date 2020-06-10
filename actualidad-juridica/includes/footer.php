@@ -15,7 +15,7 @@
                 <a href="actualidad-juridica">Blog</a>
             </li>
             <li>
-                <a href="contacto">Contacto</a>
+                <a href="../contacto">Contacto</a>
             </li>
         </ul>
     </div>
@@ -29,32 +29,31 @@
                     </a>
                 </div>
                 <div class="email">
-                    <img src="" alt="">
                     <a href="mailto:juridicasmed@gmail.com">juridicasmedellin@gmail.com</a>
                 </div>
                 <div class="mapa">
                     <img src="" alt="">
-                    <a href="https://g.page/asesorias-juridicas-medellin?share">Calle 49# 50-21 Oficina 2005, Medellín, Antioquia</a>
+                    <a target="_blank" rel="nofollow" href="https://g.page/asesorias-juridicas-medellin?share">Calle 49# 50-21 Oficina 2005, Medellín, Antioquia</a>
                 </div>
             </div>
             <div class="social">
                 <div class="sc-a">
                     <div class="face">
-                        <a href="https://www.facebook.com/juridicasmed">
+                        <a href="https://www.facebook.com/juridicasmed" target="_blank" rel="nofollow">
                             <img src="../img/facebook.png" alt="facebook" title="Facebook" class="butface"></a>
                     </div>
                     <div class="twit">
-                        <a href="https://twitter.com/AsesorasJurdic3">
+                        <a href="https://twitter.com/AsesorasJurdic3" target="_blank" rel="nofollow">
                             <img src="../img/twitter.png" alt="twitter" title="Twitter" class="buttwit"></a>
                     </div>
                 </div>
                 <div class="sc-b">
                     <div class="linkedin">
-                        <a href="https://www.linkedin.com/in/juan-carlos-munera-montoya-30136a19a/">
+                        <a href="https://www.linkedin.com/in/juan-carlos-munera-montoya-30136a19a/" target="_blank" rel="nofollow">
                             <img src="../img/linkedin.png" alt="linkedin" title="LinkedIn" class="butlink"></a>
                     </div>
                     <div class="youtube">
-                        <a href="https://www.youtube.com/channel/UC-BVRDpwP6PiT2GDryZkXPA">
+                        <a href="https://www.youtube.com/channel/UC-BVRDpwP6PiT2GDryZkXPA" target="_blank" rel="nofollow">
                             <img src="../img/youtube.png" alt="youtube" title="Youtube" class="butlink"></a>
                     </div>
                 </div>
