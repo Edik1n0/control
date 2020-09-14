@@ -1,0 +1,90 @@
+.intro__home {
+    margin-top: 40px;
+    h3, p {
+        color: white;
+        text-align: right;
+    }
+
+    h1 {
+        color: white;
+        text-align: left;
+    }
+
+    .container {
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-around;
+        
+        
+        .intro {
+            justify-content: space-between;
+            width: 46%;
+            height: 260px;
+
+            .intro__text {
+                padding: 20px;
+                p {
+                    a {
+                        color: white;
+                        &:hover {
+                            transition: all .6s;
+                            color: $GrisC;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+
+            .intro__claims {
+                margin-top: 0px;
+                display: flex;
+                justify-content: space-between;
+                img {
+                    width: 80px;
+                }
+
+                .claim {
+                    justify-content: center;
+
+                    .claim__img {
+                        display: flex;
+                        justify-content: center;
+                        img {
+                            cursor: pointer;
+                            opacity: 60%;
+                            &:hover {
+                                transition: all .6s;
+                                opacity: 100%;
+                            }
+                        }
+                    }
+
+                    .claim__txt {
+                        margin-top: 12px;
+                        p {
+                            text-align: center;
+                            opacity: 0%;
+                        }
+                    }
+
+                    &:hover {
+                        transition: all .8s;
+                        .claim__txt {
+                            transition: all .8s;
+                            p {
+                                transition: all .8s;
+                                opacity: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .intro__img {
+            img {
+                width: 420px;
+            }
+        }
+    }
+}

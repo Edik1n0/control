@@ -1,0 +1,68 @@
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+        .contact__home {
+            .contact__home--header {
+                color: white;
+            }
+
+            .contact__form {
+                form {
+                    .row {
+                        color: white;
+                        a {
+                            color: white;
+                            &:hover {
+                                transition: all .6s;
+                                text-decoration: none;
+                                color: $GrisC;
+                            }
+                        }
+                        .form-group {
+                            margin: 10px;
+                            input {
+                                margin: 12px 10px 12px 0px;
+                            }
+
+                            textarea {
+                                margin: -12px 10px 12px 0px;
+                            }
+
+                            .form-check-input {
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .offer__home {
+            margin: 0px -10px 10px 80px;
+            text-align: right;
+            height: 422px;
+
+            a {
+                color: white;
+                text-decoration: none;
+
+                img {
+                    width: 800px;
+                }
+
+                p {
+                    position: relative;
+                    bottom: 370px;
+                    right: 40px;
+                    font-size: 24px;
+                }
+
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+
+}
