@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K1N0.C0M | Servicios Web & Comunicaciones</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/estilos.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="icon" href="{{ url_for('static', filename='img/favicon-ico-kino.ico') }}">
+</head>
+
+<body>
+
+    <div class="nav">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                    aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <a class="navbar-brand" href="/"><img
+                            src="{{ url_for('static', filename='img/logo-black-png.png') }}" alt=""></a>
+
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0" style="align-items: center;">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/">Inicio<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('nosotros') }}">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('contacto') }}">Contacto</a>
+                        </li>
+
+                        <div class="nav__extras" style="display: flex; align-items: center;">
+                            <li class="nav-item" style="margin:20px;">
+                                <a class="nav-link" href="#" style="padding: 0px;">EN</a>
+                                <a class="nav-link" href="#" style="padding: 0px;">ES</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <img src="{{ url_for('static', filename='img/light-mode.png') }}" class="light-mode" alt="">
+                                </a>
+                            </li>
+                        </div>
+
+                    </ul>
+                </div>
+
+            </nav>
+        </div>
+    </div>
+
+    {% block content %}
+
+    <!-- Contenido x -->
+
+    {% endblock %}
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="{{ url_for('static', filename='js/scroll.js') }}"></script>
+</body>
+
+<footer>
+    <div class="container">
+
+        <div class="footer__section--right">
+            <p class="foot__title"><strong>Mapa de navegación</strong></p>
+
+            <div class="sitemap__footer">
+                <ul>
+                    <div class="sf__side--a">
+                        <li><a href="">Inicio</a></li>
+                        <li><a href="">Nosotros</a></li>
+                        <li><a href="">Servicios</a></li>
+                        <li><a href="">Contacto</a></li>
+                    </div>
+                    <div class="sf__side-b">
+                        <li><a href="">Política de Privacidad</a></li>
+                        <li><a href="">Política de Cookies</a></li>
+                        <li><a href="">Sitemap</a></li>
+                    </div>
+                </ul>
+            </div>
+
+            <div class="social__footer">
+
+                <p><strong>Síguenos</strong></p>
+
+                <div class="social--icons">
+                    <div class="social--fb">
+                        <a href=""><img src="{{ url_for('static', filename='img/face.png') }}" alt=""></a>
+                    </div>
+                    <div class="social--insta">
+                        <a href=""><img src="{{ url_for('static', filename='img/insta.png') }}" alt=""></a>
+                    </div>
+                    <div class="social--in">
+                        <a href=""><img src="{{ url_for('static', filename='img/linked.png') }}" alt=""></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer__section--left">
+            <p class="foot__title"><strong>Conoce K1n0.c0m</strong></p>
+
+            <div class="logo__footer">
+                <a href="/"><img src="{{ url_for('static', filename='img/logo-black-png.png') }}" alt=""></a>
+            </div>
+
+            <div class="loc__con--footer">
+                <ul>
+                    <li><a href="#"><img src="{{ url_for('static', filename='img/pointer.png') }}" alt=""></a></li>
+                    <li><a href="#">Calle 1B N° 66-94<br>Medellín / Antioquia</a></li>
+                </ul>
+            </div>
+
+            <div class="con__con--footer">
+                <div class="whats">
+                    <a href="">
+                        <p>313 588 7171</p>
+                        <img src="{{ url_for('static', filename='img/whats.png') }}" alt="">
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer__final">
+        <p><strong>Todos los derechos reservados K1N0.C0M / Medellín 2020</strong></p>
+    </div>
+</footer>
+
+</html>

@@ -1,0 +1,183 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<!-- Inner Background -->
+
+<div class="inner__background">
+    <img src="{{ url_for('static', filename='img/inner-nosotros-kino.jpg') }}" alt="">
+    <div class="base--carousel">
+        <img src="{{ url_for('static', filename='img/pie-bg-kino.png') }}" class="d-block w-100" alt="...">
+    </div>
+</div>
+
+<!-- Fin Inner Background -->
+
+<!-- Intro -->
+
+<div class="nos__page">
+    <div class="container">
+        <div class="nos__page--title">
+            <h1>Nosotros somos<br><strong>K1N0.C0M</strong></h1>
+        </div>
+
+        <div class="nos__page--intro">
+            <p>
+                En <strong>K1n0.c0m</strong> prestamos servicios de <em>Comunicación Digital</em> dirigidos a
+                pequeñas, medianas y grandes empresas para el diagnóstico, planeación y ejecución de <em>Servicios
+                    Web, Diseño gráfico y estrategias de Comunicación y Marketing</em> con públicos internos y externos.
+            </p>
+        </div>
+
+        <!-- Fin Intro -->
+
+        <div class="nos__page--body">
+
+            <div class="generic__content--a">
+                <div class="generic__text">
+                    <h3>Misión</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, sint inventore ducimus dolore
+                        nesciunt necessitatibus natus excepturi molestiae commodi, quae eos porro illo, neque explicabo
+                        iure eveniet quas quisquam fugit.
+                    </p>
+                </div>
+
+                <div class="generic__image">
+                    <img src="{{ url_for('static', filename='img/kino-imagen-mision.jpg') }}" alt="">
+                </div>
+            </div>
+
+            <div class="generic__content--b">
+                <div class="generic__image">
+                    <img src="{{ url_for('static', filename='img/kino-img-vision.jpg') }}" alt="">
+                </div>
+                <div class="generic__text">
+                    <h3>Visión</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, sint inventore ducimus dolore
+                        nesciunt necessitatibus natus excepturi molestiae commodi, quae eos porro illo, neque explicabo
+                        iure eveniet quas quisquam fugit.
+                    </p>
+                </div>
+            </div>
+
+            <div class="generic__content--a">
+                <div class="generic__text">
+                    <h3>Valores</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, sint inventore ducimus dolore
+                        nesciunt necessitatibus natus excepturi molestiae commodi, quae eos porro illo, neque explicabo
+                        iure eveniet quas quisquam fugit.
+                    </p>
+                </div>
+
+                <div class="generic__image">
+                    <img src="{{ url_for('static', filename='img/kino-img-values.jpg') }}" alt="">
+                </div>
+            </div>
+
+            <div class="generic__content--b">
+                <div class="generic__image">
+                    <img src="{{ url_for('static', filename='img/kino-img-equipo.jpg') }}" alt="">
+                </div>
+                <div class="generic__text">
+                    <h3>Equipo K1N0.C0M</h3>
+                    <p>
+                        Nuestro equipo está compuesto principalmente por jóvenes profesionales con alta experiencia en
+                        el desarrollo de Planes de Comunicación Digital para empresas de diferentes sectores a nivel
+                        Nacional y con <em>Servicio de Calidad Humana</em>.<br>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<!-- Fin Contenido -->
+
+<!-- Partners -->
+
+<div class="partners">
+    <div class="container">
+
+        <div class="partners__title">
+            <h2>Algunos de nuestros clientes</h2>
+            <h3>Acreditan nuestra calidad de servicio</h3>
+        </div>
+
+        <div class="partner__body">
+
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                </ol>
+
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <div class="marca-teacompano">
+                            <a href="https://teacompano.com.co/">
+                                <img src="{{ url_for('static', filename='img/logo-teacompano.png') }}"
+                                    style="width: 110px;" alt="...">
+                            </a>
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Teacompaño</h5>
+                                <p>Cuidados de Enfermería en Casa.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="marca-ajm">
+                            <a href="https://asesoriasjuridicasmed.com/">
+                                <img src="{{ url_for('static', filename='img/ajm-logo.png') }}" style="width: 180px; margin-bottom: 20px; margin-top: -30px;"
+                                    alt="...">
+                            </a>
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Asesorías Jurídicas Medellín</h5>
+                                <p>Servicios jurídicos y legales en Medellín.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="marca-farsali">
+                            <a href="#">
+                                <img src="{{ url_for('static', filename='img/logo-farsali.png') }}"
+                                    style="width: 160px; margin-top: 40px;" alt="...">
+                            </a>
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Farsáli Colombia</h5>
+                                <p>Mayorista para proveedores de productos cosméticos.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<!-- Fin Partners -->
+
+{% endblock %}
