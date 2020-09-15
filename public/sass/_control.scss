@@ -1,0 +1,35 @@
+.access__control {
+    margin-top: 60px;
+
+    .control__intro {
+        padding: 0px 40px 40px 0px;
+    }
+
+    .control__form {
+        .container {
+            .form__title {
+                margin: 0px 20px 20px 0px;
+            }
+
+            .form__body {
+                form {
+
+                    .sep {
+                        margin-left: 30px;
+
+                        .form-group {
+                            input {
+                                &:hover {
+                                    transition: all 0.8s;
+                                    -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+                                    -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+                                    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
