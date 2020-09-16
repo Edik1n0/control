@@ -49,7 +49,7 @@ router.post('/users/signup', async (req,res) => {
 });
 
 router.get('/users/logout', (req, res) => {
-    request.logout();
+    req.logout();
     res.redirect('/');
 });
 

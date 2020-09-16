@@ -58,6 +58,10 @@ p {
   margin-top: 60px;
 }
 
+.todas-notas .container .greet__control {
+  margin: 0px 40px 40px 0px;
+}
+
 .formulario__registro {
   margin-top: 80px;
 }

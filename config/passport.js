@@ -9,13 +9,13 @@ passport.use(new LocalStrategy({
 }, async (email, password, done) => {
     const user = await User.findOne({email: email});
     if(!user) {
-        return done(null, false, { message: 'Usuario no encontrado'});
+        return done(null, false, { message: 'Usuario no encontrado' });
     } else {
         const match = await user.matchPassword(password);
         if(match) {
             return done(null, user);
         } else {
-            return done(null, false, {message: 'Password incorrecto'});
+            return done(null, false, { message: 'Password incorrecto' });
         }
     }
 }));

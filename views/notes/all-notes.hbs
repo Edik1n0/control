@@ -2,6 +2,8 @@
 
 <div class="todas-notas">
     <div class="container">
+        <div class="greet__control">
+        </div>
         <div class="row">
             {{#each notes}}
             <div class="col-md-3">
@@ -25,6 +27,7 @@
             {{else}}
             <div class="card mx-auto">
                 <div class="card-body">
+                    <h1>Hello {{user.name}}</h1>
                     <p class="lead">No hay notas aún</p>
                     <a href="/notes/add" class="btn btn-dark btn-block">Agrega una</a>
                 </div>
