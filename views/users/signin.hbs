@@ -1,3 +1,37 @@
 {{!-- Formulario de ingreso --}}
 
-<h1>Acceda, usuario</h1>
+<div class="access__control">
+    <div class="control__intro">
+        <h1>Bienvenido <em>xxxxxx</em> al Control <em>K1N0.C0M</em></h1>
+    </div>
+
+    <div class="control__form">
+        <div class="container">
+            <div class="form__title">
+                <h4><em>Por favor, inicia sesión para comenzar</em></h4>
+            </div>
+
+            <div class="form__body">
+                <form action="/users/signin" method="POST" class="col-md-4">
+                    <div class="sep">
+                        <div class="form-group">
+                            <label>Email address</label>
+                            <input type="email" name="email" class="form-control" placeholder="Email">
+                            <small id="emailHelp" class="form-text text-muted">Tus datos nunca serán compartidos
+                                con otras personas.</small>
+                        </div>
+                        <div class="form-group">
+                            <label>Password</label>
+                            <input type="password" name="password" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input">
+                        <label class="form-check-label">Recuérdame</label>
+                    </div>
+                    <button type="submit" class="btn btn-dark">Ingresa</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
