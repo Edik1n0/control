@@ -25,6 +25,7 @@ router.post('/notes/new-note', isAuthenticated, async (req,res) => {
         });
     }else {
         const newNote = new Note({ title, description }); // Crea el dato para almacenarlo
+        newNote.user = req.user.id; // Asigna el elemento al usuario registrado
         await newNote.save();
         req.flash('success_msg', 'Siga añadiendo pendejadas');
         res.redirect('/notes')
@@ -32,7 +33,7 @@ router.post('/notes/new-note', isAuthenticated, async (req,res) => {
 });
 
 router.get('/notes', isAuthenticated, async (req,res) => {
-    const notes = await Note.find().sort({date: 'desc'}); // Consulta la base de datos
+    const notes = await Note.find({user: req.user.id}).sort({date: 'desc'}); // Consulta la base de datos del user
     res.render('notes/all-notes', { notes });
 });
 
